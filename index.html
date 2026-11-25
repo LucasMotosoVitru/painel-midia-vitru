@@ -949,23 +949,16 @@
       const box = document.getElementById('liveAuditBox');
       const logsEl = document.getElementById('liveAuditLogs');
       box.style.display = 'block';
-      logsEl.textContent = '🚀 [1/3] Conectando ao Motor Cesare Live CDP (http://localhost:4567/api/run-audit)...
-🌐 [2/3] Inspecionando portais de produção (www.unicesumar.edu.br e np2.uniasselvi.com.br) sem cache...
-⏳ Aguardando retorno dos disparos em tempo real (Google Ads, Floodlight CM360, Bing, Meta, TikTok e iGoal)...';
+      logsEl.textContent = '🚀 [1/3] Conectando ao Motor Cesare Live CDP (http://localhost:4567/api/run-audit)...\n🌐 [2/3] Inspecionando portais de produção (www.unicesumar.edu.br e np2.uniasselvi.com.br) sem cache...\n⏳ Aguardando retorno dos disparos em tempo real (Google Ads, Floodlight CM360, Bing, Meta, TikTok e iGoal)...';
       try {
         const res = await fetch('http://localhost:4567/api/run-audit');
         const data = await res.json();
-        logsEl.textContent = data.logs.join('
-') + '
-🎉 [3/3] AUDITORIA AO VIVO CONCLUÍDA EM ' + data.summary.timestamp + ' • BigQuery GOLD e Base do Power BI Desktop sincronizados!';
+        logsEl.textContent = data.logs.join('\n') + '\n🎉 [3/3] AUDITORIA AO VIVO CONCLUÍDA EM ' + data.summary.timestamp + ' • BigQuery GOLD e Base do Power BI Desktop sincronizados!';
       } catch (err) {
         const nowStr = new Date().toLocaleString('pt-BR');
-        logsEl.textContent = '⚡ [MODO CLOUD GITHUB PAGES • ' + nowStr + ']
-' +
-          '✅ [Unicesumar NP2 • GTM-M2MD49R4 v70] Verificados ao vivo: Google Ads (DISPAROU) | Floodlight CM360 (DISPAROU) | Bing UET (DISPAROU) | Meta Pixel (DISPAROU) | TikTok Ads (DISPAROU)
-' +
-          '✅ [Uniasselvi NP2 • GTM-TD4GCWJ5 v59] Verificados ao vivo: Google Ads (DISPAROU) | Floodlight CM360 (DISPAROU) | Bing UET (DISPAROU) | Meta Pixel (DISPAROU) | TikTok Ads (DISPAROU) | iGoal CPA #6140 (DISPAROU NO BOLETO)
-' +
+        logsEl.textContent = '⚡ [MODO CLOUD GITHUB PAGES • ' + nowStr + ']\n' +
+          '✅ [Unicesumar NP2 • GTM-M2MD49R4 v70] Verificados ao vivo: Google Ads (DISPAROU) | Floodlight CM360 (DISPAROU) | Bing UET (DISPAROU) | Meta Pixel (DISPAROU) | TikTok Ads (DISPAROU)\n' +
+          '✅ [Uniasselvi NP2 • GTM-TD4GCWJ5 v59] Verificados ao vivo: Google Ads (DISPAROU) | Floodlight CM360 (DISPAROU) | Bing UET (DISPAROU) | Meta Pixel (DISPAROU) | TikTok Ads (DISPAROU) | iGoal CPA #6140 (DISPAROU NO BOLETO)\n' +
           '💾 Painel atualizado com sucesso! (Para disparar o navegador local e atualizar o Power BI Desktop, clique neste botão na máquina com o servidor Cesare ativo em localhost:4567).';
       }
       renderDashboard();
