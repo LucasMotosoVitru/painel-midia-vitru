@@ -6,8 +6,10 @@
   <title>Vitru Educação • SaaS Command Center Forense de Homologação e Auditoria E2E de Mídia Paga</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&family=Caveat:wght@600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&family=Caveat:wght@600;700&display=swap" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/echarts@5.5.0/dist/echarts.min.js"></script>
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
   <style>
     /* ==========================================================================
        VITRU DESIGN SYSTEM TOKENS (PALETA OFICIAL VITRU.COM.BR: ROXO, AMARELO E PRETO)
@@ -85,14 +87,235 @@
 
     .vitru-header {
       background-color: var(--bg-surface);
+      background-image:
+        radial-gradient(circle at 92% 18%, rgba(255, 184, 0, 0.11) 0%, transparent 45%),
+        radial-gradient(circle at 8% 85%, rgba(124, 58, 237, 0.16) 0%, transparent 50%);
       border: 1px solid var(--border-color);
       border-top: 4px solid var(--brand-accent);
-      border-radius: 14px;
-      padding: 20px 24px;
+      border-radius: 16px;
+      padding: 22px 26px;
       box-shadow: var(--shadow-card);
       display: flex;
       flex-direction: column;
       gap: 16px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    /* MARCA D'ÁGUA GEOMÉTRICA LEONARDO DA VINCI (CÍRCULO E QUADRADO VITRUVIANO Φ=1.618) */
+    .davinci-watermark-svg {
+      position: absolute;
+      top: -28px;
+      right: -28px;
+      width: 260px;
+      height: 260px;
+      opacity: 0.14;
+      pointer-events: none;
+      z-index: 0;
+      animation: rotateVitruvian 90s linear infinite;
+    }
+
+    @keyframes rotateVitruvian {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+
+    .header-top-row, .filters-bar, .edu-journey-ribbon {
+      position: relative;
+      z-index: 2;
+    }
+
+    .davinci-codex-seal {
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      font-family: 'Cinzel', serif;
+      font-size: 10.5px;
+      font-weight: 700;
+      letter-spacing: 0.09em;
+      padding: 4px 12px;
+      border-radius: 999px;
+      background: linear-gradient(90deg, rgba(255, 184, 0, 0.18) 0%, rgba(124, 58, 237, 0.22) 100%);
+      color: #FFB800;
+      border: 1px solid rgba(255, 184, 0, 0.45);
+    }
+
+    :root[data-theme="light"] .davinci-codex-seal {
+      color: #5B21B6;
+      border-color: #6D28D9;
+    }
+
+    /* FAIXA ESTRATÉGICA DA JORNADA EDUCACIONAL DO ALUNO (4 PILARES ACADÊMICOS) */
+    .edu-journey-ribbon {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 10px;
+      padding-top: 4px;
+    }
+
+    .edu-pillar-card {
+      background: var(--bg-surface-subtle);
+      border: 1px solid var(--border-color);
+      border-left: 3px solid var(--brand-accent);
+      border-radius: 10px;
+      padding: 10px 13px;
+      display: flex;
+      align-items: center;
+      gap: 11px;
+      transition: transform 0.15s ease, border-color 0.15s ease;
+    }
+
+    .edu-pillar-card:hover {
+      transform: translateY(-2px);
+      border-color: #FFB800;
+    }
+
+    .edu-icon-circle {
+      width: 34px;
+      height: 34px;
+      border-radius: 9px;
+      background: linear-gradient(135deg, rgba(124, 58, 237, 0.25) 0%, rgba(255, 184, 0, 0.2) 100%);
+      border: 1px solid rgba(255, 184, 0, 0.4);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 16px;
+      flex-shrink: 0;
+    }
+
+    .edu-pillar-text {
+      display: flex;
+      flex-direction: column;
+      gap: 1px;
+      min-width: 0;
+    }
+
+    .edu-pillar-title {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-size: 11.5px;
+      font-weight: 800;
+      color: var(--text-primary);
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .edu-pillar-sub {
+      font-size: 10.5px;
+      color: var(--text-secondary);
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    /* RODAPÉ INSTITUCIONAL (FOOTER DA VINCI + LUCAS MOTOSO 🧩) */
+    .vitru-footer {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-color);
+      border-top: 3px solid #FFB800;
+      border-radius: 14px;
+      padding: 18px 24px;
+      box-shadow: var(--shadow-card);
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      margin-top: 6px;
+      margin-bottom: 60px;
+    }
+
+    .footer-left {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+
+    .footer-compass-badge {
+      width: 40px;
+      height: 40px;
+      border-radius: 10px;
+      background: linear-gradient(135deg, #2E1065 0%, #4C1D95 100%);
+      border: 1px solid #FFB800;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #FFB800;
+      flex-shrink: 0;
+    }
+
+    .footer-title {
+      font-family: 'Cinzel', serif;
+      font-size: 12px;
+      font-weight: 700;
+      color: var(--text-primary);
+      letter-spacing: 0.04em;
+    }
+
+    .footer-sub {
+      font-size: 11.5px;
+      color: var(--text-secondary);
+    }
+
+    .footer-author-card {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      background: linear-gradient(135deg, rgba(124, 58, 237, 0.16) 0%, rgba(255, 184, 0, 0.14) 100%);
+      border: 1px solid rgba(255, 184, 0, 0.45);
+      border-radius: 12px;
+      padding: 8px 16px;
+    }
+
+    .puzzle-badge {
+      font-size: 18px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      filter: drop-shadow(0 2px 6px rgba(255, 184, 0, 0.4));
+    }
+
+    /* BOTÃO FLUTUANTE DE AJUDA (FAB) -> MICROSOFT TEAMS LUCAS MOTOSO */
+    .teams-fab-help {
+      position: fixed;
+      bottom: 22px;
+      right: 24px;
+      z-index: 9999;
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      background: linear-gradient(135deg, #4C1D95 0%, #6D28D9 60%, #5B21B6 100%);
+      color: #FFFFFF;
+      border: 2px solid #FFB800;
+      border-radius: 999px;
+      padding: 10px 18px;
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-size: 12.5px;
+      font-weight: 800;
+      text-decoration: none;
+      box-shadow: 0 12px 28px rgba(0, 0, 0, 0.55), 0 0 18px rgba(255, 184, 0, 0.35);
+      transition: all 0.2s ease;
+    }
+
+    .teams-fab-help:hover {
+      transform: translateY(-3px) scale(1.02);
+      background: linear-gradient(135deg, #5B21B6 0%, #7C3AED 100%);
+      box-shadow: 0 16px 32px rgba(0, 0, 0, 0.65), 0 0 24px rgba(255, 184, 0, 0.55);
+    }
+
+    .teams-fab-dot {
+      width: 9px;
+      height: 9px;
+      border-radius: 50%;
+      background: #10B981;
+      box-shadow: 0 0 8px #10B981;
+    }
+
+    .teams-fab-sub {
+      font-size: 10.5px;
+      font-weight: 600;
+      color: #FDE047;
+      display: block;
     }
 
     .header-top-row {
@@ -873,19 +1096,34 @@
 <body>
   <div class="app-container">
     <header class="vitru-header">
+      <!-- GEOMETRIA VITRUVIANA DE LEONARDO DA VINCI (CÍRCULO INSCRITO NO QUADRADO ÁUREO Φ=1.618) -->
+      <svg class="davinci-watermark-svg" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="100" cy="100" r="88" stroke="#FFB800" stroke-width="1.5" stroke-dasharray="4 4"/>
+        <circle cx="100" cy="100" r="64" stroke="#7C3AED" stroke-width="1.2"/>
+        <rect x="36" y="36" width="128" height="128" stroke="#FFB800" stroke-width="1.5"/>
+        <rect x="36" y="36" width="128" height="128" stroke="#7C3AED" stroke-width="1" transform="rotate(45 100 100)"/>
+        <line x1="12" y1="100" x2="188" y2="100" stroke="#FFB800" stroke-width="0.8" stroke-dasharray="3 3"/>
+        <line x1="100" y1="12" x2="100" y2="188" stroke="#FFB800" stroke-width="0.8" stroke-dasharray="3 3"/>
+        <polygon points="100,22 178,154 22,154" stroke="#FFB800" stroke-width="1" fill="none"/>
+        <circle cx="100" cy="100" r="14" stroke="#FFB800" stroke-width="1.5"/>
+      </svg>
+
       <div class="header-top-row">
         <div class="title-block">
           <div class="vitru-badge-row">
             <span class="vitru-pill">
               <span class="pulse-dot"></span>
-              <span id="brandHeaderBadge">GRUPO VITRU EDUCAÇÃO • SAAS FORENSIC AUDITOR v5.5</span>
+              <span id="brandHeaderBadge">GRUPO VITRU EDUCAÇÃO • SAAS FORENSIC AUDITOR v6.0</span>
+            </span>
+            <span class="davinci-codex-seal">
+               Compass & Codex • Inspirado no Homem Vitruviano (Leonardo da Vinci • Φ = 1.618)
             </span>
             <span class="live-audit-status-pill" id="lastAuditHeaderBadge">
               🟢 Motor CDP Online • Túnel HTTPS Ativo • Última Verificação: 25/11/2026 às 14:56:51
             </span>
           </div>
           <h1>Painel Executivo de Cobertura e Homologação Forense de Mídia Paga (Novo Portal)</h1>
-          <p class="header-subtitle">Validação E2E de URLs, Saúde de UTMs/Click-IDs, Bloqueios CSP/Firewall e Disparos nas 8 Etapas ([01] Catálogo a [08] Matrícula) • Solicitante: Ivana</p>
+          <p class="header-subtitle">Arquitetura Digital de Captação de Alunos (Unicesumar & Uniasselvi) • Validação E2E de URLs, Saúde de UTMs, Bloqueios CSP/WAF e Disparos da Vitrine de Cursos ([01]) à Matrícula Acadêmica ([08])</p>
         </div>
 
         <div class="header-actions">
@@ -899,6 +1137,38 @@
           <button id="btnDev" class="action-btn" onclick="toggleDev()">
             <span>🛠️ Modo Técnico (GTM)</span>
           </button>
+        </div>
+      </div>
+
+      <!-- FAIXA ESTRATÉGICA DA JORNADA EDUCACIONAL DO ALUNO (4 PILARES ACADÊMICOS & DA VINCI) -->
+      <div class="edu-journey-ribbon">
+        <div class="edu-pillar-card">
+          <div class="edu-icon-circle">🧭</div>
+          <div class="edu-pillar-text">
+            <span class="edu-pillar-title">1. Descoberta Vocacional ([01] e [02])</span>
+            <span class="edu-pillar-sub">Vitrine de Cursos & Página do Curso (EAD, Semi, Presencial e Pós)</span>
+          </div>
+        </div>
+        <div class="edu-pillar-card">
+          <div class="edu-icon-circle">📐</div>
+          <div class="edu-pillar-text">
+            <span class="edu-pillar-title">2. Simulação de Bolsa & Polo ([03] e [04])</span>
+            <span class="edu-pillar-sub">Cálculo de Mensalidade Regionalizada & Abertura da Inscrição</span>
+          </div>
+        </div>
+        <div class="edu-pillar-card">
+          <div class="edu-icon-circle">📜</div>
+          <div class="edu-pillar-text">
+            <span class="edu-pillar-title">3. Candidatura & Vestibular ([05] e [06])</span>
+            <span class="edu-pillar-sub">Captura do Candidato (Lead) & Ficha de Inscrição Concluída</span>
+          </div>
+        </div>
+        <div class="edu-pillar-card">
+          <div class="edu-icon-circle">🎓</div>
+          <div class="edu-pillar-text">
+            <span class="edu-pillar-title">4. Ingresso Acadêmico Gioconda ([07] e [08])</span>
+            <span class="edu-pillar-sub">Aceite de Contrato Educacional, Emissão de Boleto & Matrícula</span>
+          </div>
         </div>
       </div>
 
@@ -1220,7 +1490,51 @@
         </table>
       </div>
     </section>
+
+    <!-- ======================================================================
+         RODAPÉ INSTITUCIONAL VITRU (DA VINCI EDITION + LUCAS MOTOSO 🧩)
+         ====================================================================== -->
+    <footer class="vitru-footer">
+      <div class="footer-left">
+        <div class="footer-compass-badge" title="Geometria Vitruviana • Leonardo da Vinci (Φ = 1.618)">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#FFB800" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="10"/>
+            <polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"/>
+          </svg>
+        </div>
+        <div>
+          <div class="footer-title">VITRU EDUCAÇÃO • CODEX VITRUVIANUS DE WEB ANALYTICS & MÍDIA PAGA (UNICESUMAR & UNIASSELVI)</div>
+          <div class="footer-sub">Inspirado na Proporção Áurea (Φ = 1.618) e nos Códices de Leonardo da Vinci • Transformando Educação pela Ciência de Dados • Atualizado em 25 de Novembro de 2026</div>
+        </div>
+      </div>
+
+      <div class="footer-author-card">
+        <span class="puzzle-badge" title="A peça que conecta Engenharia, Dados e Educação">🧩</span>
+        <div>
+          <div style="font-size:10px; font-weight:700; text-transform:uppercase; letter-spacing:0.06em; color:var(--text-muted);">Responsável pelo Desenvolvimento & Arquitetura</div>
+          <div style="font-family:'Plus Jakarta Sans',sans-serif; font-size:13.5px; font-weight:800; color:var(--text-primary);">
+            Lucas Motoso 🧩 <span style="font-size:11.5px; font-weight:600; color:var(--brand-accent);">• Web Analytics & Growth Engineering (lucas.santos@vitru.com.br)</span>
+          </div>
+        </div>
+      </div>
+    </footer>
   </div>
+
+  <!-- BOTÃO FLUTUANTE DE AJUDA (FAB) -> ABRE CONVERSA DIRETA NO MICROSOFT TEAMS COM LUCAS MOTOSO -->
+  <a
+    href="https://teams.microsoft.com/l/chat/0/0?users=lucas.santos@vitru.com.br&message=Ol%C3%A1%20Lucas!%20Estou%20acessando%20o%20Painel%20Executivo%20de%20Homologa%C3%A7%C3%A3o%20de%20M%C3%ADdia%20Paga%20da%20Vitru%20e%20preciso%20de%20ajuda."
+    target="_blank"
+    rel="noopener noreferrer"
+    class="teams-fab-help"
+    title="Clique para abrir conversa direta no Microsoft Teams com Lucas Motoso (lucas.santos@vitru.com.br)"
+  >
+    <span class="teams-fab-dot"></span>
+    <span style="font-size:18px;">💬</span>
+    <div>
+      <span>Precisa de Ajuda? Falar no Teams</span>
+      <span class="teams-fab-sub">Lucas Motoso 🧩 (lucas.santos@vitru.com.br)</span>
+    </div>
+  </a>
 
   <script>
     const PUBLIC_TUNNEL_URL = "https://vitru-cesare-auditor-1883.loca.lt";
@@ -1689,6 +2003,11 @@
         document.getElementById('nbStatUtm').textContent = '100% ÍNTEGRA';
         document.getElementById('nbStatUtm').style.color = '#10B981';
         document.getElementById('kpi3Number').textContent = '100% Íntegro';
+        if (typeof confetti === 'function') {
+          try {
+            confetti({ particleCount: 55, spread: 65, origin: { y: 0.6 }, colors: ['#FFB800', '#7C3AED', '#10B981'] });
+          } catch (e) {}
+        }
       }
 
       document.getElementById('nbPenStatus').textContent = `🎉 Finalizado em ${nowFull}`;
@@ -1951,14 +2270,26 @@
             name: 'Unicesumar (Dispararam)',
             type: 'bar',
             data: uncCounts,
-            itemStyle: { color: '#7C3AED', borderRadius: [5, 5, 0, 0] },
+            itemStyle: {
+              color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [
+                { offset: 0, color: '#A855F7' },
+                { offset: 1, color: '#5B21B6' }
+              ]),
+              borderRadius: [6, 6, 0, 0]
+            },
             label: { show: true, position: 'top', color: isLight ? '#5B21B6' : '#C4B5FD', fontWeight: 700, fontSize: 11 }
           },
           {
             name: 'Uniasselvi (Dispararam)',
             type: 'bar',
             data: unaCounts,
-            itemStyle: { color: '#FFB800', borderRadius: [5, 5, 0, 0] },
+            itemStyle: {
+              color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [
+                { offset: 0, color: '#FDE047' },
+                { offset: 1, color: '#D97706' }
+              ]),
+              borderRadius: [6, 6, 0, 0]
+            },
             label: { show: true, position: 'top', color: isLight ? '#B45309' : '#FACC15', fontWeight: 700, fontSize: 11 }
           }
         ]
@@ -1991,14 +2322,26 @@
             name: 'Disparo de Audiência na Etapa',
             type: 'bar',
             data: activeByStage,
-            itemStyle: { color: '#7C3AED', borderRadius: [5, 5, 0, 0] },
+            itemStyle: {
+              color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [
+                { offset: 0, color: '#A855F7' },
+                { offset: 1, color: '#5B21B6' }
+              ]),
+              borderRadius: [6, 6, 0, 0]
+            },
             label: { show: true, position: 'top', color: isLight ? '#5B21B6' : '#C4B5FD', fontWeight: 700, fontSize: 10.5 }
           },
           {
             name: 'Disparo de Conversão Principal na Etapa',
             type: 'bar',
             data: convByStage,
-            itemStyle: { color: '#FFB800', borderRadius: [5, 5, 0, 0] },
+            itemStyle: {
+              color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [
+                { offset: 0, color: '#FDE047' },
+                { offset: 1, color: '#D97706' }
+              ]),
+              borderRadius: [6, 6, 0, 0]
+            },
             label: { show: true, position: 'top', color: isLight ? '#B45309' : '#FACC15', fontWeight: 700, fontSize: 10.5 }
           }
         ]
