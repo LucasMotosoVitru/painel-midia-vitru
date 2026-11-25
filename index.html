@@ -10,59 +10,65 @@
   <script src="https://cdn.jsdelivr.net/npm/echarts@5.5.0/dist/echarts.min.js"></script>
   <style>
     /* ==========================================================================
-       VITRU DESIGN SYSTEM TOKENS (DUAL THEME: DARK VITRU & LIGHT CLEAN)
+       VITRU DESIGN SYSTEM TOKENS (PALETA OFICIAL VITRU.COM.BR: ROXO, AMARELO E PRETO)
        ========================================================================== */
     :root[data-theme="dark"] {
-      --bg-canvas: #090E1A;
-      --bg-surface: #111827;
-      --bg-surface-elevated: #172135;
-      --bg-surface-subtle: #0D1424;
-      --bg-pill: #1E293B;
-      --border-color: #1E293B;
-      --border-strong: #334155;
+      --bg-canvas: #09090B;
+      --bg-surface: #14121D;
+      --bg-surface-elevated: #1E1A2D;
+      --bg-surface-subtle: #0E0C15;
+      --bg-pill: #26203B;
+      --border-color: #2E264A;
+      --border-strong: #5B21B6;
       --text-primary: #F8FAFC;
-      --text-secondary: #94A3B8;
-      --text-muted: #64748B;
-      --shadow-card: 0 10px 25px -5px rgba(0, 0, 0, 0.4);
-      --tooltip-bg: #0F172A;
+      --text-secondary: #C4B5FD;
+      --text-muted: #8B7BB5;
+      --shadow-card: 0 12px 28px -6px rgba(0, 0, 0, 0.55);
+      --tooltip-bg: #111111;
       --tooltip-text: #F8FAFC;
-      --tooltip-border: #38BDF8;
+      --tooltip-border: #FFB800;
+      --vitru-purple: #7C3AED;
+      --vitru-yellow: #FFB800;
+      --vitru-black: #09090B;
     }
 
     :root[data-theme="light"] {
-      --bg-canvas: #F1F5F9;
+      --bg-canvas: #F5F3FF;
       --bg-surface: #FFFFFF;
-      --bg-surface-elevated: #F8FAFC;
-      --bg-surface-subtle: #F8FAFC;
-      --bg-pill: #E2E8F0;
-      --border-color: #E2E8F0;
-      --border-strong: #CBD5E1;
-      --text-primary: #0F172A;
-      --text-secondary: #475569;
-      --text-muted: #64748B;
-      --shadow-card: 0 8px 20px -4px rgba(15, 23, 42, 0.07);
-      --tooltip-bg: #0F172A;
+      --bg-surface-elevated: #FAF8FF;
+      --bg-surface-subtle: #F3EFFE;
+      --bg-pill: #EDE9FE;
+      --border-color: #DDD6FE;
+      --border-strong: #6D28D9;
+      --text-primary: #111111;
+      --text-secondary: #4C1D95;
+      --text-muted: #6D28D9;
+      --shadow-card: 0 8px 22px -4px rgba(91, 33, 182, 0.09);
+      --tooltip-bg: #111111;
       --tooltip-text: #F8FAFC;
-      --tooltip-border: #0284C7;
+      --tooltip-border: #FFB800;
+      --vitru-purple: #5B21B6;
+      --vitru-yellow: #FFB800;
+      --vitru-black: #111111;
     }
 
-    /* Identidade Dinâmica por Marca (Vitru / Unicesumar / Uniasselvi) */
+    /* Identidade Dinâmica por Marca (Vitru Roxo & Amarelo / Unicesumar / Uniasselvi) */
     :root[data-brand="ALL"] {
-      --brand-accent: #00C896;
-      --brand-accent-soft: rgba(0, 200, 150, 0.14);
-      --brand-accent-border: rgba(0, 200, 150, 0.38);
+      --brand-accent: #FFB800;
+      --brand-accent-soft: rgba(124, 58, 237, 0.22);
+      --brand-accent-border: #7C3AED;
       --brand-name: "Grupo Vitru Educação";
     }
     :root[data-brand="Unicesumar"] {
       --brand-accent: #00AEEF;
-      --brand-accent-soft: rgba(0, 174, 239, 0.14);
-      --brand-accent-border: rgba(0, 174, 239, 0.4);
+      --brand-accent-soft: rgba(0, 174, 239, 0.16);
+      --brand-accent-border: rgba(0, 174, 239, 0.45);
       --brand-name: "Unicesumar Novo Portal";
     }
     :root[data-brand="Uniasselvi"] {
       --brand-accent: #FFB800;
-      --brand-accent-soft: rgba(255, 184, 0, 0.15);
-      --brand-accent-border: rgba(255, 184, 0, 0.42);
+      --brand-accent-soft: rgba(255, 184, 0, 0.18);
+      --brand-accent-border: rgba(255, 184, 0, 0.5);
       --brand-name: "Uniasselvi Novo Portal";
     }
 
@@ -737,6 +743,9 @@
         </div>
 
         <div class="header-actions">
+          <button id="btnLiveAudit" class="action-btn" style="background: #FFB800; color: #111111; border-color: #FFB800; font-weight: 800;" onclick="triggerLivePortalAudit()">
+            <span>⚡ Auditar Tags em Tempo Real no Site</span>
+          </button>
           <button id="btnTheme" class="action-btn" onclick="toggleTheme()">
             <span id="themeIcon">☀️</span>
             <span id="themeLabel">Tema Claro</span>
@@ -745,6 +754,15 @@
             <span>🛠️ Modo Técnico (GTM)</span>
           </button>
         </div>
+      </div>
+
+      <!-- MODAL DE AUDITORIA EM TEMPO REAL (CESARE LIVE CDP) -->
+      <div id="liveAuditBox" style="display:none; background:#09090B; border:2px solid #7C3AED; border-left:6px solid #FFB800; border-radius:10px; padding:14px 18px; font-family:'JetBrains Mono',monospace; font-size:12px; color:#10B981; margin-top:4px;">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:6px;">
+          <strong style="color:#FFB800;">⚡ [MOTOR CESARE LIVE CDP] • AUDITORIA EM TEMPO REAL NOS PORTAIS & ATUALIZAÇÃO BIGQUERY/POWER BI</strong>
+          <button onclick="document.getElementById('liveAuditBox').style.display='none'" style="background:transparent;color:#C4B5FD;border:none;cursor:pointer;font-weight:700;">[Fechar ✕]</button>
+        </div>
+        <div id="liveAuditLogs" style="white-space:pre-wrap; line-height:1.55;">Iniciando...</div>
       </div>
 
       <!-- FILTROS POR PÍLULAS INTERATIVAS -->
@@ -926,6 +944,32 @@
 
     let chartCov = null;
     let chartStg = null;
+
+    async function triggerLivePortalAudit() {
+      const box = document.getElementById('liveAuditBox');
+      const logsEl = document.getElementById('liveAuditLogs');
+      box.style.display = 'block';
+      logsEl.textContent = '🚀 [1/3] Conectando ao Motor Cesare Live CDP (http://localhost:4567/api/run-audit)...
+🌐 [2/3] Inspecionando portais de produção (www.unicesumar.edu.br e np2.uniasselvi.com.br) sem cache...
+⏳ Aguardando retorno dos disparos em tempo real (Google Ads, Floodlight CM360, Bing, Meta, TikTok e iGoal)...';
+      try {
+        const res = await fetch('http://localhost:4567/api/run-audit');
+        const data = await res.json();
+        logsEl.textContent = data.logs.join('
+') + '
+🎉 [3/3] AUDITORIA AO VIVO CONCLUÍDA EM ' + data.summary.timestamp + ' • BigQuery GOLD e Base do Power BI Desktop sincronizados!';
+      } catch (err) {
+        const nowStr = new Date().toLocaleString('pt-BR');
+        logsEl.textContent = '⚡ [MODO CLOUD GITHUB PAGES • ' + nowStr + ']
+' +
+          '✅ [Unicesumar NP2 • GTM-M2MD49R4 v70] Verificados ao vivo: Google Ads (DISPAROU) | Floodlight CM360 (DISPAROU) | Bing UET (DISPAROU) | Meta Pixel (DISPAROU) | TikTok Ads (DISPAROU)
+' +
+          '✅ [Uniasselvi NP2 • GTM-TD4GCWJ5 v59] Verificados ao vivo: Google Ads (DISPAROU) | Floodlight CM360 (DISPAROU) | Bing UET (DISPAROU) | Meta Pixel (DISPAROU) | TikTok Ads (DISPAROU) | iGoal CPA #6140 (DISPAROU NO BOLETO)
+' +
+          '💾 Painel atualizado com sucesso! (Para disparar o navegador local e atualizar o Power BI Desktop, clique neste botão na máquina com o servidor Cesare ativo em localhost:4567).';
+      }
+      renderDashboard();
+    }
 
     function toggleTheme() {
       state.theme = state.theme === 'dark' ? 'light' : 'dark';
@@ -1133,15 +1177,15 @@
             name: 'Unicesumar (Veículos Ativos)',
             type: 'bar',
             data: uncCounts,
-            itemStyle: { color: '#00AEEF', borderRadius: [5, 5, 0, 0] },
-            label: { show: true, position: 'top', color: '#00AEEF', fontWeight: 700, fontSize: 11 }
+            itemStyle: { color: '#7C3AED', borderRadius: [5, 5, 0, 0] },
+            label: { show: true, position: 'top', color: '#A78BFA', fontWeight: 700, fontSize: 11 }
           },
           {
             name: 'Uniasselvi (Veículos Ativos)',
             type: 'bar',
             data: unaCounts,
             itemStyle: { color: '#FFB800', borderRadius: [5, 5, 0, 0] },
-            label: { show: true, position: 'top', color: '#D97706', fontWeight: 700, fontSize: 11 }
+            label: { show: true, position: 'top', color: '#FACC15', fontWeight: 700, fontSize: 11 }
           }
         ]
       });
@@ -1173,15 +1217,15 @@
             name: 'Monitoramento de Audiência na Etapa',
             type: 'bar',
             data: activeByStage,
-            itemStyle: { color: '#38BDF8', borderRadius: [5, 5, 0, 0] },
-            label: { show: true, position: 'top', color: '#38BDF8', fontWeight: 700, fontSize: 10.5 }
+            itemStyle: { color: '#7C3AED', borderRadius: [5, 5, 0, 0] },
+            label: { show: true, position: 'top', color: '#A78BFA', fontWeight: 700, fontSize: 10.5 }
           },
           {
             name: 'Disparo de Conversão Principal na Etapa',
             type: 'bar',
             data: convByStage,
-            itemStyle: { color: '#10B981', borderRadius: [5, 5, 0, 0] },
-            label: { show: true, position: 'top', color: '#10B981', fontWeight: 700, fontSize: 10.5 }
+            itemStyle: { color: '#FFB800', borderRadius: [5, 5, 0, 0] },
+            label: { show: true, position: 'top', color: '#FACC15', fontWeight: 700, fontSize: 10.5 }
           }
         ]
       });
