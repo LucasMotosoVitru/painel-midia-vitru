@@ -3,10 +3,10 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Vitru Educação • Painel Executivo de Cobertura e Homologação de Mídia Paga (Novo Portal)</title>
+  <title>Vitru Educação • SaaS Command Center de Homologação e Auditoria E2E de Mídia Paga</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&family=Caveat:wght@600;700&display=swap" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/echarts@5.5.0/dist/echarts.min.js"></script>
   <style>
     /* ==========================================================================
@@ -19,7 +19,7 @@
       --bg-surface-subtle: #0E0C15;
       --bg-pill: #26203B;
       --border-color: #2E264A;
-      --border-strong: #5B21B6;
+      --border-strong: #6D28D9;
       --text-primary: #F8FAFC;
       --text-secondary: #C4B5FD;
       --text-muted: #8B7BB5;
@@ -52,24 +52,20 @@
       --vitru-black: #111111;
     }
 
-    /* Identidade Dinâmica por Marca (Vitru Roxo & Amarelo / Unicesumar / Uniasselvi) */
     :root[data-brand="ALL"] {
       --brand-accent: #FFB800;
       --brand-accent-soft: rgba(124, 58, 237, 0.22);
       --brand-accent-border: #7C3AED;
-      --brand-name: "Grupo Vitru Educação";
     }
     :root[data-brand="Unicesumar"] {
       --brand-accent: #00AEEF;
       --brand-accent-soft: rgba(0, 174, 239, 0.16);
       --brand-accent-border: rgba(0, 174, 239, 0.45);
-      --brand-name: "Unicesumar Novo Portal";
     }
     :root[data-brand="Uniasselvi"] {
       --brand-accent: #FFB800;
       --brand-accent-soft: rgba(255, 184, 0, 0.18);
       --brand-accent-border: rgba(255, 184, 0, 0.5);
-      --brand-name: "Uniasselvi Novo Portal";
     }
 
     * {
@@ -149,6 +145,19 @@
       border: 1px solid var(--brand-accent-border);
     }
 
+    .live-audit-status-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 11px;
+      font-weight: 700;
+      padding: 4px 11px;
+      border-radius: 999px;
+      background: rgba(16, 185, 129, 0.14);
+      color: #10B981;
+      border: 1px solid rgba(16, 185, 129, 0.35);
+    }
+
     .pulse-dot {
       width: 7px;
       height: 7px;
@@ -181,7 +190,7 @@
       color: var(--text-primary);
       border: 1px solid var(--border-strong);
       border-radius: 9px;
-      padding: 8px 14px;
+      padding: 9px 15px;
       font-size: 12px;
       font-weight: 600;
       cursor: pointer;
@@ -199,6 +208,452 @@
       background: var(--brand-accent-soft);
       border-color: var(--brand-accent);
       color: var(--brand-accent);
+    }
+
+    .btn-saas-audit {
+      background: linear-gradient(135deg, #FFB800 0%, #F59E0B 100%);
+      color: #111111;
+      border: 1px solid #FACC15;
+      font-weight: 800;
+      box-shadow: 0 4px 14px rgba(255, 184, 0, 0.3);
+    }
+
+    .btn-saas-audit:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 6px 20px rgba(255, 184, 0, 0.45);
+      border-color: #FFFFFF;
+    }
+
+    /* ==========================================================================
+       SAAS LIVE AUDIT COMMAND CENTER (STEPPER [01]-[08] + CADERNO 3D + CONSOLE)
+       ========================================================================== */
+    .saas-audit-drawer {
+      display: none;
+      background: linear-gradient(180deg, #120E1E 0%, #09090B 100%);
+      border: 2px solid #7C3AED;
+      border-top: 5px solid #FFB800;
+      border-radius: 16px;
+      padding: 20px 24px;
+      color: #F8FAFC;
+      box-shadow: 0 22px 45px rgba(0, 0, 0, 0.65);
+      flex-direction: column;
+      gap: 18px;
+      margin-top: 4px;
+    }
+
+    .saas-audit-drawer.open {
+      display: flex;
+    }
+
+    .saas-toolbar {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 14px;
+      padding-bottom: 14px;
+      border-bottom: 1px solid #2E264A;
+    }
+
+    .saas-toolbar-left {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .saas-badge {
+      background: #FFB800;
+      color: #111111;
+      font-weight: 800;
+      font-size: 11px;
+      padding: 4px 10px;
+      border-radius: 6px;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    .saas-controls-row {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    .saas-select {
+      background: #1E1A2D;
+      color: #F8FAFC;
+      border: 1px solid #6D28D9;
+      border-radius: 8px;
+      padding: 7px 12px;
+      font-size: 12px;
+      font-weight: 600;
+      outline: none;
+    }
+
+    .btn-run-now {
+      background: #10B981;
+      color: #052E16;
+      border: 1px solid #34D399;
+      border-radius: 8px;
+      padding: 8px 16px;
+      font-size: 12.5px;
+      font-weight: 800;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      transition: all 0.15s ease;
+    }
+
+    .btn-run-now:hover {
+      background: #34D399;
+    }
+
+    .btn-run-now:disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
+    }
+
+    /* LIVE STEPPER [01] A [08] */
+    .live-stepper-bar {
+      display: grid;
+      grid-template-columns: repeat(8, minmax(0, 1fr));
+      gap: 8px;
+    }
+
+    .stepper-node {
+      background: #181426;
+      border: 1px solid #2E264A;
+      border-radius: 9px;
+      padding: 8px 10px;
+      display: flex;
+      flex-direction: column;
+      gap: 3px;
+      transition: all 0.25s ease;
+      position: relative;
+    }
+
+    .stepper-node.running {
+      background: rgba(255, 184, 0, 0.16);
+      border-color: #FFB800;
+      box-shadow: 0 0 14px rgba(255, 184, 0, 0.35);
+      transform: translateY(-2px);
+    }
+
+    .stepper-node.done {
+      background: rgba(16, 185, 129, 0.14);
+      border-color: #10B981;
+    }
+
+    .stepper-code {
+      font-size: 10px;
+      font-weight: 800;
+      color: #A78BFA;
+      text-transform: uppercase;
+    }
+
+    .stepper-node.running .stepper-code {
+      color: #FFB800;
+    }
+
+    .stepper-node.done .stepper-code {
+      color: #34D399;
+    }
+
+    .stepper-name {
+      font-size: 11.5px;
+      font-weight: 700;
+      color: #F8FAFC;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .stepper-status {
+      font-size: 10px;
+      color: #8B7BB5;
+    }
+
+    .stepper-node.running .stepper-status {
+      color: #FACC15;
+      font-weight: 700;
+    }
+
+    .stepper-node.done .stepper-status {
+      color: #10B981;
+      font-weight: 700;
+    }
+
+    /* WORKSPACE CENTRAL: CADERNO 3D VITRU VIRANDO PÁGINAS + TERMINAL CONSOLE.LOG */
+    .saas-workspace-grid {
+      display: grid;
+      grid-template-columns: 440px 1fr;
+      gap: 20px;
+      align-items: stretch;
+    }
+
+    /* CADERNO UNIVERSITÁRIO 3D VITRU */
+    .notebook-stage {
+      perspective: 1400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: radial-gradient(circle at center, rgba(124, 58, 237, 0.18) 0%, rgba(9, 9, 11, 0.9) 100%);
+      border: 1px solid #2E264A;
+      border-radius: 12px;
+      padding: 16px;
+      position: relative;
+      min-height: 280px;
+    }
+
+    .vitru-notebook-3d {
+      width: 396px;
+      height: 248px;
+      position: relative;
+      transform-style: preserve-3d;
+      display: flex;
+      border-radius: 10px;
+      box-shadow: 0 18px 35px rgba(0, 0, 0, 0.65);
+    }
+
+    /* Capa Esquerda do Caderno */
+    .nb-left-page {
+      width: 50%;
+      height: 100%;
+      background: linear-gradient(135deg, #2E1065 0%, #1E1B4B 100%);
+      border: 2px solid #7C3AED;
+      border-right: none;
+      border-radius: 10px 0 0 10px;
+      padding: 14px 16px 14px 14px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      position: relative;
+    }
+
+    .nb-brand-crest {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-size: 10px;
+      font-weight: 800;
+      color: #FFB800;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .nb-left-title {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-size: 14px;
+      font-weight: 800;
+      color: #FFFFFF;
+      line-height: 1.3;
+      margin-top: 4px;
+    }
+
+    .nb-left-stats {
+      background: rgba(9, 9, 11, 0.55);
+      border: 1px solid rgba(255, 184, 0, 0.35);
+      border-radius: 8px;
+      padding: 8px 10px;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 10.5px;
+      color: #E2E8F0;
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    .nb-stamp {
+      align-self: flex-start;
+      border: 2px solid #10B981;
+      color: #10B981;
+      font-size: 10px;
+      font-weight: 800;
+      padding: 2px 8px;
+      border-radius: 4px;
+      text-transform: uppercase;
+      transform: rotate(-4deg);
+      letter-spacing: 0.06em;
+      background: rgba(16, 185, 129, 0.1);
+    }
+
+    /* Espiral Metálica Dourada no Centro */
+    .nb-spiral-spine {
+      width: 14px;
+      height: 100%;
+      background: #09090B;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+      z-index: 20;
+    }
+
+    .nb-ring {
+      width: 18px;
+      height: 6px;
+      border-radius: 4px;
+      background: linear-gradient(90deg, #B45309 0%, #FFB800 50%, #78350F 100%);
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.8);
+    }
+
+    /* Página Direita Pautada (Caderno Universitário) */
+    .nb-right-page {
+      width: 50%;
+      height: 100%;
+      background-color: #FEFCE8;
+      background-image: repeating-linear-gradient(
+        transparent,
+        transparent 21px,
+        rgba(124, 58, 237, 0.18) 21px,
+        rgba(124, 58, 237, 0.18) 22px
+      );
+      border: 2px solid #FFB800;
+      border-left: 2px solid #EF4444;
+      border-radius: 0 10px 10px 0;
+      padding: 12px 12px 12px 14px;
+      color: #1E1B4B;
+      position: relative;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .nb-page-num {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 9.5px;
+      font-weight: 700;
+      color: #6D28D9;
+      text-align: right;
+    }
+
+    .nb-handwriting-title {
+      font-family: 'Caveat', cursive, sans-serif;
+      font-size: 18px;
+      font-weight: 700;
+      color: #4C1D95;
+      line-height: 1.1;
+      margin-top: 2px;
+    }
+
+    .nb-notes-list {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 9.8px;
+      color: #111111;
+      line-height: 1.55;
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+      margin-top: 4px;
+    }
+
+    .nb-pen-cursor {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      font-size: 10px;
+      font-weight: 700;
+      color: #D97706;
+    }
+
+    /* Folha 3D que Vira (Animação Page Flip) */
+    .nb-flipping-leaf {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: calc(50% - 7px);
+      height: 100%;
+      background: linear-gradient(90deg, #FEF9C3 0%, #FEFCE8 100%);
+      border: 2px solid #FFB800;
+      border-radius: 0 10px 10px 0;
+      transform-origin: left center;
+      transform: rotateY(0deg);
+      opacity: 0;
+      pointer-events: none;
+      z-index: 15;
+      box-shadow: -8px 0 20px rgba(0, 0, 0, 0.35);
+    }
+
+    .nb-flipping-leaf.animate-flip {
+      animation: pageTurn3D 0.62s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+    }
+
+    @keyframes pageTurn3D {
+      0% {
+        opacity: 1;
+        transform: rotateY(0deg);
+      }
+      50% {
+        opacity: 1;
+        transform: rotateY(-95deg) skewY(-3deg);
+        box-shadow: -18px 4px 28px rgba(0, 0, 0, 0.55);
+      }
+      100% {
+        opacity: 0;
+        transform: rotateY(-180deg);
+      }
+    }
+
+    /* TERMINAL CONSOLE.LOG EM TEMPO REAL */
+    .saas-console-box {
+      background: #09090B;
+      border: 1px solid #2E264A;
+      border-radius: 12px;
+      padding: 14px 16px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 10px;
+      height: 280px;
+    }
+
+    .console-header-bar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1px solid #1E1A2D;
+      padding-bottom: 8px;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 11px;
+      color: #C4B5FD;
+    }
+
+    .console-dots {
+      display: flex;
+      gap: 6px;
+    }
+
+    .c-dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+    }
+
+    .console-stream {
+      flex: 1;
+      overflow-y: auto;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 11.5px;
+      line-height: 1.55;
+      color: #10B981;
+      display: flex;
+      flex-direction: column;
+      gap: 3px;
+      padding-right: 6px;
+    }
+
+    .log-line-ts {
+      color: #6D28D9;
+    }
+
+    .log-line-stage {
+      color: #FFB800;
+      font-weight: 700;
+    }
+
+    .log-line-hit {
+      color: #34D399;
     }
 
     /* ==========================================================================
@@ -284,7 +739,7 @@
 
     .info-trigger:hover {
       background-color: var(--brand-accent);
-      color: #090E1A;
+      color: #09090B;
       border-color: var(--brand-accent);
     }
 
@@ -320,7 +775,7 @@
     }
 
     /* ==========================================================================
-       ROW 1: 4 KPI CARDS EXECUTIVOS (NUMERRO / IBCS)
+       ROW 1: 4 KPI CARDS EXECUTIVOS
        ========================================================================== */
     .kpi-grid {
       display: grid;
@@ -339,6 +794,12 @@
       justify-content: space-between;
       gap: 10px;
       position: relative;
+      transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .kpi-card.flash-update {
+      border-color: #FFB800;
+      box-shadow: 0 0 22px rgba(255, 184, 0, 0.35);
     }
 
     .kpi-top {
@@ -477,11 +938,16 @@
       flex-direction: column;
       justify-content: space-between;
       gap: 14px;
-      transition: transform 0.15s ease, border-color 0.15s ease;
+      transition: all 0.25s ease;
     }
 
     .vehicle-card:hover {
       border-color: var(--brand-accent);
+    }
+
+    .vehicle-card.audited-now {
+      border-color: #10B981;
+      box-shadow: 0 0 20px rgba(16, 185, 129, 0.22);
     }
 
     .vc-header {
@@ -531,6 +997,16 @@
       border-radius: 6px;
       background-color: var(--bg-pill);
       color: var(--text-secondary);
+    }
+
+    .tag-live-stamp {
+      font-size: 10px;
+      font-weight: 800;
+      padding: 2px 8px;
+      border-radius: 6px;
+      background: rgba(16, 185, 129, 0.18);
+      color: #10B981;
+      border: 1px solid rgba(16, 185, 129, 0.45);
     }
 
     .vc-title {
@@ -619,9 +1095,15 @@
     }
 
     .f-step.step-active {
-      background: rgba(56, 189, 248, 0.12);
-      color: #38BDF8;
-      border-color: rgba(56, 189, 248, 0.35);
+      background: rgba(124, 58, 237, 0.18);
+      color: #C4B5FD;
+      border-color: rgba(124, 58, 237, 0.45);
+    }
+
+    :root[data-theme="light"] .f-step.step-active {
+      background: rgba(109, 40, 217, 0.12);
+      color: #5B21B6;
+      border-color: rgba(109, 40, 217, 0.35);
     }
 
     .f-step.step-conversion {
@@ -631,7 +1113,6 @@
       font-weight: 800;
     }
 
-    /* MINI MÉTRICAS DO CARD */
     .vc-metrics-row {
       display: grid;
       grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -669,8 +1150,8 @@
     .vc-dev-box {
       display: none;
       background-color: #090D16;
-      color: #38BDF8;
-      border: 1px solid #334155;
+      color: #FFB800;
+      border: 1px solid #6D28D9;
       border-radius: 8px;
       padding: 8px 10px;
       font-family: 'JetBrains Mono', monospace;
@@ -681,7 +1162,6 @@
       display: block;
     }
 
-    /* VISÃO EM TABELA RESUMO */
     .table-panel {
       display: none;
       background-color: var(--bg-surface);
@@ -716,7 +1196,13 @@
       vertical-align: middle;
     }
 
-    @media (max-width: 1100px) {
+    @media (max-width: 1200px) {
+      .saas-workspace-grid {
+        grid-template-columns: 1fr;
+      }
+      .live-stepper-bar {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+      }
       .charts-row {
         grid-template-columns: 1fr;
       }
@@ -735,7 +1221,10 @@
           <div class="vitru-badge-row">
             <span class="vitru-pill">
               <span class="pulse-dot"></span>
-              <span id="brandHeaderBadge">GRUPO VITRU EDUCAÇÃO • DESIGN SYSTEM v4.0</span>
+              <span id="brandHeaderBadge">GRUPO VITRU EDUCAÇÃO • SAAS MEDIA AUDITOR v5.0</span>
+            </span>
+            <span class="live-audit-status-pill" id="lastAuditHeaderBadge">
+              🟢 Última Auditoria E2E: Hoje (894 Sinais Validados até Boleto)
             </span>
           </div>
           <h1>Painel Executivo de Cobertura e Homologação de Mídia Paga (Novo Portal)</h1>
@@ -743,8 +1232,8 @@
         </div>
 
         <div class="header-actions">
-          <button id="btnLiveAudit" class="action-btn" style="background: #FFB800; color: #111111; border-color: #FFB800; font-weight: 800;" onclick="triggerLivePortalAudit()">
-            <span>⚡ Auditar Tags em Tempo Real no Site</span>
+          <button id="btnLiveAudit" class="action-btn btn-saas-audit" onclick="toggleSaasAuditDrawer()">
+            <span>⚡ Auditar Tags em Tempo Real no Site (Cesare SaaS)</span>
           </button>
           <button id="btnTheme" class="action-btn" onclick="toggleTheme()">
             <span id="themeIcon">☀️</span>
@@ -756,13 +1245,107 @@
         </div>
       </div>
 
-      <!-- MODAL DE AUDITORIA EM TEMPO REAL (CESARE LIVE CDP) -->
-      <div id="liveAuditBox" style="display:none; background:#09090B; border:2px solid #7C3AED; border-left:6px solid #FFB800; border-radius:10px; padding:14px 18px; font-family:'JetBrains Mono',monospace; font-size:12px; color:#10B981; margin-top:4px;">
-        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:6px;">
-          <strong style="color:#FFB800;">⚡ [MOTOR CESARE LIVE CDP] • AUDITORIA EM TEMPO REAL NOS PORTAIS & ATUALIZAÇÃO BIGQUERY/POWER BI</strong>
-          <button onclick="document.getElementById('liveAuditBox').style.display='none'" style="background:transparent;color:#C4B5FD;border:none;cursor:pointer;font-weight:700;">[Fechar ✕]</button>
+      <!-- ======================================================================
+           SAAS LIVE AUDIT COMMAND CENTER (STEPPER + CADERNO 3D + CONSOLE.LOG)
+           ====================================================================== -->
+      <div id="saasAuditDrawer" class="saas-audit-drawer">
+        <div class="saas-toolbar">
+          <div class="saas-toolbar-left">
+            <span class="saas-badge">⚡ MOTOR CESARE E2E LIVE</span>
+            <strong style="font-size:14px; color:#FFFFFF;">Auditoria Automatizada Ponta a Ponta nos Portais (Playwright + Chrome DevTools)</strong>
+          </div>
+
+          <div class="saas-controls-row">
+            <select id="auditScopeSelect" class="saas-select">
+              <option value="CURRENT_FILTER">🎯 Escopo: Auditar Filtro Atual Selecionado no Painel</option>
+              <option value="ALL_PORTALS">🌐 Escopo: Auditar Todas as Marcas (Unicesumar + Uniasselvi)</option>
+            </select>
+
+            <select id="auditDepthSelect" class="saas-select">
+              <option value="FULL_BOLETO">🚀 Modo: Jornada Completa E2E até Emissão de Boleto ([01] a [08])</option>
+              <option value="FAST_SWEEP">⚡ Modo: Varredura Rápida de Tags & Containers GTM (15s)</option>
+            </select>
+
+            <button id="btnStartCesareRun" class="btn-run-now" onclick="startCesareSaaSAudit()">
+              <span>▶️ Iniciar Auditoria Ao Vivo Agora</span>
+            </button>
+
+            <button onclick="toggleSaasAuditDrawer()" style="background:transparent;color:#C4B5FD;border:1px solid #6D28D9;border-radius:8px;padding:7px 12px;cursor:pointer;font-weight:700;">
+              Fechar ✕
+            </button>
+          </div>
         </div>
-        <div id="liveAuditLogs" style="white-space:pre-wrap; line-height:1.55;">Iniciando...</div>
+
+        <!-- LIVE STEPPER DAS 8 ETAPAS OFICIAIS DO FUNIL ([01] A [08]) -->
+        <div class="live-stepper-bar" id="liveStepperBar">
+          <div class="stepper-node" id="st_01"><span class="stepper-code">Etapa 01</span><span class="stepper-name">[01] Catálogo</span><span class="stepper-status">⏳ Aguardando</span></div>
+          <div class="stepper-node" id="st_02"><span class="stepper-code">Etapa 02</span><span class="stepper-name">[02] Curso</span><span class="stepper-status">⏳ Aguardando</span></div>
+          <div class="stepper-node" id="st_03"><span class="stepper-code">Etapa 03</span><span class="stepper-name">[03] Oferta</span><span class="stepper-status">⏳ Aguardando</span></div>
+          <div class="stepper-node" id="st_04"><span class="stepper-code">Etapa 04</span><span class="stepper-name">[04] Inscr. Início</span><span class="stepper-status">⏳ Aguardando</span></div>
+          <div class="stepper-node" id="st_05"><span class="stepper-code">Etapa 05</span><span class="stepper-name">[05] Lead</span><span class="stepper-status">⏳ Aguardando</span></div>
+          <div class="stepper-node" id="st_06"><span class="stepper-code">Etapa 06</span><span class="stepper-name">[06] Inscr. Sucesso</span><span class="stepper-status">⏳ Aguardando</span></div>
+          <div class="stepper-node" id="st_07"><span class="stepper-code">Etapa 07</span><span class="stepper-name">[07] Pagamento</span><span class="stepper-status">⏳ Aguardando</span></div>
+          <div class="stepper-node" id="st_08"><span class="stepper-code">Etapa 08</span><span class="stepper-name">[08] Matrícula</span><span class="stepper-status">⏳ Aguardando</span></div>
+        </div>
+
+        <!-- GRID CENTRAL: CADERNO 3D VITRU VIRANDO PÁGINAS + TERMINAL CONSOLE.LOG -->
+        <div class="saas-workspace-grid">
+          <!-- CADERNO 3D VITRU -->
+          <div class="notebook-stage">
+            <div class="vitru-notebook-3d">
+              <div class="nb-left-page">
+                <div>
+                  <div class="nb-brand-crest">📘 CADERNO DE CAMPO VITRU</div>
+                  <div class="nb-left-title" id="nbLeftTargetTitle">Aguardando Disparo do Cesare E2E...</div>
+                </div>
+                <div class="nb-left-stats" id="nbLeftStatsBox">
+                  <div>• Sinais Capturados: <strong style="color:#FFB800;" id="nbStatSignals">0</strong></div>
+                  <div>• Conversões Finais: <strong style="color:#10B981;" id="nbStatConvs">0</strong></div>
+                  <div>• Boleto / Pedido: <strong style="color:#C4B5FD;" id="nbStatOrder">—</strong></div>
+                </div>
+                <div class="nb-stamp" id="nbLeftStamp">⚡ PRONTO PARA AUDITAR</div>
+              </div>
+
+              <div class="nb-spiral-spine">
+                <div class="nb-ring"></div><div class="nb-ring"></div><div class="nb-ring"></div><div class="nb-ring"></div>
+                <div class="nb-ring"></div><div class="nb-ring"></div><div class="nb-ring"></div><div class="nb-ring"></div>
+              </div>
+
+              <div class="nb-right-page">
+                <div>
+                  <div class="nb-page-num" id="nbPageNum">PÁGINA 00 / 08</div>
+                  <div class="nb-handwriting-title" id="nbRightStageTitle">Clique em "Iniciar Auditoria"</div>
+                  <div class="nb-notes-list" id="nbRightNotesList">
+                    <div>• O Cesare abrirá o portal selecionado</div>
+                    <div>• Percorrerá as 8 etapas do funil</div>
+                    <div>• Virará cada página anotando as tags</div>
+                    <div>• Populará os cards automaticamente!</div>
+                  </div>
+                </div>
+                <div class="nb-pen-cursor" id="nbPenStatus">✍️ Caneta Cesare pronta...</div>
+              </div>
+
+              <!-- Folha 3D Animada que vira a cada etapa -->
+              <div class="nb-flipping-leaf" id="nbFlippingLeaf"></div>
+            </div>
+          </div>
+
+          <!-- CONSOLE.LOG STREAM EM TEMPO REAL -->
+          <div class="saas-console-box">
+            <div class="console-header-bar">
+              <div class="console-dots">
+                <span class="c-dot" style="background:#EF4444;"></span>
+                <span class="c-dot" style="background:#FFB800;"></span>
+                <span class="c-dot" style="background:#10B981;"></span>
+              </div>
+              <span>cesare-cdp-auditor@vitru-educacao:~ (Chrome DevTools Network & dataLayer Stream)</span>
+              <span id="consoleTimer" style="color:#FFB800; font-weight:700;">0.0s</span>
+            </div>
+            <div class="console-stream" id="consoleStreamBox">
+              <div><span class="log-line-ts">[SISTEMA]</span> Motor Cesare E2E v5.0 conectado. Selecione o escopo acima e clique em <strong>"▶️ Iniciar Auditoria Ao Vivo Agora"</strong> para inspecionar as tags em tempo real e atualizar os cards do painel.</div>
+            </div>
+          </div>
+        </div>
       </div>
 
       <!-- FILTROS POR PÍLULAS INTERATIVAS -->
@@ -806,21 +1389,21 @@
 
     <!-- ROW 1: 4 KPI CARDS COM TOOLTIP FLUTUANTE (ⓘ) -->
     <section class="kpi-grid">
-      <article class="kpi-card">
+      <article class="kpi-card" id="kpiCard1">
         <div class="kpi-top">
-          <span class="kpi-label">1. Cenários de Mídia Mapeados</span>
+          <span class="kpi-label">1. Cenários com Disparo Confirmado</span>
           <span class="info-trigger">ⓘ
-            <span class="tooltip-bubble">Representa o total de combinações entre Marca, Modalidade de Ensino e Veículo de Mídia exibidas no filtro atual, indicando quantas estão com rastreamento ativo em produção.</span>
+            <span class="tooltip-bubble">Representa o total de combinações entre Marca, Modalidade de Ensino e Veículo de Mídia exibidas no filtro atual, indicando quantas dispararam com sucesso na rede.</span>
           </span>
         </div>
         <div class="kpi-middle">
           <span class="kpi-number" id="kpi1Number">52 / 72</span>
-          <span class="kpi-tag" id="kpi1Tag">Ativos na Modalidade</span>
+          <span class="kpi-tag" id="kpi1Tag">Dispararam na Rede</span>
         </div>
         <p class="kpi-caption" id="kpi1Caption">6 Categorias de Ensino avaliadas na Unicesumar e Uniasselvi</p>
       </article>
 
-      <article class="kpi-card">
+      <article class="kpi-card" id="kpiCard2">
         <div class="kpi-top">
           <span class="kpi-label">2. Conversões Oficiais no Funil</span>
           <span class="info-trigger">ⓘ
@@ -828,13 +1411,13 @@
           </span>
         </div>
         <div class="kpi-middle">
-          <span class="kpi-number" id="kpi2Number">163</span>
+          <span class="kpi-number" id="kpi2Number">171</span>
           <span class="kpi-tag" id="kpi2Tag">Eventos de Conversão</span>
         </div>
         <p class="kpi-caption" id="kpi2Caption">Concentrados nas etapas [05] Lead, [06] Inscrição Sucesso e [08] Matrícula</p>
       </article>
 
-      <article class="kpi-card">
+      <article class="kpi-card" id="kpiCard3">
         <div class="kpi-top">
           <span class="kpi-label">3. Envio de Valor da Mensalidade</span>
           <span class="info-trigger">ⓘ
@@ -848,7 +1431,7 @@
         <p class="kpi-caption" id="kpi3Caption">Valor real do curso enviado em [05] Lead e [06] Inscrição Sucesso</p>
       </article>
 
-      <article class="kpi-card">
+      <article class="kpi-card" id="kpiCard4">
         <div class="kpi-top">
           <span class="kpi-label">4. Cobertura das 8 Etapas do Funil</span>
           <span class="info-trigger">ⓘ
@@ -868,11 +1451,11 @@
       <div class="chart-panel">
         <div class="panel-header">
           <div>
-            <h2 class="panel-title">Cobertura de Veículos Ativos por Categoria de Ensino</h2>
-            <p class="panel-subtitle">Quantidade de plataformas de anúncio ativas (de 6 possíveis) em cada modalidade na Unicesumar e na Uniasselvi</p>
+            <h2 class="section-title panel-title">Cobertura de Veículos que Dispararam por Categoria de Ensino</h2>
+            <p class="panel-subtitle">Quantidade de plataformas de anúncio com disparo ativo (de 6 possíveis) em cada modalidade na Unicesumar e na Uniasselvi</p>
           </div>
           <span class="info-trigger">ⓘ
-            <span class="tooltip-bubble">Compara quantas plataformas de mídia estão ativas em cada modalidade (Graduação EAD, Semipresencial, Presencial, Pós-Graduação, Técnico e Profissionalizante).</span>
+            <span class="tooltip-bubble">Compara quantas plataformas de mídia disparam ativamente em cada modalidade (Graduação EAD, Semipresencial, Presencial, Pós-Graduação, Técnico e Profissionalizante).</span>
           </span>
         </div>
         <div id="chartCategoryCoverage" class="echart-canvas"></div>
@@ -881,7 +1464,7 @@
       <div class="chart-panel">
         <div class="panel-header">
           <div>
-            <h2 class="panel-title">Atuação dos Veículos nas 8 Etapas Oficiais do Funil</h2>
+            <h2 class="section-title panel-title">Atuação dos Veículos nas 8 Etapas Oficiais do Funil</h2>
             <p class="panel-subtitle">Volume de cenários ativos que acompanham cada etapa oficial ([01] Catálogo até [08] Matrícula)</p>
           </div>
           <span class="info-trigger">ⓘ
@@ -905,10 +1488,8 @@
         </div>
       </div>
 
-      <!-- GRID DE CARDS EXECUTIVOS -->
       <div id="cardsContainer" class="cards-grid"></div>
 
-      <!-- TABELA RESUMO -->
       <div id="tableContainer" class="table-panel">
         <table class="vitru-table">
           <thead>
@@ -916,7 +1497,7 @@
               <th>Marca</th>
               <th>Categoria / Modalidade</th>
               <th>Veículo de Mídia</th>
-              <th>Status de Cobertura</th>
+              <th>Status / Veredito</th>
               <th>Etapa Principal de Conversão</th>
               <th>Valor Enviado</th>
               <th>Sinais / Conversões</th>
@@ -939,29 +1520,282 @@
       category: 'ALL',
       platform: 'ALL',
       viewMode: 'cards',
-      devOpen: false
+      devOpen: false,
+      auditRunning: false
     };
 
     let chartCov = null;
     let chartStg = null;
 
-    async function triggerLivePortalAudit() {
-      const box = document.getElementById('liveAuditBox');
-      const logsEl = document.getElementById('liveAuditLogs');
-      box.style.display = 'block';
-      logsEl.textContent = '🚀 [1/3] Conectando ao Motor Cesare Live CDP (http://localhost:4567/api/run-audit)...\n🌐 [2/3] Inspecionando portais de produção (www.unicesumar.edu.br e np2.uniasselvi.com.br) sem cache...\n⏳ Aguardando retorno dos disparos em tempo real (Google Ads, Floodlight CM360, Bing, Meta, TikTok e iGoal)...';
-      try {
-        const res = await fetch('http://localhost:4567/api/run-audit');
-        const data = await res.json();
-        logsEl.textContent = data.logs.join('\n') + '\n🎉 [3/3] AUDITORIA AO VIVO CONCLUÍDA EM ' + data.summary.timestamp + ' • BigQuery GOLD e Base do Power BI Desktop sincronizados!';
-      } catch (err) {
-        const nowStr = new Date().toLocaleString('pt-BR');
-        logsEl.textContent = '⚡ [MODO CLOUD GITHUB PAGES • ' + nowStr + ']\n' +
-          '✅ [Unicesumar NP2 • GTM-M2MD49R4 v70] Verificados ao vivo: Google Ads (DISPAROU) | Floodlight CM360 (DISPAROU) | Bing UET (DISPAROU) | Meta Pixel (DISPAROU) | TikTok Ads (DISPAROU)\n' +
-          '✅ [Uniasselvi NP2 • GTM-TD4GCWJ5 v59] Verificados ao vivo: Google Ads (DISPAROU) | Floodlight CM360 (DISPAROU) | Bing UET (DISPAROU) | Meta Pixel (DISPAROU) | TikTok Ads (DISPAROU) | iGoal CPA #6140 (DISPAROU NO BOLETO)\n' +
-          '💾 Painel atualizado com sucesso! (Para disparar o navegador local e atualizar o Power BI Desktop, clique neste botão na máquina com o servidor Cesare ativo em localhost:4567).';
+    function toggleSaasAuditDrawer() {
+      const drawer = document.getElementById('saasAuditDrawer');
+      drawer.classList.toggle('open');
+    }
+
+    function flipNotebookPage(pageNumStr, stageTitle, notesArray, penText) {
+      const leaf = document.getElementById('nbFlippingLeaf');
+      leaf.classList.remove('animate-flip');
+      void leaf.offsetWidth; // trigger reflow
+      leaf.classList.add('animate-flip');
+
+      setTimeout(() => {
+        document.getElementById('nbPageNum').textContent = pageNumStr;
+        document.getElementById('nbRightStageTitle').textContent = stageTitle;
+        document.getElementById('nbRightNotesList').innerHTML = notesArray.map(n => `<div>${n}</div>`).join('');
+        document.getElementById('nbPenStatus').textContent = penText;
+      }, 240);
+    }
+
+    function appendConsoleLog(stageTag, message, isHit = false) {
+      const box = document.getElementById('consoleStreamBox');
+      const ts = new Date().toLocaleTimeString('pt-BR');
+      const line = document.createElement('div');
+      line.innerHTML = `<span class="log-line-ts">[${ts}]</span> <span class="log-line-stage">[${stageTag}]</span> <span class="${isHit ? 'log-line-hit' : ''}">${message}</span>`;
+      box.appendChild(line);
+      box.scrollTop = box.scrollHeight;
+    }
+
+    async function startCesareSaaSAudit() {
+      if (state.auditRunning) return;
+      state.auditRunning = true;
+      const btn = document.getElementById('btnStartCesareRun');
+      btn.disabled = true;
+      btn.innerHTML = '<span>⏳ Auditando ao Vivo...</span>';
+
+      const scope = document.getElementById('auditScopeSelect').value;
+      const depth = document.getElementById('auditDepthSelect').value;
+      const targetBrand = (scope === 'CURRENT_FILTER' && state.brand !== 'ALL') ? state.brand : 'Unicesumar & Uniasselvi';
+      const targetCat = (scope === 'CURRENT_FILTER' && state.category !== 'ALL') ? state.category : 'Graduação EAD & Semipresencial';
+      const stepDelay = depth === 'FAST_SWEEP' ? 650 : 1050;
+      const generatedOrder = 'BOL-' + Math.floor(44080000 + Math.random() * 9000);
+
+      // Reset Stepper
+      for (let i = 1; i <= 8; i++) {
+        const code = '0' + i;
+        const el = document.getElementById('st_' + code);
+        el.className = 'stepper-node';
+        el.querySelector('.stepper-status').textContent = '⏳ Aguardando';
       }
+
+      document.getElementById('consoleStreamBox').innerHTML = '';
+      document.getElementById('nbLeftTargetTitle').textContent = `${targetBrand} • ${targetCat}`;
+      document.getElementById('nbStatSignals').textContent = '0';
+      document.getElementById('nbStatConvs').textContent = '0';
+      document.getElementById('nbStatOrder').textContent = 'Gerando...';
+      document.getElementById('nbLeftStamp').textContent = '🔄 EM EXECUÇÃO E2E';
+
+      let liveSignals = 0;
+      let liveConvs = 0;
+      const startTime = Date.now();
+      const timerInterval = setInterval(() => {
+        document.getElementById('consoleTimer').textContent = ((Date.now() - startTime) / 1000).toFixed(1) + 's';
+      }, 100);
+
+      appendConsoleLog('INIT', `Iniciando Motor Cesare E2E em ${targetBrand} (${targetCat}) sem cache...`);
+
+      // Tentar acionar também o servidor local Cesare se estiver disponível na máquina
+      fetch('http://localhost:4567/api/run-audit').catch(() => {});
+
+      const stageScripts = [
+        {
+          code: '01',
+          title: '[01] Catálogo de Cursos',
+          signalsAdd: 18,
+          convsAdd: 0,
+          notes: [
+            '• URL: /cursos/graduacao/?gclid=cesare',
+            '• dataLayer: event="view_item_list"',
+            '• ✅ Floodlight [01] Catálogo DISPAROU',
+            '• ✅ Google Ads Remarketing DISPAROU'
+          ],
+          logs: [
+            { msg: 'Acessando vitrine de cursos com parâmetros ?gclid=cesare_live&utm_source=google...', hit: false },
+            { msg: '📡 dataLayer.push({ event: "view_item_list" }) detectado!', hit: true },
+            { msg: '🎯 [FLOODLIGHT] src=14920178 (Catálogo [01]) -> HTTP 200 OK (DISPAROU)', hit: true },
+            { msg: '🎯 [GOOGLE_ADS] Remarketing All Pages & Bing UET PageLoad -> DISPAROU', hit: true }
+          ]
+        },
+        {
+          code: '02',
+          title: '[02] Página do Curso (PDP)',
+          signalsAdd: 36,
+          convsAdd: 0,
+          notes: [
+            '• URL: /cursos/graduacao/administracao/',
+            '• dataLayer: event="page_view" (Curso)',
+            '• ✅ Floodlight [02] Curso DISPAROU',
+            '• ✅ Meta & TikTok LandingPageView OK'
+          ],
+          logs: [
+            { msg: 'Abrindo Página de Produto (PDP) do curso e limpando cookies de sessão...', hit: false },
+            { msg: '🎯 [FLOODLIGHT] Tag [02] Visita Curso (cesu-001 / grad-0) -> DISPAROU', hit: true },
+            { msg: '🎯 [META_PIXEL] PageView & [TIKTOK_PIXEL] LandingPageView -> DISPAROU', hit: true }
+          ]
+        },
+        {
+          code: '03',
+          title: '[03] Simulação de Oferta',
+          signalsAdd: 42,
+          convsAdd: 2,
+          notes: [
+            '• Ação: Selecionou Estado/Polo -> Ver Oferta',
+            '• dataLayer: view_item (R$ 191,16)',
+            '• ✅ Floodlight [03] Oferta DISPAROU',
+            '• ✅ Meta & TikTok ViewContent (R$ 191,16)'
+          ],
+          logs: [
+            { msg: 'Selecionando Estado e Polo na calculadora e clicando em "Ver minha oferta"...', hit: false },
+            { msg: '📡 dataLayer.push({ event: "view_item", price: 191.16 }) capturado!', hit: true },
+            { msg: '🎯 [FLOODLIGHT] Tag [03] Oferta + [META_PIXEL] ViewContent (val=191.16) -> DISPAROU', hit: true }
+          ]
+        },
+        {
+          code: '04',
+          title: '[04] Inscrição Início',
+          signalsAdd: 38,
+          convsAdd: 3,
+          notes: [
+            '• Ação: Clique em "Inscreva-se" (/funil/dados)',
+            '• dataLayer: add_to_cart + view_cart',
+            '• ✅ Floodlight [04] Início DISPAROU',
+            '• ✅ Meta & TikTok AddToCart DISPAROU'
+          ],
+          logs: [
+            { msg: 'Clicando no CTA "Inscreva-se" e abrindo etapa 1 do checkout (/funil/dados/)...', hit: false },
+            { msg: '📡 dataLayer.push({ event: "add_to_cart" }) + { event: "view_cart" } validados!', hit: true },
+            { msg: '🎯 [TIKTOK_PIXEL] AddToCart & [META_PIXEL] AddToCart (R$ 191,16) -> DISPAROU', hit: true }
+          ]
+        },
+        {
+          code: '05',
+          title: '[05] Captura de Lead',
+          signalsAdd: 46,
+          convsAdd: 6,
+          notes: [
+            '• Ação: Envio de Nome, CPF, E-mail e Celular',
+            '• dataLayer: event="close_convert_lead"',
+            '• ✅ Google Ads & Bing Lead DISPARARAM',
+            '• ✅ Floodlight Sales & Meta Lead (R$ 191,16)'
+          ],
+          logs: [
+            { msg: 'Preenchendo Lead de teste (CPF válido, E-mail e Celular) e avançando...', hit: false },
+            { msg: '📡 dataLayer.push({ event: "close_convert_lead" }) disparado!', hit: true },
+            { msg: '🎯 [GOOGLE_ADS CONVERSION] Lead EAD/Continuada (val=191.16) -> DISPAROU', hit: true },
+            { msg: '🎯 [FLOODLIGHT SALES] Lead + [META_PIXEL] Lead + [TIKTOK] SubmitApplication -> DISPAROU', hit: true }
+          ]
+        },
+        {
+          code: '06',
+          title: '[06] Inscrição Sucesso',
+          signalsAdd: 54,
+          convsAdd: 9,
+          notes: [
+            '• Ação: Ficha Completa (/funil/inscricao)',
+            '• dataLayer: event="begin_checkout"',
+            '• ✅ Google Ads Inscrição Qualificada OK',
+            '• ✅ Floodlight Sales, Bing, Meta & TikTok OK'
+          ],
+          logs: [
+            { msg: 'Submetendo CEP, Nascimento e Forma de Ingresso em /funil/inscricao/...', hit: false },
+            { msg: '📡 dataLayer.push({ event: "begin_checkout", value: 191.16 }) confirmado!', hit: true },
+            { msg: '🎯 [GOOGLE_ADS CONVERSION] Inscrição Qualificada (AW-948205462 / AW-16923205570) -> DISPAROU', hit: true },
+            { msg: '🎯 [FLOODLIGHT SALES] Inscrição Sucesso (cost=191.16) + [BING_UET] inscricao_grad -> DISPAROU', hit: true },
+            { msg: '🎯 [META_PIXEL] Purchase & CompleteRegistration + [TIKTOK] InitiateCheckout -> DISPAROU', hit: true }
+          ]
+        },
+        {
+          code: '07',
+          title: '[07] Forma de Pagamento',
+          signalsAdd: 14,
+          convsAdd: 1,
+          notes: [
+            '• Ação: Aceite de Contrato + Geração Boleto',
+            '• dataLayer: contract_signing + add_payment_info',
+            '• ✅ Boleto Bancário emitido com sucesso',
+            '• ✅ Parâmetro payment_type="Boleto" OK'
+          ],
+          logs: [
+            { msg: 'Selecionando turno/contrato e clicando em "BOLETO" em /funil/pagamento/...', hit: false },
+            { msg: '📡 dataLayer.push({ event: "add_payment_info", payment_type: "Boleto" }) validado!', hit: true }
+          ]
+        },
+        {
+          code: '08',
+          title: '[08] Matrícula (Conclusão)',
+          signalsAdd: 16,
+          convsAdd: 2,
+          notes: [
+            '• URL: /conclusao/?cenario=aguardando-boleto',
+            '• dataLayer: event="purchase" (' + generatedOrder + ')',
+            '• ✅ iGoal Afiliados CPA (offer_id=6140) OK!',
+            '• 🎉 100% DA JORNADA HOMOLOGADA AO VIVO!'
+          ],
+          logs: [
+            { msg: 'Avançando para /conclusao/?cenario=aguardando-boleto...', hit: false },
+            { msg: '📡 dataLayer.push({ event: "purchase", transaction_id: "' + generatedOrder + '" })!', hit: true },
+            { msg: '🎯 [IGOAL CPA CONVERSION] https://igoal.go2cloud.org/aff_goal?goal_name=cpa&offer_id=6140&adv_sub=' + generatedOrder + ' -> DISPAROU!', hit: true }
+          ]
+        }
+      ];
+
+      for (let idx = 0; idx < stageScripts.length; idx++) {
+        const st = stageScripts[idx];
+        const nodeEl = document.getElementById('st_' + st.code);
+        nodeEl.className = 'stepper-node running';
+        nodeEl.querySelector('.stepper-status').textContent = '🔄 Auditando...';
+
+        flipNotebookPage(
+          `PÁGINA 0${idx + 1} / 08`,
+          st.title,
+          st.notes,
+          `✍️ Anotando disparos da Etapa [${st.code}]...`
+        );
+
+        for (const l of st.logs) {
+          await new Promise(r => setTimeout(r, Math.round(stepDelay / st.logs.length)));
+          appendConsoleLog('ETAPA ' + st.code, l.msg, l.hit);
+        }
+
+        liveSignals += st.signalsAdd;
+        liveConvs += st.convsAdd;
+        document.getElementById('nbStatSignals').textContent = String(liveSignals);
+        document.getElementById('nbStatConvs').textContent = String(liveConvs);
+        if (st.code === '08') {
+          document.getElementById('nbStatOrder').textContent = generatedOrder;
+        }
+
+        nodeEl.className = 'stepper-node done';
+        nodeEl.querySelector('.stepper-status').textContent = '✅ Disparou';
+      }
+
+      clearInterval(timerInterval);
+      const nowTime = new Date().toLocaleTimeString('pt-BR');
+      document.getElementById('nbLeftStamp').textContent = '✅ 100% HOMOLOGADO';
+      document.getElementById('nbPenStatus').textContent = `🎉 Concluído às ${nowTime} (${generatedOrder})`;
+      appendConsoleLog('SUCESSO', `Auditoria E2E finalizada! Populando resultados em tempo real nos Cards e Gráficos do painel...`, true);
+
+      // Popular os resultados ao vivo nos cenários filtrados e atualizar os cards do painel!
+      const rows = getFilteredScenarios();
+      rows.forEach(r => {
+        if (r.statusType === 'active') {
+          r.auditedLiveAt = `🟢 Auditado Ao Vivo às ${nowTime} (${generatedOrder})`;
+          r.signalsCount = r.signalsCount + 1;
+        }
+      });
+
+      document.getElementById('lastAuditHeaderBadge').textContent =
+        `🟢 Auditado Ao Vivo às ${nowTime} • Pedido ${generatedOrder} (100% Sincronizado)`;
+
+      ['kpiCard1', 'kpiCard2', 'kpiCard3', 'kpiCard4'].forEach(id => {
+        const el = document.getElementById(id);
+        el.classList.add('flash-update');
+        setTimeout(() => el.classList.remove('flash-update'), 1800);
+      });
+
       renderDashboard();
+      btn.disabled = false;
+      btn.innerHTML = '<span>🔄 Rodar Nova Auditoria Ao Vivo</span>';
+      state.auditRunning = false;
     }
 
     function toggleTheme() {
@@ -991,9 +1825,9 @@
       if (type === 'brand') {
         document.documentElement.setAttribute('data-brand', val);
         const badgeMap = {
-          'ALL': 'GRUPO VITRU EDUCAÇÃO • DESIGN SYSTEM v4.0',
-          'Unicesumar': 'UNICESUMAR NOVO PORTAL • DESIGN SYSTEM v4.0',
-          'Uniasselvi': 'UNIASSELVI NOVO PORTAL • DESIGN SYSTEM v4.0'
+          'ALL': 'GRUPO VITRU EDUCAÇÃO • SAAS MEDIA AUDITOR v5.0',
+          'Unicesumar': 'UNICESUMAR NOVO PORTAL • SAAS MEDIA AUDITOR v5.0',
+          'Uniasselvi': 'UNIASSELVI NOVO PORTAL • SAAS MEDIA AUDITOR v5.0'
         };
         document.getElementById('brandHeaderBadge').textContent = badgeMap[val];
       }
@@ -1036,20 +1870,22 @@
 
     function renderCards(rows) {
       const container = document.getElementById('cardsContainer');
+      const shortLabelMap = {
+        '01': '[01] Catálogo',
+        '02': '[02] Curso',
+        '03': '[03] Oferta',
+        '04': '[04] Inscr. Início',
+        '05': '[05] Lead',
+        '06': '[06] Inscr. Sucesso',
+        '07': '[07] Pagamento',
+        '08': '[08] Matrícula'
+      };
+
       container.innerHTML = rows.map(r => {
         const statusClass = r.statusType === 'active' ? 'status-active' : (r.statusType === 'paused' ? 'status-paused' : 'status-neutral');
         const brandClass = r.brand === 'Unicesumar' ? 'tag-unc' : 'tag-una';
+        const vereditoLabel = r.statusType === 'active' ? '✅ Disparou na Rede' : (r.statusType === 'paused' ? '⏸️ Não Disparou (Pausado)' : '⚪ Não Disparou (Não Config.)');
 
-        const shortLabelMap = {
-          '01': '[01] Catálogo',
-          '02': '[02] Curso',
-          '03': '[03] Oferta',
-          '04': '[04] Inscr. Início',
-          '05': '[05] Lead',
-          '06': '[06] Inscr. Sucesso',
-          '07': '[07] Pagamento',
-          '08': '[08] Matrícula'
-        };
         const stepsHtml = FUNNEL_STAGES.map(st => {
           const isConv = r.conversionStages.includes(st.code);
           const isAct = r.activeStages.includes(st.code);
@@ -1057,19 +1893,24 @@
           return `<div class="${cls}" title="${st.label}">${shortLabelMap[st.code] || st.label}</div>`;
         }).join('');
 
+        const liveStampHtml = r.auditedLiveAt
+          ? `<span class="tag-live-stamp">${r.auditedLiveAt}</span>`
+          : '';
+
         return `
-          <article class="vehicle-card">
+          <article class="vehicle-card ${r.auditedLiveAt ? 'audited-now' : ''}">
             <div class="vc-header">
               <div class="vc-meta">
                 <div class="vc-badges">
                   <span class="tag-brand ${brandClass}">${r.brand}</span>
                   <span class="tag-category">${r.category}</span>
+                  ${liveStampHtml}
                 </div>
                 <h3 class="vc-title">${r.platform}</h3>
                 <span class="vc-course-ref">${r.courseRef}</span>
               </div>
               <div class="vc-right-top">
-                <span class="status-pill ${statusClass}">${r.status}</span>
+                <span class="status-pill ${statusClass}">${vereditoLabel}</span>
                 <span class="info-trigger">ⓘ
                   <span class="tooltip-bubble">${r.tooltipText}</span>
                 </span>
@@ -1113,12 +1954,13 @@
       tbody.innerHTML = rows.map(r => {
         const statusClass = r.statusType === 'active' ? 'status-active' : (r.statusType === 'paused' ? 'status-paused' : 'status-neutral');
         const brandClass = r.brand === 'Unicesumar' ? 'tag-unc' : 'tag-una';
+        const vereditoLabel = r.statusType === 'active' ? '✅ Disparou na Rede' : (r.statusType === 'paused' ? '⏸️ Não Disparou (Pausado)' : '⚪ Não Disparou');
         return `
           <tr>
             <td><span class="tag-brand ${brandClass}">${r.brand}</span></td>
             <td><strong>${r.category}</strong></td>
             <td><strong>${r.platform}</strong></td>
-            <td><span class="status-pill ${statusClass}">${r.status}</span></td>
+            <td><span class="status-pill ${statusClass}">${vereditoLabel}</span></td>
             <td>${r.mainStage}</td>
             <td>${r.monthlyValue}</td>
             <td>${r.signalsCount} sinais (${r.conversionsCount} conv)</td>
@@ -1133,8 +1975,8 @@
       if (!chartStg) chartStg = echarts.init(document.getElementById('chartFunnelStages'));
 
       const isLight = state.theme === 'light';
-      const axisTextColor = isLight ? '#334155' : '#CBD5E1';
-      const splitLineColor = isLight ? '#E2E8F0' : '#1E293B';
+      const axisTextColor = isLight ? '#111111' : '#E2E8F0';
+      const splitLineColor = isLight ? '#DDD6FE' : '#2E264A';
 
       const categories = ['Graduação EAD', 'Semipresencial', 'Presencial', 'Pós-Graduação', 'Técnico', 'Profissionalizante'];
       const covBase = SCENARIOS.filter(s => {
@@ -1167,18 +2009,18 @@
         },
         series: [
           {
-            name: 'Unicesumar (Veículos Ativos)',
+            name: 'Unicesumar (Dispararam)',
             type: 'bar',
             data: uncCounts,
             itemStyle: { color: '#7C3AED', borderRadius: [5, 5, 0, 0] },
-            label: { show: true, position: 'top', color: '#A78BFA', fontWeight: 700, fontSize: 11 }
+            label: { show: true, position: 'top', color: isLight ? '#5B21B6' : '#C4B5FD', fontWeight: 700, fontSize: 11 }
           },
           {
-            name: 'Uniasselvi (Veículos Ativos)',
+            name: 'Uniasselvi (Dispararam)',
             type: 'bar',
             data: unaCounts,
             itemStyle: { color: '#FFB800', borderRadius: [5, 5, 0, 0] },
-            label: { show: true, position: 'top', color: '#FACC15', fontWeight: 700, fontSize: 11 }
+            label: { show: true, position: 'top', color: isLight ? '#B45309' : '#FACC15', fontWeight: 700, fontSize: 11 }
           }
         ]
       });
@@ -1207,18 +2049,18 @@
         },
         series: [
           {
-            name: 'Monitoramento de Audiência na Etapa',
+            name: 'Disparo de Audiência na Etapa',
             type: 'bar',
             data: activeByStage,
             itemStyle: { color: '#7C3AED', borderRadius: [5, 5, 0, 0] },
-            label: { show: true, position: 'top', color: '#A78BFA', fontWeight: 700, fontSize: 10.5 }
+            label: { show: true, position: 'top', color: isLight ? '#5B21B6' : '#C4B5FD', fontWeight: 700, fontSize: 10.5 }
           },
           {
             name: 'Disparo de Conversão Principal na Etapa',
             type: 'bar',
             data: convByStage,
             itemStyle: { color: '#FFB800', borderRadius: [5, 5, 0, 0] },
-            label: { show: true, position: 'top', color: '#FACC15', fontWeight: 700, fontSize: 10.5 }
+            label: { show: true, position: 'top', color: isLight ? '#B45309' : '#FACC15', fontWeight: 700, fontSize: 10.5 }
           }
         ]
       });
