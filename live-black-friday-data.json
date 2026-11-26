@@ -1,13 +1,13 @@
 {
-  "updatedAt": "26/11/2026, 16:37:46",
+  "updatedAt": "26/11/2026, 16:39:19",
   "realtime": {
-    "activeUsers30m": 13325,
-    "pageViews30m": 101019
+    "activeUsers30m": 13130,
+    "pageViews30m": 100004
   },
   "hourlyRows": [
     {
       "hr": 0,
-      "usuarios_hoje": 27709,
+      "usuarios_hoje": 27716,
       "usuarios_d7": 106627,
       "interesse_hoje": 2139,
       "interesse_d7": 1001,
@@ -20,7 +20,7 @@
     },
     {
       "hr": 1,
-      "usuarios_hoje": 4910,
+      "usuarios_hoje": 4912,
       "usuarios_d7": 6968,
       "interesse_hoje": 1313,
       "interesse_d7": 1107,
@@ -59,7 +59,7 @@
     },
     {
       "hr": 4,
-      "usuarios_hoje": 2619,
+      "usuarios_hoje": 2620,
       "usuarios_d7": 3766,
       "interesse_hoje": 482,
       "interesse_d7": 417,
@@ -150,9 +150,9 @@
     },
     {
       "hr": 11,
-      "usuarios_hoje": 22362,
+      "usuarios_hoje": 22367,
       "usuarios_d7": 28082,
-      "interesse_hoje": 6294,
+      "interesse_hoje": 6296,
       "interesse_d7": 5270,
       "leads_hoje": 1557,
       "leads_d7": 1285,
@@ -165,7 +165,7 @@
       "hr": 12,
       "usuarios_hoje": 22525,
       "usuarios_d7": 27469,
-      "interesse_hoje": 5492,
+      "interesse_hoje": 5493,
       "interesse_d7": 4190,
       "leads_hoje": 1259,
       "leads_d7": 1064,
@@ -176,11 +176,11 @@
     },
     {
       "hr": 13,
-      "usuarios_hoje": 22341,
+      "usuarios_hoje": 22347,
       "usuarios_d7": 27618,
-      "interesse_hoje": 6077,
+      "interesse_hoje": 6078,
       "interesse_d7": 4434,
-      "leads_hoje": 1370,
+      "leads_hoje": 1371,
       "leads_d7": 1216,
       "inscritos_hoje": 106,
       "inscritos_d7": 95,
@@ -189,11 +189,11 @@
     },
     {
       "hr": 14,
-      "usuarios_hoje": 21396,
+      "usuarios_hoje": 21398,
       "usuarios_d7": 27473,
-      "interesse_hoje": 6106,
+      "interesse_hoje": 6109,
       "interesse_d7": 4644,
-      "leads_hoje": 1379,
+      "leads_hoje": 1380,
       "leads_d7": 1180,
       "inscritos_hoje": 106,
       "inscritos_d7": 94,
@@ -202,11 +202,11 @@
     },
     {
       "hr": 15,
-      "usuarios_hoje": 20851,
+      "usuarios_hoje": 20860,
       "usuarios_d7": 27327,
-      "interesse_hoje": 5379,
+      "interesse_hoje": 5382,
       "interesse_d7": 4865,
-      "leads_hoje": 1473,
+      "leads_hoje": 1474,
       "leads_d7": 1264,
       "inscritos_hoje": 95,
       "inscritos_d7": 90,
@@ -215,13 +215,13 @@
     },
     {
       "hr": 16,
-      "usuarios_hoje": 13168,
+      "usuarios_hoje": 13611,
       "usuarios_d7": 27172,
-      "interesse_hoje": 3475,
+      "interesse_hoje": 3610,
       "interesse_d7": 4546,
-      "leads_hoje": 950,
+      "leads_hoje": 987,
       "leads_d7": 1262,
-      "inscritos_hoje": 65,
+      "inscritos_hoje": 69,
       "inscritos_d7": 97,
       "matriculas_hoje": 12,
       "matriculas_d7": 5
@@ -321,13 +321,13 @@
   "courseRows": [
     {
       "curso_norm": "gestão de recursos humanos",
-      "usuarios_curso": 990,
+      "usuarios_curso": 993,
       "procuras_simulacoes": 0,
-      "inscricoes_iniciadas": 697,
+      "inscricoes_iniciadas": 698,
       "inscricoes_concluidas": 81,
       "matriculas_confirmadas": 6,
       "vol_pre_live": 470,
-      "vol_durante_live": 308
+      "vol_durante_live": 309
     },
     {
       "curso_norm": "pedagogia semipresencial",
@@ -351,27 +351,27 @@
     },
     {
       "curso_norm": "design de interiores",
-      "usuarios_curso": 467,
-      "procuras_simulacoes": 556,
-      "inscricoes_iniciadas": 354,
+      "usuarios_curso": 469,
+      "procuras_simulacoes": 560,
+      "inscricoes_iniciadas": 357,
       "inscricoes_concluidas": 29,
       "matriculas_confirmadas": 0,
       "vol_pre_live": 496,
-      "vol_durante_live": 430
+      "vol_durante_live": 436
     },
     {
       "curso_norm": "educação física bacharelado semipresencial",
-      "usuarios_curso": 37,
+      "usuarios_curso": 38,
       "procuras_simulacoes": 0,
-      "inscricoes_iniciadas": 39,
+      "inscricoes_iniciadas": 40,
       "inscricoes_concluidas": 29,
       "matriculas_confirmadas": 0,
       "vol_pre_live": 48,
-      "vol_durante_live": 20
+      "vol_durante_live": 21
     },
     {
       "curso_norm": "biomedicina semipresencial",
-      "usuarios_curso": 53,
+      "usuarios_curso": 54,
       "procuras_simulacoes": 0,
       "inscricoes_iniciadas": 39,
       "inscricoes_concluidas": 24,
@@ -381,23 +381,23 @@
     },
     {
       "curso_norm": "enfermagem",
-      "usuarios_curso": 1111,
-      "procuras_simulacoes": 2593,
+      "usuarios_curso": 1114,
+      "procuras_simulacoes": 2604,
       "inscricoes_iniciadas": 185,
       "inscricoes_concluidas": 23,
       "matriculas_confirmadas": 0,
       "vol_pre_live": 1530,
-      "vol_durante_live": 1142
+      "vol_durante_live": 1153
     },
     {
       "curso_norm": "criminologia (tecnologia em criminologia)",
-      "usuarios_curso": 394,
-      "procuras_simulacoes": 588,
+      "usuarios_curso": 395,
+      "procuras_simulacoes": 590,
       "inscricoes_iniciadas": 29,
       "inscricoes_concluidas": 17,
       "matriculas_confirmadas": 0,
       "vol_pre_live": 365,
-      "vol_durante_live": 269
+      "vol_durante_live": 271
     },
     {
       "curso_norm": "logística",
@@ -410,6 +410,26 @@
       "vol_durante_live": 26
     },
     {
+      "curso_norm": "ciências contábeis",
+      "usuarios_curso": 362,
+      "procuras_simulacoes": 0,
+      "inscricoes_iniciadas": 30,
+      "inscricoes_concluidas": 16,
+      "matriculas_confirmadas": 2,
+      "vol_pre_live": 26,
+      "vol_durante_live": 20
+    },
+    {
+      "curso_norm": "agronomia",
+      "usuarios_curso": 599,
+      "procuras_simulacoes": 715,
+      "inscricoes_iniciadas": 351,
+      "inscricoes_concluidas": 15,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 571,
+      "vol_durante_live": 489
+    },
+    {
       "curso_norm": "gestão de segurança privada",
       "usuarios_curso": 133,
       "procuras_simulacoes": 0,
@@ -420,16 +440,6 @@
       "vol_durante_live": 29
     },
     {
-      "curso_norm": "ciências contábeis",
-      "usuarios_curso": 362,
-      "procuras_simulacoes": 0,
-      "inscricoes_iniciadas": 29,
-      "inscricoes_concluidas": 15,
-      "matriculas_confirmadas": 2,
-      "vol_pre_live": 26,
-      "vol_durante_live": 18
-    },
-    {
       "curso_norm": "tecnologia em energias renováveis",
       "usuarios_curso": 290,
       "procuras_simulacoes": 0,
@@ -438,16 +448,6 @@
       "matriculas_confirmadas": 0,
       "vol_pre_live": 220,
       "vol_durante_live": 152
-    },
-    {
-      "curso_norm": "agronomia",
-      "usuarios_curso": 597,
-      "procuras_simulacoes": 711,
-      "inscricoes_iniciadas": 351,
-      "inscricoes_concluidas": 14,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 571,
-      "vol_durante_live": 484
     },
     {
       "curso_norm": "radiologia semipresencial",
@@ -481,13 +481,13 @@
     },
     {
       "curso_norm": "despachante documentalista",
-      "usuarios_curso": 179,
-      "procuras_simulacoes": 484,
+      "usuarios_curso": 180,
+      "procuras_simulacoes": 487,
       "inscricoes_iniciadas": 58,
       "inscricoes_concluidas": 12,
       "matriculas_confirmadas": 2,
       "vol_pre_live": 338,
-      "vol_durante_live": 179
+      "vol_durante_live": 182
     },
     {
       "curso_norm": "segurança pública",
@@ -501,7 +501,7 @@
     },
     {
       "curso_norm": "gestão pública",
-      "usuarios_curso": 126,
+      "usuarios_curso": 127,
       "procuras_simulacoes": 0,
       "inscricoes_iniciadas": 21,
       "inscricoes_concluidas": 12,
@@ -530,6 +530,16 @@
       "vol_durante_live": 20
     },
     {
+      "curso_norm": "farmácia semipresencial",
+      "usuarios_curso": 26,
+      "procuras_simulacoes": 0,
+      "inscricoes_iniciadas": 28,
+      "inscricoes_concluidas": 11,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 17,
+      "vol_durante_live": 22
+    },
+    {
       "curso_norm": "atendimento educacional especializado: educacao especial e inclusiva",
       "usuarios_curso": 15,
       "procuras_simulacoes": 0,
@@ -541,33 +551,13 @@
     },
     {
       "curso_norm": "fisioterapia semipresencial",
-      "usuarios_curso": 39,
+      "usuarios_curso": 40,
       "procuras_simulacoes": 0,
       "inscricoes_iniciadas": 29,
       "inscricoes_concluidas": 10,
       "matriculas_confirmadas": 0,
       "vol_pre_live": 22,
       "vol_durante_live": 17
-    },
-    {
-      "curso_norm": "farmácia semipresencial",
-      "usuarios_curso": 26,
-      "procuras_simulacoes": 0,
-      "inscricoes_iniciadas": 28,
-      "inscricoes_concluidas": 10,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 17,
-      "vol_durante_live": 21
-    },
-    {
-      "curso_norm": "gestão hospitalar semipresencial",
-      "usuarios_curso": 18,
-      "procuras_simulacoes": 0,
-      "inscricoes_iniciadas": 17,
-      "inscricoes_concluidas": 10,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 16,
-      "vol_durante_live": 11
     },
     {
       "curso_norm": "tecnologia em mídias sociais digitais",
@@ -578,6 +568,16 @@
       "matriculas_confirmadas": 0,
       "vol_pre_live": 13,
       "vol_durante_live": 14
+    },
+    {
+      "curso_norm": "gestão hospitalar semipresencial",
+      "usuarios_curso": 18,
+      "procuras_simulacoes": 0,
+      "inscricoes_iniciadas": 17,
+      "inscricoes_concluidas": 10,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 16,
+      "vol_durante_live": 11
     },
     {
       "curso_norm": "gastronomia",
@@ -720,16 +720,6 @@
       "vol_durante_live": 6
     },
     {
-      "curso_norm": "engenharia elétrica semipresencial",
-      "usuarios_curso": 11,
-      "procuras_simulacoes": 0,
-      "inscricoes_iniciadas": 11,
-      "inscricoes_concluidas": 6,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 11,
-      "vol_durante_live": 6
-    },
-    {
       "curso_norm": "sistemas da informação",
       "usuarios_curso": 9,
       "procuras_simulacoes": 0,
@@ -738,6 +728,16 @@
       "matriculas_confirmadas": 0,
       "vol_pre_live": 12,
       "vol_durante_live": 5
+    },
+    {
+      "curso_norm": "engenharia elétrica semipresencial",
+      "usuarios_curso": 11,
+      "procuras_simulacoes": 0,
+      "inscricoes_iniciadas": 11,
+      "inscricoes_concluidas": 6,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 11,
+      "vol_durante_live": 6
     },
     {
       "curso_norm": "gestão do agronegócio",
@@ -761,13 +761,13 @@
     },
     {
       "curso_norm": "psicopedagogia",
-      "usuarios_curso": 339,
-      "procuras_simulacoes": 522,
+      "usuarios_curso": 340,
+      "procuras_simulacoes": 525,
       "inscricoes_iniciadas": 23,
       "inscricoes_concluidas": 5,
       "matriculas_confirmadas": 0,
       "vol_pre_live": 268,
-      "vol_durante_live": 267
+      "vol_durante_live": 270
     },
     {
       "curso_norm": "design de moda",
@@ -810,16 +810,6 @@
       "vol_durante_live": 9
     },
     {
-      "curso_norm": "psicopedagogia semipresencial",
-      "usuarios_curso": 15,
-      "procuras_simulacoes": 0,
-      "inscricoes_iniciadas": 11,
-      "inscricoes_concluidas": 5,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 11,
-      "vol_durante_live": 5
-    },
-    {
       "curso_norm": "agronomia semipresencial",
       "usuarios_curso": 15,
       "procuras_simulacoes": 0,
@@ -828,6 +818,16 @@
       "matriculas_confirmadas": 0,
       "vol_pre_live": 12,
       "vol_durante_live": 4
+    },
+    {
+      "curso_norm": "psicopedagogia semipresencial",
+      "usuarios_curso": 15,
+      "procuras_simulacoes": 0,
+      "inscricoes_iniciadas": 11,
+      "inscricoes_concluidas": 5,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 11,
+      "vol_durante_live": 5
     },
     {
       "curso_norm": "psicanalise",
@@ -902,12 +902,12 @@
     {
       "curso_norm": "biblioteconomia",
       "usuarios_curso": 184,
-      "procuras_simulacoes": 488,
+      "procuras_simulacoes": 491,
       "inscricoes_iniciadas": 28,
       "inscricoes_concluidas": 4,
       "matriculas_confirmadas": 2,
       "vol_pre_live": 247,
-      "vol_durante_live": 252
+      "vol_durante_live": 255
     },
     {
       "curso_norm": "hotelaria",
@@ -940,16 +940,6 @@
       "vol_durante_live": 10
     },
     {
-      "curso_norm": "gestão de investimentos e mercado financeiro",
-      "usuarios_curso": 34,
-      "procuras_simulacoes": 0,
-      "inscricoes_iniciadas": 11,
-      "inscricoes_concluidas": 4,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 14,
-      "vol_durante_live": 1
-    },
-    {
       "curso_norm": "podologia semipresencial",
       "usuarios_curso": 14,
       "procuras_simulacoes": 0,
@@ -958,6 +948,16 @@
       "matriculas_confirmadas": 0,
       "vol_pre_live": 7,
       "vol_durante_live": 8
+    },
+    {
+      "curso_norm": "gestão de investimentos e mercado financeiro",
+      "usuarios_curso": 34,
+      "procuras_simulacoes": 0,
+      "inscricoes_iniciadas": 11,
+      "inscricoes_concluidas": 4,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 14,
+      "vol_durante_live": 1
     },
     {
       "curso_norm": "gestão financeira",
@@ -1001,13 +1001,13 @@
     },
     {
       "curso_norm": "enfermagem em centro cirurgico e central de materiais",
-      "usuarios_curso": 30,
-      "procuras_simulacoes": 56,
+      "usuarios_curso": 31,
+      "procuras_simulacoes": 57,
       "inscricoes_iniciadas": 7,
       "inscricoes_concluidas": 4,
       "matriculas_confirmadas": 0,
       "vol_pre_live": 30,
-      "vol_durante_live": 37
+      "vol_durante_live": 38
     },
     {
       "curso_norm": "tecnologia em gestão de negócios imobiliários",
@@ -1051,13 +1051,13 @@
     },
     {
       "curso_norm": "fisioterapia",
-      "usuarios_curso": 742,
-      "procuras_simulacoes": 1741,
-      "inscricoes_iniciadas": 74,
+      "usuarios_curso": 744,
+      "procuras_simulacoes": 1748,
+      "inscricoes_iniciadas": 75,
       "inscricoes_concluidas": 3,
       "matriculas_confirmadas": 1,
       "vol_pre_live": 825,
-      "vol_durante_live": 924
+      "vol_durante_live": 931
     },
     {
       "curso_norm": "publicidade e propaganda",
@@ -1081,13 +1081,13 @@
     },
     {
       "curso_norm": "teologia",
-      "usuarios_curso": 237,
-      "procuras_simulacoes": 560,
+      "usuarios_curso": 238,
+      "procuras_simulacoes": 564,
       "inscricoes_iniciadas": 18,
       "inscricoes_concluidas": 3,
       "matriculas_confirmadas": 0,
       "vol_pre_live": 312,
-      "vol_durante_live": 259
+      "vol_durante_live": 263
     },
     {
       "curso_norm": "direito",
@@ -1130,16 +1130,6 @@
       "vol_durante_live": 33
     },
     {
-      "curso_norm": "design gráfico",
-      "usuarios_curso": 76,
-      "procuras_simulacoes": 0,
-      "inscricoes_iniciadas": 8,
-      "inscricoes_concluidas": 3,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 7,
-      "vol_durante_live": 4
-    },
-    {
       "curso_norm": "gestão de produção industrial",
       "usuarios_curso": 27,
       "procuras_simulacoes": 0,
@@ -1158,6 +1148,16 @@
       "matriculas_confirmadas": 0,
       "vol_pre_live": 9,
       "vol_durante_live": 2
+    },
+    {
+      "curso_norm": "design gráfico",
+      "usuarios_curso": 76,
+      "procuras_simulacoes": 0,
+      "inscricoes_iniciadas": 8,
+      "inscricoes_concluidas": 3,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 7,
+      "vol_durante_live": 4
     },
     {
       "curso_norm": "engenharia de seguranca do trabalho",
@@ -1180,16 +1180,6 @@
       "vol_durante_live": 27
     },
     {
-      "curso_norm": "ciência da computação",
-      "usuarios_curso": 44,
-      "procuras_simulacoes": 0,
-      "inscricoes_iniciadas": 7,
-      "inscricoes_concluidas": 3,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 3,
-      "vol_durante_live": 7
-    },
-    {
       "curso_norm": "ciências econômicas",
       "usuarios_curso": 41,
       "procuras_simulacoes": 0,
@@ -1198,6 +1188,16 @@
       "matriculas_confirmadas": 1,
       "vol_pre_live": 6,
       "vol_durante_live": 4
+    },
+    {
+      "curso_norm": "ciência da computação",
+      "usuarios_curso": 44,
+      "procuras_simulacoes": 0,
+      "inscricoes_iniciadas": 7,
+      "inscricoes_concluidas": 3,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 3,
+      "vol_durante_live": 7
     },
     {
       "curso_norm": "docencia no ensino superior",
@@ -1260,22 +1260,22 @@
       "vol_durante_live": 6
     },
     {
-      "curso_norm": "gestão portuária",
-      "usuarios_curso": 24,
-      "procuras_simulacoes": 0,
-      "inscricoes_iniciadas": 4,
-      "inscricoes_concluidas": 3,
-      "matriculas_confirmadas": 1,
-      "vol_pre_live": 5,
-      "vol_durante_live": 2
-    },
-    {
       "curso_norm": "produção cultural",
       "usuarios_curso": 32,
       "procuras_simulacoes": 0,
       "inscricoes_iniciadas": 4,
       "inscricoes_concluidas": 3,
       "matriculas_confirmadas": 0,
+      "vol_pre_live": 5,
+      "vol_durante_live": 2
+    },
+    {
+      "curso_norm": "gestão portuária",
+      "usuarios_curso": 24,
+      "procuras_simulacoes": 0,
+      "inscricoes_iniciadas": 4,
+      "inscricoes_concluidas": 3,
+      "matriculas_confirmadas": 1,
       "vol_pre_live": 5,
       "vol_durante_live": 2
     },
@@ -1321,33 +1321,33 @@
     },
     {
       "curso_norm": "arquivologia",
-      "usuarios_curso": 97,
-      "procuras_simulacoes": 276,
+      "usuarios_curso": 98,
+      "procuras_simulacoes": 280,
       "inscricoes_iniciadas": 16,
       "inscricoes_concluidas": 2,
       "matriculas_confirmadas": 0,
       "vol_pre_live": 161,
-      "vol_durante_live": 124
+      "vol_durante_live": 128
     },
     {
       "curso_norm": "investigacao forense e pericia criminal",
       "usuarios_curso": 166,
-      "procuras_simulacoes": 264,
-      "inscricoes_iniciadas": 15,
+      "procuras_simulacoes": 267,
+      "inscricoes_iniciadas": 16,
       "inscricoes_concluidas": 2,
       "matriculas_confirmadas": 0,
       "vol_pre_live": 136,
-      "vol_durante_live": 145
+      "vol_durante_live": 149
     },
     {
       "curso_norm": "analises clinicas e diagnostico laboratorial",
       "usuarios_curso": 65,
-      "procuras_simulacoes": 107,
+      "procuras_simulacoes": 108,
       "inscricoes_iniciadas": 10,
       "inscricoes_concluidas": 2,
       "matriculas_confirmadas": 0,
       "vol_pre_live": 74,
-      "vol_durante_live": 45
+      "vol_durante_live": 46
     },
     {
       "curso_norm": "formação pedagógica em química",
@@ -1361,13 +1361,13 @@
     },
     {
       "curso_norm": "escrita criativa",
-      "usuarios_curso": 157,
-      "procuras_simulacoes": 419,
+      "usuarios_curso": 158,
+      "procuras_simulacoes": 421,
       "inscricoes_iniciadas": 6,
       "inscricoes_concluidas": 2,
       "matriculas_confirmadas": 0,
       "vol_pre_live": 248,
-      "vol_durante_live": 174
+      "vol_durante_live": 176
     },
     {
       "curso_norm": "administracao escolar e secretariado",
@@ -1380,6 +1380,16 @@
       "vol_durante_live": 39
     },
     {
+      "curso_norm": "formação pedagógica em filosofia",
+      "usuarios_curso": 21,
+      "procuras_simulacoes": 0,
+      "inscricoes_iniciadas": 6,
+      "inscricoes_concluidas": 2,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 4,
+      "vol_durante_live": 4
+    },
+    {
       "curso_norm": "dança semipresencial",
       "usuarios_curso": 5,
       "procuras_simulacoes": 0,
@@ -1390,14 +1400,14 @@
       "vol_durante_live": 2
     },
     {
-      "curso_norm": "formação pedagógica em filosofia",
-      "usuarios_curso": 21,
+      "curso_norm": "letras libras licenciatura semipresencial",
+      "usuarios_curso": 5,
       "procuras_simulacoes": 0,
-      "inscricoes_iniciadas": 6,
+      "inscricoes_iniciadas": 5,
       "inscricoes_concluidas": 2,
       "matriculas_confirmadas": 0,
-      "vol_pre_live": 4,
-      "vol_durante_live": 4
+      "vol_pre_live": 2,
+      "vol_durante_live": 5
     },
     {
       "curso_norm": "formação pedagógica em informática",
@@ -1420,26 +1430,6 @@
       "vol_durante_live": 3
     },
     {
-      "curso_norm": "formação pedagógica em sociologia",
-      "usuarios_curso": 28,
-      "procuras_simulacoes": 0,
-      "inscricoes_iniciadas": 5,
-      "inscricoes_concluidas": 2,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 5,
-      "vol_durante_live": 2
-    },
-    {
-      "curso_norm": "letras libras licenciatura semipresencial",
-      "usuarios_curso": 5,
-      "procuras_simulacoes": 0,
-      "inscricoes_iniciadas": 5,
-      "inscricoes_concluidas": 2,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 2,
-      "vol_durante_live": 5
-    },
-    {
       "curso_norm": "biomedicina faculdade",
       "usuarios_curso": 5,
       "procuras_simulacoes": 0,
@@ -1448,6 +1438,16 @@
       "matriculas_confirmadas": 0,
       "vol_pre_live": 4,
       "vol_durante_live": 3
+    },
+    {
+      "curso_norm": "formação pedagógica em sociologia",
+      "usuarios_curso": 28,
+      "procuras_simulacoes": 0,
+      "inscricoes_iniciadas": 5,
+      "inscricoes_concluidas": 2,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 5,
+      "vol_durante_live": 2
     },
     {
       "curso_norm": "relações internacionais",
@@ -1480,16 +1480,6 @@
       "vol_durante_live": 34
     },
     {
-      "curso_norm": "enfermagem em estomaterapia",
-      "usuarios_curso": 20,
-      "procuras_simulacoes": 34,
-      "inscricoes_iniciadas": 4,
-      "inscricoes_concluidas": 2,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 32,
-      "vol_durante_live": 8
-    },
-    {
       "curso_norm": "vigilancia sanitaria",
       "usuarios_curso": 25,
       "procuras_simulacoes": 34,
@@ -1498,6 +1488,16 @@
       "matriculas_confirmadas": 0,
       "vol_pre_live": 25,
       "vol_durante_live": 15
+    },
+    {
+      "curso_norm": "enfermagem em estomaterapia",
+      "usuarios_curso": 20,
+      "procuras_simulacoes": 34,
+      "inscricoes_iniciadas": 4,
+      "inscricoes_concluidas": 2,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 32,
+      "vol_durante_live": 8
     },
     {
       "curso_norm": "comercio exterior e negocios internacionais",
@@ -1540,6 +1540,16 @@
       "vol_durante_live": 4
     },
     {
+      "curso_norm": "marketing digital",
+      "usuarios_curso": 54,
+      "procuras_simulacoes": 71,
+      "inscricoes_iniciadas": 3,
+      "inscricoes_concluidas": 2,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 47,
+      "vol_durante_live": 29
+    },
+    {
       "curso_norm": "mba em gestao de bares e restaurantes",
       "usuarios_curso": 20,
       "procuras_simulacoes": 38,
@@ -1570,16 +1580,6 @@
       "vol_durante_live": 0
     },
     {
-      "curso_norm": "formação pedagógica em letras inglês",
-      "usuarios_curso": 19,
-      "procuras_simulacoes": 0,
-      "inscricoes_iniciadas": 3,
-      "inscricoes_concluidas": 2,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 2,
-      "vol_durante_live": 3
-    },
-    {
       "curso_norm": "matemática semipresencial",
       "usuarios_curso": 3,
       "procuras_simulacoes": 0,
@@ -1588,6 +1588,16 @@
       "matriculas_confirmadas": 0,
       "vol_pre_live": 4,
       "vol_durante_live": 1
+    },
+    {
+      "curso_norm": "arte, cultura e educacao",
+      "usuarios_curso": 3,
+      "procuras_simulacoes": 0,
+      "inscricoes_iniciadas": 3,
+      "inscricoes_concluidas": 2,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 3,
+      "vol_durante_live": 2
     },
     {
       "curso_norm": "mba em comercio exterior, logistica internacional e negocios globais",
@@ -1600,14 +1610,14 @@
       "vol_durante_live": 3
     },
     {
-      "curso_norm": "arte, cultura e educacao",
-      "usuarios_curso": 3,
+      "curso_norm": "formação pedagógica em letras inglês",
+      "usuarios_curso": 19,
       "procuras_simulacoes": 0,
       "inscricoes_iniciadas": 3,
       "inscricoes_concluidas": 2,
       "matriculas_confirmadas": 0,
-      "vol_pre_live": 3,
-      "vol_durante_live": 2
+      "vol_pre_live": 2,
+      "vol_durante_live": 3
     },
     {
       "curso_norm": "segunda licenciatura em física",
@@ -1700,6 +1710,16 @@
       "vol_durante_live": 2
     },
     {
+      "curso_norm": "relações públicas",
+      "usuarios_curso": 20,
+      "procuras_simulacoes": 0,
+      "inscricoes_iniciadas": 2,
+      "inscricoes_concluidas": 2,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 1,
+      "vol_durante_live": 3
+    },
+    {
       "curso_norm": "lideranca e gestao de equipes",
       "usuarios_curso": 128,
       "procuras_simulacoes": 175,
@@ -1710,64 +1730,54 @@
       "vol_durante_live": 72
     },
     {
-      "curso_norm": "relações públicas",
-      "usuarios_curso": 19,
-      "procuras_simulacoes": 0,
-      "inscricoes_iniciadas": 1,
-      "inscricoes_concluidas": 2,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 1,
-      "vol_durante_live": 2
-    },
-    {
       "curso_norm": "pedagogia",
-      "usuarios_curso": 2541,
-      "procuras_simulacoes": 4012,
-      "inscricoes_iniciadas": 217,
+      "usuarios_curso": 2543,
+      "procuras_simulacoes": 4018,
+      "inscricoes_iniciadas": 218,
       "inscricoes_concluidas": 1,
       "matriculas_confirmadas": 7,
       "vol_pre_live": 2010,
-      "vol_durante_live": 2005
+      "vol_durante_live": 2011
     },
     {
       "curso_norm": "biomedicina",
-      "usuarios_curso": 1017,
-      "procuras_simulacoes": 2424,
+      "usuarios_curso": 1019,
+      "procuras_simulacoes": 2431,
       "inscricoes_iniciadas": 99,
       "inscricoes_concluidas": 1,
       "matriculas_confirmadas": 1,
       "vol_pre_live": 1239,
-      "vol_durante_live": 1191
+      "vol_durante_live": 1198
     },
     {
       "curso_norm": "tecnologia em seguranca do trabalho",
-      "usuarios_curso": 560,
-      "procuras_simulacoes": 1497,
+      "usuarios_curso": 561,
+      "procuras_simulacoes": 1504,
       "inscricoes_iniciadas": 70,
       "inscricoes_concluidas": 1,
       "matriculas_confirmadas": 0,
       "vol_pre_live": 834,
-      "vol_durante_live": 665
+      "vol_durante_live": 672
     },
     {
       "curso_norm": "engenharia de software",
-      "usuarios_curso": 195,
-      "procuras_simulacoes": 546,
-      "inscricoes_iniciadas": 24,
+      "usuarios_curso": 196,
+      "procuras_simulacoes": 550,
+      "inscricoes_iniciadas": 25,
       "inscricoes_concluidas": 1,
       "matriculas_confirmadas": 0,
       "vol_pre_live": 304,
-      "vol_durante_live": 253
+      "vol_durante_live": 258
     },
     {
       "curso_norm": "ciencia politica",
-      "usuarios_curso": 71,
-      "procuras_simulacoes": 842,
+      "usuarios_curso": 72,
+      "procuras_simulacoes": 880,
       "inscricoes_iniciadas": 18,
       "inscricoes_concluidas": 1,
       "matriculas_confirmadas": 0,
       "vol_pre_live": 661,
-      "vol_durante_live": 184
+      "vol_durante_live": 222
     },
     {
       "curso_norm": "design de produto",
@@ -1950,26 +1960,6 @@
       "vol_durante_live": 3
     },
     {
-      "curso_norm": "gerontologia semipresencial",
-      "usuarios_curso": 4,
-      "procuras_simulacoes": 0,
-      "inscricoes_iniciadas": 5,
-      "inscricoes_concluidas": 1,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 6,
-      "vol_durante_live": 0
-    },
-    {
-      "curso_norm": "fisioterapia faculdade",
-      "usuarios_curso": 3,
-      "procuras_simulacoes": 0,
-      "inscricoes_iniciadas": 5,
-      "inscricoes_concluidas": 1,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 2,
-      "vol_durante_live": 4
-    },
-    {
       "curso_norm": "publicidade, propaganda e midias sociais",
       "usuarios_curso": 5,
       "procuras_simulacoes": 0,
@@ -1990,6 +1980,26 @@
       "vol_durante_live": 2
     },
     {
+      "curso_norm": "fisioterapia faculdade",
+      "usuarios_curso": 3,
+      "procuras_simulacoes": 0,
+      "inscricoes_iniciadas": 5,
+      "inscricoes_concluidas": 1,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 2,
+      "vol_durante_live": 4
+    },
+    {
+      "curso_norm": "gerontologia semipresencial",
+      "usuarios_curso": 4,
+      "procuras_simulacoes": 0,
+      "inscricoes_iniciadas": 5,
+      "inscricoes_concluidas": 1,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 6,
+      "vol_durante_live": 0
+    },
+    {
       "curso_norm": "formação pedagógica em letras português",
       "usuarios_curso": 32,
       "procuras_simulacoes": 0,
@@ -2001,7 +2011,7 @@
     },
     {
       "curso_norm": "neuropsicopedagogia",
-      "usuarios_curso": 96,
+      "usuarios_curso": 97,
       "procuras_simulacoes": 119,
       "inscricoes_iniciadas": 3,
       "inscricoes_concluidas": 1,
@@ -2028,16 +2038,6 @@
       "matriculas_confirmadas": 0,
       "vol_pre_live": 38,
       "vol_durante_live": 38
-    },
-    {
-      "curso_norm": "marketing digital",
-      "usuarios_curso": 54,
-      "procuras_simulacoes": 71,
-      "inscricoes_iniciadas": 3,
-      "inscricoes_concluidas": 1,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 47,
-      "vol_durante_live": 28
     },
     {
       "curso_norm": "fisioterapia pelvica funcional",
@@ -2100,16 +2100,6 @@
       "vol_durante_live": 2
     },
     {
-      "curso_norm": "mba em gestao de transportes, fretes e movimentacao de cargas",
-      "usuarios_curso": 2,
-      "procuras_simulacoes": 0,
-      "inscricoes_iniciadas": 3,
-      "inscricoes_concluidas": 1,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 0,
-      "vol_durante_live": 4
-    },
-    {
       "curso_norm": "educação física",
       "usuarios_curso": 112,
       "procuras_simulacoes": 0,
@@ -2118,6 +2108,16 @@
       "matriculas_confirmadas": 0,
       "vol_pre_live": 2,
       "vol_durante_live": 2
+    },
+    {
+      "curso_norm": "mba em gestao de transportes, fretes e movimentacao de cargas",
+      "usuarios_curso": 2,
+      "procuras_simulacoes": 0,
+      "inscricoes_iniciadas": 3,
+      "inscricoes_concluidas": 1,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 0,
+      "vol_durante_live": 4
     },
     {
       "curso_norm": "comunicação institucional",
@@ -2131,13 +2131,13 @@
     },
     {
       "curso_norm": "psicomotricidade",
-      "usuarios_curso": 93,
-      "procuras_simulacoes": 135,
+      "usuarios_curso": 94,
+      "procuras_simulacoes": 137,
       "inscricoes_iniciadas": 2,
       "inscricoes_concluidas": 1,
       "matriculas_confirmadas": 0,
       "vol_pre_live": 67,
-      "vol_durante_live": 71
+      "vol_durante_live": 73
     },
     {
       "curso_norm": "engenharia de dados",
@@ -2290,66 +2290,6 @@
       "vol_durante_live": 0
     },
     {
-      "curso_norm": "contabilidade previdenciaria, pericia e calculos judiciais",
-      "usuarios_curso": 1,
-      "procuras_simulacoes": 0,
-      "inscricoes_iniciadas": 2,
-      "inscricoes_concluidas": 1,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 3,
-      "vol_durante_live": 0
-    },
-    {
-      "curso_norm": "engenharia de prompt, llmops e rag para modelos de linguagem",
-      "usuarios_curso": 4,
-      "procuras_simulacoes": 0,
-      "inscricoes_iniciadas": 2,
-      "inscricoes_concluidas": 1,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 3,
-      "vol_durante_live": 0
-    },
-    {
-      "curso_norm": "internet das coisas (iot), sistemas ciberfisicos (cps), robotica industrial e sistemas embarcados",
-      "usuarios_curso": 1,
-      "procuras_simulacoes": 0,
-      "inscricoes_iniciadas": 2,
-      "inscricoes_concluidas": 1,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 2,
-      "vol_durante_live": 1
-    },
-    {
-      "curso_norm": "estrutura organizacional, avaliacao, controle e regulacao do sus",
-      "usuarios_curso": 1,
-      "procuras_simulacoes": 0,
-      "inscricoes_iniciadas": 2,
-      "inscricoes_concluidas": 1,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 0,
-      "vol_durante_live": 3
-    },
-    {
-      "curso_norm": "formação pedagógica em educação especial",
-      "usuarios_curso": 28,
-      "procuras_simulacoes": 0,
-      "inscricoes_iniciadas": 2,
-      "inscricoes_concluidas": 1,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 1,
-      "vol_durante_live": 2
-    },
-    {
-      "curso_norm": "pericia judicial e extrajudicial: producao de laudos e atuacao tecnica no judiciario",
-      "usuarios_curso": 2,
-      "procuras_simulacoes": 0,
-      "inscricoes_iniciadas": 2,
-      "inscricoes_concluidas": 1,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 0,
-      "vol_durante_live": 3
-    },
-    {
       "curso_norm": "contabilidade publica, orcamento e financas no setor publico",
       "usuarios_curso": 2,
       "procuras_simulacoes": 0,
@@ -2370,6 +2310,46 @@
       "vol_durante_live": 0
     },
     {
+      "curso_norm": "contabilidade previdenciaria, pericia e calculos judiciais",
+      "usuarios_curso": 1,
+      "procuras_simulacoes": 0,
+      "inscricoes_iniciadas": 2,
+      "inscricoes_concluidas": 1,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 3,
+      "vol_durante_live": 0
+    },
+    {
+      "curso_norm": "formação pedagógica em educação especial",
+      "usuarios_curso": 28,
+      "procuras_simulacoes": 0,
+      "inscricoes_iniciadas": 2,
+      "inscricoes_concluidas": 1,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 1,
+      "vol_durante_live": 2
+    },
+    {
+      "curso_norm": "internet das coisas (iot), sistemas ciberfisicos (cps), robotica industrial e sistemas embarcados",
+      "usuarios_curso": 1,
+      "procuras_simulacoes": 0,
+      "inscricoes_iniciadas": 2,
+      "inscricoes_concluidas": 1,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 2,
+      "vol_durante_live": 1
+    },
+    {
+      "curso_norm": "engenharia de prompt, llmops e rag para modelos de linguagem",
+      "usuarios_curso": 4,
+      "procuras_simulacoes": 0,
+      "inscricoes_iniciadas": 2,
+      "inscricoes_concluidas": 1,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 3,
+      "vol_durante_live": 0
+    },
+    {
       "curso_norm": "segunda licenciatura em letras português",
       "usuarios_curso": 22,
       "procuras_simulacoes": 0,
@@ -2378,6 +2358,26 @@
       "matriculas_confirmadas": 0,
       "vol_pre_live": 2,
       "vol_durante_live": 1
+    },
+    {
+      "curso_norm": "pericia judicial e extrajudicial: producao de laudos e atuacao tecnica no judiciario",
+      "usuarios_curso": 2,
+      "procuras_simulacoes": 0,
+      "inscricoes_iniciadas": 2,
+      "inscricoes_concluidas": 1,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 0,
+      "vol_durante_live": 3
+    },
+    {
+      "curso_norm": "estrutura organizacional, avaliacao, controle e regulacao do sus",
+      "usuarios_curso": 1,
+      "procuras_simulacoes": 0,
+      "inscricoes_iniciadas": 2,
+      "inscricoes_concluidas": 1,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 0,
+      "vol_durante_live": 3
     },
     {
       "curso_norm": "fonoaudiologia com enfase em audiologia e reabilitacao auditiva",
@@ -2440,16 +2440,6 @@
       "vol_durante_live": 14
     },
     {
-      "curso_norm": "historia e ensino da lingua portuguesa",
-      "usuarios_curso": 15,
-      "procuras_simulacoes": 20,
-      "inscricoes_iniciadas": 1,
-      "inscricoes_concluidas": 1,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 9,
-      "vol_durante_live": 13
-    },
-    {
       "curso_norm": "educacao ambiental e sustentabilidade",
       "usuarios_curso": 15,
       "procuras_simulacoes": 20,
@@ -2468,6 +2458,16 @@
       "matriculas_confirmadas": 0,
       "vol_pre_live": 17,
       "vol_durante_live": 5
+    },
+    {
+      "curso_norm": "historia e ensino da lingua portuguesa",
+      "usuarios_curso": 15,
+      "procuras_simulacoes": 20,
+      "inscricoes_iniciadas": 1,
+      "inscricoes_concluidas": 1,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 9,
+      "vol_durante_live": 13
     },
     {
       "curso_norm": "pedagogia empresarial",
@@ -2530,16 +2530,6 @@
       "vol_durante_live": 4
     },
     {
-      "curso_norm": "engenharia de redes de alta performance e data center",
-      "usuarios_curso": 7,
-      "procuras_simulacoes": 14,
-      "inscricoes_iniciadas": 1,
-      "inscricoes_concluidas": 1,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 9,
-      "vol_durante_live": 7
-    },
-    {
       "curso_norm": "metodologia do ensino de lingua inglesa",
       "usuarios_curso": 12,
       "procuras_simulacoes": 14,
@@ -2548,6 +2538,16 @@
       "matriculas_confirmadas": 0,
       "vol_pre_live": 11,
       "vol_durante_live": 5
+    },
+    {
+      "curso_norm": "engenharia de redes de alta performance e data center",
+      "usuarios_curso": 7,
+      "procuras_simulacoes": 14,
+      "inscricoes_iniciadas": 1,
+      "inscricoes_concluidas": 1,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 9,
+      "vol_durante_live": 7
     },
     {
       "curso_norm": "terapia ocupacional em saude mental",
@@ -2590,16 +2590,6 @@
       "vol_durante_live": 12
     },
     {
-      "curso_norm": "inbound marketing",
-      "usuarios_curso": 3,
-      "procuras_simulacoes": 10,
-      "inscricoes_iniciadas": 1,
-      "inscricoes_concluidas": 1,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 0,
-      "vol_durante_live": 12
-    },
-    {
       "curso_norm": "mba em gestao empresarial estrategica e tomada de decisao",
       "usuarios_curso": 5,
       "procuras_simulacoes": 10,
@@ -2620,6 +2610,16 @@
       "vol_durante_live": 4
     },
     {
+      "curso_norm": "inbound marketing",
+      "usuarios_curso": 3,
+      "procuras_simulacoes": 10,
+      "inscricoes_iniciadas": 1,
+      "inscricoes_concluidas": 1,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 0,
+      "vol_durante_live": 12
+    },
+    {
       "curso_norm": "servico social e previdencia",
       "usuarios_curso": 5,
       "procuras_simulacoes": 9,
@@ -2628,16 +2628,6 @@
       "matriculas_confirmadas": 0,
       "vol_pre_live": 6,
       "vol_durante_live": 5
-    },
-    {
-      "curso_norm": "governanca corporativa",
-      "usuarios_curso": 6,
-      "procuras_simulacoes": 8,
-      "inscricoes_iniciadas": 1,
-      "inscricoes_concluidas": 1,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 7,
-      "vol_durante_live": 3
     },
     {
       "curso_norm": "nutricao materno infantil",
@@ -2660,6 +2650,16 @@
       "vol_durante_live": 7
     },
     {
+      "curso_norm": "governanca corporativa",
+      "usuarios_curso": 6,
+      "procuras_simulacoes": 8,
+      "inscricoes_iniciadas": 1,
+      "inscricoes_concluidas": 1,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 7,
+      "vol_durante_live": 3
+    },
+    {
       "curso_norm": "mobile marketing",
       "usuarios_curso": 5,
       "procuras_simulacoes": 6,
@@ -2678,6 +2678,16 @@
       "matriculas_confirmadas": 0,
       "vol_pre_live": 6,
       "vol_durante_live": 1
+    },
+    {
+      "curso_norm": "enfermagem em emergencia e cuidados criticos",
+      "usuarios_curso": 2,
+      "procuras_simulacoes": 4,
+      "inscricoes_iniciadas": 1,
+      "inscricoes_concluidas": 1,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 6,
+      "vol_durante_live": 0
     },
     {
       "curso_norm": "terceiro setor e projetos sociais",
@@ -2700,16 +2710,6 @@
       "vol_durante_live": 2
     },
     {
-      "curso_norm": "enfermagem em emergencia e cuidados criticos",
-      "usuarios_curso": 2,
-      "procuras_simulacoes": 4,
-      "inscricoes_iniciadas": 1,
-      "inscricoes_concluidas": 1,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 6,
-      "vol_durante_live": 0
-    },
-    {
       "curso_norm": "psicanalise e os desafios da contemporaneidade",
       "usuarios_curso": 2,
       "procuras_simulacoes": 4,
@@ -2718,6 +2718,16 @@
       "matriculas_confirmadas": 0,
       "vol_pre_live": 1,
       "vol_durante_live": 5
+    },
+    {
+      "curso_norm": "comunicacao empresarial",
+      "usuarios_curso": 2,
+      "procuras_simulacoes": 3,
+      "inscricoes_iniciadas": 1,
+      "inscricoes_concluidas": 1,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 5,
+      "vol_durante_live": 0
     },
     {
       "curso_norm": "redes neurais e computacao de borda (edge computing)",
@@ -2750,16 +2760,6 @@
       "vol_durante_live": 1
     },
     {
-      "curso_norm": "comunicacao empresarial",
-      "usuarios_curso": 2,
-      "procuras_simulacoes": 3,
-      "inscricoes_iniciadas": 1,
-      "inscricoes_concluidas": 1,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 5,
-      "vol_durante_live": 0
-    },
-    {
       "curso_norm": "metodologias ativas em ensino hibrido",
       "usuarios_curso": 1,
       "procuras_simulacoes": 2,
@@ -2770,27 +2770,17 @@
       "vol_durante_live": 4
     },
     {
-      "curso_norm": "direito civil e processual civil: teoria e pratica da advocacia contenciosa",
+      "curso_norm": "gestao publica, governanca e auditoria governamental",
       "usuarios_curso": 1,
       "procuras_simulacoes": 0,
       "inscricoes_iniciadas": 1,
       "inscricoes_concluidas": 1,
       "matriculas_confirmadas": 0,
-      "vol_pre_live": 2,
-      "vol_durante_live": 0
+      "vol_pre_live": 0,
+      "vol_durante_live": 2
     },
     {
-      "curso_norm": "segunda licenciatura em história",
-      "usuarios_curso": 13,
-      "procuras_simulacoes": 0,
-      "inscricoes_iniciadas": 1,
-      "inscricoes_concluidas": 1,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 2,
-      "vol_durante_live": 0
-    },
-    {
-      "curso_norm": "mba em lideranca e estrategias de vendas, negociacao e gestao de clientes (crm)",
+      "curso_norm": "mba em analise de processos, qualidade e melhoria continua",
       "usuarios_curso": 1,
       "procuras_simulacoes": 0,
       "inscricoes_iniciadas": 1,
@@ -2810,37 +2800,17 @@
       "vol_durante_live": 0
     },
     {
-      "curso_norm": "historia e cultura afro brasileira",
+      "curso_norm": "habilidades socioemocionais: neurociencia e formacao docente",
       "usuarios_curso": 1,
       "procuras_simulacoes": 0,
       "inscricoes_iniciadas": 1,
       "inscricoes_concluidas": 1,
       "matriculas_confirmadas": 0,
-      "vol_pre_live": 2,
-      "vol_durante_live": 0
+      "vol_pre_live": 0,
+      "vol_durante_live": 2
     },
     {
-      "curso_norm": "mba em mercado financeiro, banking e investimentos digitais",
-      "usuarios_curso": 2,
-      "procuras_simulacoes": 0,
-      "inscricoes_iniciadas": 1,
-      "inscricoes_concluidas": 1,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 2,
-      "vol_durante_live": 0
-    },
-    {
-      "curso_norm": "mba em financas corporativas, controladoria e analise de performance",
-      "usuarios_curso": 1,
-      "procuras_simulacoes": 0,
-      "inscricoes_iniciadas": 1,
-      "inscricoes_concluidas": 1,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 2,
-      "vol_durante_live": 0
-    },
-    {
-      "curso_norm": "certificacoes ambientais e agro (organicos, car/cra, fsc/pefc)",
+      "curso_norm": "gestao de data center e infraestrutura on premise e hibrida",
       "usuarios_curso": 1,
       "procuras_simulacoes": 0,
       "inscricoes_iniciadas": 1,
@@ -2860,7 +2830,7 @@
       "vol_durante_live": 0
     },
     {
-      "curso_norm": "gestao de data center e infraestrutura on premise e hibrida",
+      "curso_norm": "certificacoes ambientais e agro (organicos, car/cra, fsc/pefc)",
       "usuarios_curso": 1,
       "procuras_simulacoes": 0,
       "inscricoes_iniciadas": 1,
@@ -2870,27 +2840,7 @@
       "vol_durante_live": 0
     },
     {
-      "curso_norm": "inteligência artificial",
-      "usuarios_curso": 26,
-      "procuras_simulacoes": 0,
-      "inscricoes_iniciadas": 1,
-      "inscricoes_concluidas": 1,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 2,
-      "vol_durante_live": 0
-    },
-    {
-      "curso_norm": "mba em analise de processos, qualidade e melhoria continua",
-      "usuarios_curso": 1,
-      "procuras_simulacoes": 0,
-      "inscricoes_iniciadas": 1,
-      "inscricoes_concluidas": 1,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 0,
-      "vol_durante_live": 2
-    },
-    {
-      "curso_norm": "educacao a distancia: gestao e tutoria",
+      "curso_norm": "historia e cultura afro brasileira",
       "usuarios_curso": 1,
       "procuras_simulacoes": 0,
       "inscricoes_iniciadas": 1,
@@ -2910,7 +2860,17 @@
       "vol_durante_live": 2
     },
     {
-      "curso_norm": "habilidades socioemocionais: neurociencia e formacao docente",
+      "curso_norm": "inteligência artificial",
+      "usuarios_curso": 26,
+      "procuras_simulacoes": 0,
+      "inscricoes_iniciadas": 1,
+      "inscricoes_concluidas": 1,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 2,
+      "vol_durante_live": 0
+    },
+    {
+      "curso_norm": "mba em lideranca e estrategias de vendas, negociacao e gestao de clientes (crm)",
       "usuarios_curso": 1,
       "procuras_simulacoes": 0,
       "inscricoes_iniciadas": 1,
@@ -2920,7 +2880,47 @@
       "vol_durante_live": 2
     },
     {
-      "curso_norm": "gestao publica, governanca e auditoria governamental",
+      "curso_norm": "direito civil e processual civil: teoria e pratica da advocacia contenciosa",
+      "usuarios_curso": 1,
+      "procuras_simulacoes": 0,
+      "inscricoes_iniciadas": 1,
+      "inscricoes_concluidas": 1,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 2,
+      "vol_durante_live": 0
+    },
+    {
+      "curso_norm": "educacao a distancia: gestao e tutoria",
+      "usuarios_curso": 1,
+      "procuras_simulacoes": 0,
+      "inscricoes_iniciadas": 1,
+      "inscricoes_concluidas": 1,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 2,
+      "vol_durante_live": 0
+    },
+    {
+      "curso_norm": "mba em mercado financeiro, banking e investimentos digitais",
+      "usuarios_curso": 2,
+      "procuras_simulacoes": 0,
+      "inscricoes_iniciadas": 1,
+      "inscricoes_concluidas": 1,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 2,
+      "vol_durante_live": 0
+    },
+    {
+      "curso_norm": "segunda licenciatura em história",
+      "usuarios_curso": 13,
+      "procuras_simulacoes": 0,
+      "inscricoes_iniciadas": 1,
+      "inscricoes_concluidas": 1,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 2,
+      "vol_durante_live": 0
+    },
+    {
+      "curso_norm": "direitos humanos e enfrentamento a violencia: perspectivas de genero e inclusao",
       "usuarios_curso": 1,
       "procuras_simulacoes": 0,
       "inscricoes_iniciadas": 1,
@@ -2928,6 +2928,16 @@
       "matriculas_confirmadas": 0,
       "vol_pre_live": 0,
       "vol_durante_live": 2
+    },
+    {
+      "curso_norm": "mba em financas corporativas, controladoria e analise de performance",
+      "usuarios_curso": 1,
+      "procuras_simulacoes": 0,
+      "inscricoes_iniciadas": 1,
+      "inscricoes_concluidas": 1,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 2,
+      "vol_durante_live": 0
     },
     {
       "curso_norm": "geoprocessamento e sensoriamento remoto no meio rural",
@@ -2951,73 +2961,73 @@
     },
     {
       "curso_norm": "administracao",
-      "usuarios_curso": 829,
-      "procuras_simulacoes": 2452,
+      "usuarios_curso": 832,
+      "procuras_simulacoes": 2457,
       "inscricoes_iniciadas": 162,
       "inscricoes_concluidas": 0,
       "matriculas_confirmadas": 0,
       "vol_pre_live": 1251,
-      "vol_durante_live": 1201
+      "vol_durante_live": 1206
     },
     {
       "curso_norm": "gestao de recursos humanos",
-      "usuarios_curso": 935,
-      "procuras_simulacoes": 2237,
-      "inscricoes_iniciadas": 151,
+      "usuarios_curso": 939,
+      "procuras_simulacoes": 2251,
+      "inscricoes_iniciadas": 152,
       "inscricoes_concluidas": 0,
       "matriculas_confirmadas": 0,
       "vol_pre_live": 1033,
-      "vol_durante_live": 1205
+      "vol_durante_live": 1219
     },
     {
       "curso_norm": "educacao fisica bacharelado",
-      "usuarios_curso": 531,
-      "procuras_simulacoes": 1408,
-      "inscricoes_iniciadas": 104,
+      "usuarios_curso": 532,
+      "procuras_simulacoes": 1412,
+      "inscricoes_iniciadas": 105,
       "inscricoes_concluidas": 0,
       "matriculas_confirmadas": 0,
       "vol_pre_live": 768,
-      "vol_durante_live": 640
+      "vol_durante_live": 644
     },
     {
       "curso_norm": "criminologia tecnologia em criminologia",
-      "usuarios_curso": 397,
-      "procuras_simulacoes": 459,
+      "usuarios_curso": 398,
+      "procuras_simulacoes": 460,
       "inscricoes_iniciadas": 93,
       "inscricoes_concluidas": 0,
       "matriculas_confirmadas": 0,
       "vol_pre_live": 261,
-      "vol_durante_live": 198
+      "vol_durante_live": 199
     },
     {
       "curso_norm": "gestao de seguranca privada",
       "usuarios_curso": 607,
-      "procuras_simulacoes": 1650,
-      "inscricoes_iniciadas": 89,
+      "procuras_simulacoes": 1651,
+      "inscricoes_iniciadas": 90,
       "inscricoes_concluidas": 0,
       "matriculas_confirmadas": 0,
       "vol_pre_live": 954,
-      "vol_durante_live": 696
+      "vol_durante_live": 697
     },
     {
       "curso_norm": "radiologia",
-      "usuarios_curso": 678,
-      "procuras_simulacoes": 1737,
+      "usuarios_curso": 682,
+      "procuras_simulacoes": 1745,
       "inscricoes_iniciadas": 79,
       "inscricoes_concluidas": 0,
       "matriculas_confirmadas": 1,
       "vol_pre_live": 934,
-      "vol_durante_live": 803
+      "vol_durante_live": 811
     },
     {
       "curso_norm": "farmacia",
-      "usuarios_curso": 420,
-      "procuras_simulacoes": 1168,
+      "usuarios_curso": 421,
+      "procuras_simulacoes": 1172,
       "inscricoes_iniciadas": 66,
       "inscricoes_concluidas": 0,
       "matriculas_confirmadas": 0,
-      "vol_pre_live": 531,
-      "vol_durante_live": 640
+      "vol_pre_live": 532,
+      "vol_durante_live": 643
     },
     {
       "curso_norm": "analise e desenvolvimento de sistemas",
@@ -3032,62 +3042,62 @@
     {
       "curso_norm": "ciencias contabeis",
       "usuarios_curso": 419,
-      "procuras_simulacoes": 1232,
-      "inscricoes_iniciadas": 57,
+      "procuras_simulacoes": 1233,
+      "inscricoes_iniciadas": 58,
       "inscricoes_concluidas": 0,
       "matriculas_confirmadas": 0,
-      "vol_pre_live": 647,
+      "vol_pre_live": 648,
       "vol_durante_live": 586
     },
     {
       "curso_norm": "seguranca publica",
       "usuarios_curso": 381,
-      "procuras_simulacoes": 7082,
+      "procuras_simulacoes": 7086,
       "inscricoes_iniciadas": 54,
       "inscricoes_concluidas": 0,
       "matriculas_confirmadas": 0,
       "vol_pre_live": 4610,
-      "vol_durante_live": 2472
+      "vol_durante_live": 2476
     },
     {
       "curso_norm": "servico social",
-      "usuarios_curso": 316,
-      "procuras_simulacoes": 867,
+      "usuarios_curso": 317,
+      "procuras_simulacoes": 869,
       "inscricoes_iniciadas": 51,
       "inscricoes_concluidas": 0,
       "matriculas_confirmadas": 0,
       "vol_pre_live": 406,
-      "vol_durante_live": 461
+      "vol_durante_live": 463
     },
     {
       "curso_norm": "fonoaudiologia",
-      "usuarios_curso": 206,
-      "procuras_simulacoes": 553,
+      "usuarios_curso": 207,
+      "procuras_simulacoes": 557,
       "inscricoes_iniciadas": 51,
       "inscricoes_concluidas": 0,
       "matriculas_confirmadas": 0,
       "vol_pre_live": 264,
-      "vol_durante_live": 289
+      "vol_durante_live": 293
     },
     {
       "curso_norm": "gestao publica",
-      "usuarios_curso": 282,
-      "procuras_simulacoes": 814,
+      "usuarios_curso": 283,
+      "procuras_simulacoes": 817,
       "inscricoes_iniciadas": 50,
       "inscricoes_concluidas": 0,
       "matriculas_confirmadas": 0,
       "vol_pre_live": 453,
-      "vol_durante_live": 361
+      "vol_durante_live": 364
     },
     {
       "curso_norm": "musica",
-      "usuarios_curso": 141,
-      "procuras_simulacoes": 440,
+      "usuarios_curso": 143,
+      "procuras_simulacoes": 446,
       "inscricoes_iniciadas": 49,
       "inscricoes_concluidas": 0,
       "matriculas_confirmadas": 0,
       "vol_pre_live": 255,
-      "vol_durante_live": 185
+      "vol_durante_live": 191
     },
     {
       "curso_norm": "logistica",
@@ -3121,13 +3131,13 @@
     },
     {
       "curso_norm": "nutricao",
-      "usuarios_curso": 481,
-      "procuras_simulacoes": 1357,
+      "usuarios_curso": 482,
+      "procuras_simulacoes": 1361,
       "inscricoes_iniciadas": 33,
       "inscricoes_concluidas": 0,
       "matriculas_confirmadas": 0,
       "vol_pre_live": 731,
-      "vol_durante_live": 626
+      "vol_durante_live": 630
     },
     {
       "curso_norm": "engenharia ambiental e sanitaria",
@@ -3141,23 +3151,23 @@
     },
     {
       "curso_norm": "tecnologia em estetica e cosmetica",
-      "usuarios_curso": 207,
-      "procuras_simulacoes": 605,
+      "usuarios_curso": 209,
+      "procuras_simulacoes": 611,
       "inscricoes_iniciadas": 31,
       "inscricoes_concluidas": 0,
       "matriculas_confirmadas": 0,
       "vol_pre_live": 270,
-      "vol_durante_live": 335
+      "vol_durante_live": 341
     },
     {
       "curso_norm": "terapia ocupacional",
-      "usuarios_curso": 705,
-      "procuras_simulacoes": 1374,
+      "usuarios_curso": 706,
+      "procuras_simulacoes": 1376,
       "inscricoes_iniciadas": 30,
       "inscricoes_concluidas": 0,
       "matriculas_confirmadas": 1,
       "vol_pre_live": 743,
-      "vol_durante_live": 631
+      "vol_durante_live": 633
     },
     {
       "curso_norm": "gestao da qualidade",
@@ -3171,13 +3181,13 @@
     },
     {
       "curso_norm": "ciencias biologicas",
-      "usuarios_curso": 225,
-      "procuras_simulacoes": 627,
+      "usuarios_curso": 227,
+      "procuras_simulacoes": 631,
       "inscricoes_iniciadas": 29,
       "inscricoes_concluidas": 0,
       "matriculas_confirmadas": 0,
       "vol_pre_live": 335,
-      "vol_durante_live": 292
+      "vol_durante_live": 296
     },
     {
       "curso_norm": "tecnologia em midias sociais digitais",
@@ -3191,13 +3201,13 @@
     },
     {
       "curso_norm": "engenharia mecanica",
-      "usuarios_curso": 335,
-      "procuras_simulacoes": 915,
+      "usuarios_curso": 336,
+      "procuras_simulacoes": 917,
       "inscricoes_iniciadas": 27,
       "inscricoes_concluidas": 0,
       "matriculas_confirmadas": 0,
       "vol_pre_live": 546,
-      "vol_durante_live": 369
+      "vol_durante_live": 371
     },
     {
       "curso_norm": "engenharia civil",
@@ -3212,12 +3222,12 @@
     {
       "curso_norm": "historia",
       "usuarios_curso": 116,
-      "procuras_simulacoes": 346,
+      "procuras_simulacoes": 347,
       "inscricoes_iniciadas": 25,
       "inscricoes_concluidas": 0,
       "matriculas_confirmadas": 0,
       "vol_pre_live": 186,
-      "vol_durante_live": 160
+      "vol_durante_live": 161
     },
     {
       "curso_norm": "gestao comercial",
@@ -3241,13 +3251,13 @@
     },
     {
       "curso_norm": "engenharia eletrica",
-      "usuarios_curso": 253,
-      "procuras_simulacoes": 682,
+      "usuarios_curso": 254,
+      "procuras_simulacoes": 685,
       "inscricoes_iniciadas": 22,
       "inscricoes_concluidas": 0,
       "matriculas_confirmadas": 0,
       "vol_pre_live": 414,
-      "vol_durante_live": 268
+      "vol_durante_live": 271
     },
     {
       "curso_norm": "gestao financeira",
@@ -3291,23 +3301,23 @@
     },
     {
       "curso_norm": "inteligencia artificial e machine learning",
-      "usuarios_curso": 148,
-      "procuras_simulacoes": 393,
+      "usuarios_curso": 149,
+      "procuras_simulacoes": 395,
       "inscricoes_iniciadas": 19,
       "inscricoes_concluidas": 0,
       "matriculas_confirmadas": 0,
       "vol_pre_live": 187,
-      "vol_durante_live": 206
+      "vol_durante_live": 208
     },
     {
       "curso_norm": "gestao do agronegocio",
-      "usuarios_curso": 136,
-      "procuras_simulacoes": 378,
+      "usuarios_curso": 137,
+      "procuras_simulacoes": 381,
       "inscricoes_iniciadas": 19,
       "inscricoes_concluidas": 0,
       "matriculas_confirmadas": 0,
       "vol_pre_live": 186,
-      "vol_durante_live": 192
+      "vol_durante_live": 195
     },
     {
       "curso_norm": "formacao pedagogica em ciencias biologicas",
@@ -3321,13 +3331,13 @@
     },
     {
       "curso_norm": "segunda licenciatura em artes visuais",
-      "usuarios_curso": 63,
-      "procuras_simulacoes": 134,
+      "usuarios_curso": 64,
+      "procuras_simulacoes": 135,
       "inscricoes_iniciadas": 19,
       "inscricoes_concluidas": 0,
       "matriculas_confirmadas": 0,
       "vol_pre_live": 64,
-      "vol_durante_live": 72
+      "vol_durante_live": 73
     },
     {
       "curso_norm": "letras ingles",
@@ -3401,13 +3411,13 @@
     },
     {
       "curso_norm": "gestao da tecnologia da informacao",
-      "usuarios_curso": 176,
-      "procuras_simulacoes": 458,
+      "usuarios_curso": 177,
+      "procuras_simulacoes": 461,
       "inscricoes_iniciadas": 13,
       "inscricoes_concluidas": 0,
       "matriculas_confirmadas": 0,
       "vol_pre_live": 224,
-      "vol_durante_live": 234
+      "vol_durante_live": 237
     },
     {
       "curso_norm": "comercio exterior",
@@ -3422,12 +3432,12 @@
     {
       "curso_norm": "antropologia",
       "usuarios_curso": 103,
-      "procuras_simulacoes": 229,
+      "procuras_simulacoes": 232,
       "inscricoes_iniciadas": 13,
       "inscricoes_concluidas": 0,
       "matriculas_confirmadas": 0,
       "vol_pre_live": 130,
-      "vol_durante_live": 104
+      "vol_durante_live": 107
     },
     {
       "curso_norm": "engenharia da producao",
@@ -3441,7 +3451,7 @@
     },
     {
       "curso_norm": "secretariado",
-      "usuarios_curso": 114,
+      "usuarios_curso": 115,
       "procuras_simulacoes": 263,
       "inscricoes_iniciadas": 12,
       "inscricoes_concluidas": 0,
@@ -3451,13 +3461,13 @@
     },
     {
       "curso_norm": "gestao de investimentos e mercado financeiro",
-      "usuarios_curso": 93,
-      "procuras_simulacoes": 256,
+      "usuarios_curso": 94,
+      "procuras_simulacoes": 258,
       "inscricoes_iniciadas": 12,
       "inscricoes_concluidas": 0,
       "matriculas_confirmadas": 0,
       "vol_pre_live": 179,
-      "vol_durante_live": 77
+      "vol_durante_live": 79
     },
     {
       "curso_norm": "gestao de turismo",
@@ -3471,13 +3481,13 @@
     },
     {
       "curso_norm": "gestao de farmacia",
-      "usuarios_curso": 176,
-      "procuras_simulacoes": 449,
+      "usuarios_curso": 179,
+      "procuras_simulacoes": 456,
       "inscricoes_iniciadas": 11,
       "inscricoes_concluidas": 0,
       "matriculas_confirmadas": 0,
       "vol_pre_live": 237,
-      "vol_durante_live": 212
+      "vol_durante_live": 219
     },
     {
       "curso_norm": "danca",
@@ -3541,23 +3551,23 @@
     },
     {
       "curso_norm": "tecnologia em gestao de negocios imobiliarios",
-      "usuarios_curso": 229,
-      "procuras_simulacoes": 633,
+      "usuarios_curso": 231,
+      "procuras_simulacoes": 637,
       "inscricoes_iniciadas": 9,
       "inscricoes_concluidas": 0,
       "matriculas_confirmadas": 0,
       "vol_pre_live": 340,
-      "vol_durante_live": 293
+      "vol_durante_live": 297
     },
     {
       "curso_norm": "letras libras licenciatura",
-      "usuarios_curso": 102,
-      "procuras_simulacoes": 287,
+      "usuarios_curso": 103,
+      "procuras_simulacoes": 290,
       "inscricoes_iniciadas": 8,
       "inscricoes_concluidas": 0,
       "matriculas_confirmadas": 0,
       "vol_pre_live": 157,
-      "vol_durante_live": 130
+      "vol_durante_live": 133
     },
     {
       "curso_norm": "tecnologia em gestao de servicos judiciais e notariais",
@@ -3571,13 +3581,13 @@
     },
     {
       "curso_norm": "formacao pedagogica em filosofia",
-      "usuarios_curso": 46,
-      "procuras_simulacoes": 137,
+      "usuarios_curso": 47,
+      "procuras_simulacoes": 139,
       "inscricoes_iniciadas": 8,
       "inscricoes_concluidas": 0,
       "matriculas_confirmadas": 0,
       "vol_pre_live": 83,
-      "vol_durante_live": 54
+      "vol_durante_live": 56
     },
     {
       "curso_norm": "transtorno do espectro autista   tea",
@@ -3602,12 +3612,12 @@
     {
       "curso_norm": "investigacao e pericia judicial",
       "usuarios_curso": 70,
-      "procuras_simulacoes": 174,
+      "procuras_simulacoes": 175,
       "inscricoes_iniciadas": 7,
       "inscricoes_concluidas": 0,
       "matriculas_confirmadas": 0,
       "vol_pre_live": 88,
-      "vol_durante_live": 86
+      "vol_durante_live": 87
     },
     {
       "curso_norm": "formacao pedagogica em matematica",
@@ -3691,13 +3701,13 @@
     },
     {
       "curso_norm": "segunda licenciatura em filosofia",
-      "usuarios_curso": 32,
-      "procuras_simulacoes": 77,
+      "usuarios_curso": 33,
+      "procuras_simulacoes": 78,
       "inscricoes_iniciadas": 6,
       "inscricoes_concluidas": 0,
       "matriculas_confirmadas": 0,
       "vol_pre_live": 35,
-      "vol_durante_live": 42
+      "vol_durante_live": 43
     },
     {
       "curso_norm": "redes de computadores tecnologia em redes de computadores",
@@ -3880,16 +3890,6 @@
       "vol_durante_live": 2
     },
     {
-      "curso_norm": "ciência política",
-      "usuarios_curso": 24,
-      "procuras_simulacoes": 0,
-      "inscricoes_iniciadas": 4,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 3,
-      "vol_durante_live": 1
-    },
-    {
       "curso_norm": "acompanhamento do transtorno do espectro autista semipresencial",
       "usuarios_curso": 6,
       "procuras_simulacoes": 0,
@@ -3908,6 +3908,16 @@
       "matriculas_confirmadas": 0,
       "vol_pre_live": 4,
       "vol_durante_live": 0
+    },
+    {
+      "curso_norm": "ciência política",
+      "usuarios_curso": 24,
+      "procuras_simulacoes": 0,
+      "inscricoes_iniciadas": 4,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 3,
+      "vol_durante_live": 1
     },
     {
       "curso_norm": "educacao fisica",
@@ -3940,14 +3950,24 @@
       "vol_durante_live": 71
     },
     {
+      "curso_norm": "relacoes publicas",
+      "usuarios_curso": 60,
+      "procuras_simulacoes": 173,
+      "inscricoes_iniciadas": 3,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 80,
+      "vol_durante_live": 93
+    },
+    {
       "curso_norm": "gestao da qualidade e seguranca dos alimentos",
-      "usuarios_curso": 102,
-      "procuras_simulacoes": 154,
+      "usuarios_curso": 103,
+      "procuras_simulacoes": 155,
       "inscricoes_iniciadas": 3,
       "inscricoes_concluidas": 0,
       "matriculas_confirmadas": 0,
       "vol_pre_live": 102,
-      "vol_durante_live": 55
+      "vol_durante_live": 56
     },
     {
       "curso_norm": "formacao pedagogica em letras ingles",
@@ -4060,6 +4080,16 @@
       "vol_durante_live": 6
     },
     {
+      "curso_norm": "auditoria, contabilidade e pericia contabil",
+      "usuarios_curso": 3,
+      "procuras_simulacoes": 0,
+      "inscricoes_iniciadas": 3,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 3,
+      "vol_durante_live": 0
+    },
+    {
       "curso_norm": "administração pública",
       "usuarios_curso": 43,
       "procuras_simulacoes": 0,
@@ -4070,7 +4100,7 @@
       "vol_durante_live": 1
     },
     {
-      "curso_norm": "auditoria, contabilidade e pericia contabil",
+      "curso_norm": "mba em marketing digital, ia generativa e estrategias de automacao de vendas",
       "usuarios_curso": 3,
       "procuras_simulacoes": 0,
       "inscricoes_iniciadas": 3,
@@ -4090,16 +4120,6 @@
       "vol_durante_live": 2
     },
     {
-      "curso_norm": "mba em marketing digital, ia generativa e estrategias de automacao de vendas",
-      "usuarios_curso": 3,
-      "procuras_simulacoes": 0,
-      "inscricoes_iniciadas": 3,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 3,
-      "vol_durante_live": 0
-    },
-    {
       "curso_norm": "sistemas de informacao",
       "usuarios_curso": 198,
       "procuras_simulacoes": 332,
@@ -4108,16 +4128,6 @@
       "matriculas_confirmadas": 0,
       "vol_pre_live": 189,
       "vol_durante_live": 143
-    },
-    {
-      "curso_norm": "relacoes publicas",
-      "usuarios_curso": 59,
-      "procuras_simulacoes": 170,
-      "inscricoes_iniciadas": 2,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 80,
-      "vol_durante_live": 90
     },
     {
       "curso_norm": "geografia",
@@ -4142,12 +4152,12 @@
     {
       "curso_norm": "sociologia",
       "usuarios_curso": 59,
-      "procuras_simulacoes": 141,
+      "procuras_simulacoes": 142,
       "inscricoes_iniciadas": 2,
       "inscricoes_concluidas": 0,
       "matriculas_confirmadas": 0,
       "vol_pre_live": 70,
-      "vol_durante_live": 71
+      "vol_durante_live": 72
     },
     {
       "curso_norm": "formacao pedagogica em educacao especial",
@@ -4300,16 +4310,6 @@
       "vol_durante_live": 4
     },
     {
-      "curso_norm": "gestao de negocios digitais",
-      "usuarios_curso": 6,
-      "procuras_simulacoes": 11,
-      "inscricoes_iniciadas": 2,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 10,
-      "vol_durante_live": 3
-    },
-    {
       "curso_norm": "inteligencia artificial aplicada a saude",
       "usuarios_curso": 9,
       "procuras_simulacoes": 11,
@@ -4318,6 +4318,16 @@
       "matriculas_confirmadas": 0,
       "vol_pre_live": 8,
       "vol_durante_live": 5
+    },
+    {
+      "curso_norm": "gestao de negocios digitais",
+      "usuarios_curso": 6,
+      "procuras_simulacoes": 11,
+      "inscricoes_iniciadas": 2,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 10,
+      "vol_durante_live": 3
     },
     {
       "curso_norm": "astronomia",
@@ -4350,24 +4360,14 @@
       "vol_durante_live": 0
     },
     {
-      "curso_norm": "geografia semipresencial",
-      "usuarios_curso": 2,
+      "curso_norm": "formação pedagógica em história",
+      "usuarios_curso": 25,
       "procuras_simulacoes": 0,
       "inscricoes_iniciadas": 2,
       "inscricoes_concluidas": 0,
       "matriculas_confirmadas": 0,
-      "vol_pre_live": 0,
-      "vol_durante_live": 2
-    },
-    {
-      "curso_norm": "gestao de pessoas: treinamento e desenvolvimento",
-      "usuarios_curso": 2,
-      "procuras_simulacoes": 0,
-      "inscricoes_iniciadas": 2,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 2,
-      "vol_durante_live": 0
+      "vol_pre_live": 1,
+      "vol_durante_live": 1
     },
     {
       "curso_norm": "sociologia semipresencial",
@@ -4380,8 +4380,28 @@
       "vol_durante_live": 0
     },
     {
-      "curso_norm": "neuropsicologia e intervencoes no trauma, crise e luto",
+      "curso_norm": "geografia semipresencial",
+      "usuarios_curso": 2,
+      "procuras_simulacoes": 0,
+      "inscricoes_iniciadas": 2,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 0,
+      "vol_durante_live": 2
+    },
+    {
+      "curso_norm": "mba em hiperautomacao com ia: rpa, bots e automacao de processos",
       "usuarios_curso": 1,
+      "procuras_simulacoes": 0,
+      "inscricoes_iniciadas": 2,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 2,
+      "vol_durante_live": 0
+    },
+    {
+      "curso_norm": "gestao de pessoas: treinamento e desenvolvimento",
+      "usuarios_curso": 2,
       "procuras_simulacoes": 0,
       "inscricoes_iniciadas": 2,
       "inscricoes_concluidas": 0,
@@ -4400,17 +4420,7 @@
       "vol_durante_live": 2
     },
     {
-      "curso_norm": "formação pedagógica em história",
-      "usuarios_curso": 25,
-      "procuras_simulacoes": 0,
-      "inscricoes_iniciadas": 2,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 1,
-      "vol_durante_live": 1
-    },
-    {
-      "curso_norm": "mba em hiperautomacao com ia: rpa, bots e automacao de processos",
+      "curso_norm": "neuropsicologia e intervencoes no trauma, crise e luto",
       "usuarios_curso": 1,
       "procuras_simulacoes": 0,
       "inscricoes_iniciadas": 2,
@@ -4422,12 +4432,12 @@
     {
       "curso_norm": "medicina veterinaria",
       "usuarios_curso": 88,
-      "procuras_simulacoes": 236,
+      "procuras_simulacoes": 238,
       "inscricoes_iniciadas": 1,
       "inscricoes_concluidas": 0,
       "matriculas_confirmadas": 0,
       "vol_pre_live": 106,
-      "vol_durante_live": 130
+      "vol_durante_live": 132
     },
     {
       "curso_norm": "inteligencia artificial",
@@ -4451,13 +4461,13 @@
     },
     {
       "curso_norm": "segunda licenciatura em historia",
-      "usuarios_curso": 41,
-      "procuras_simulacoes": 109,
+      "usuarios_curso": 42,
+      "procuras_simulacoes": 111,
       "inscricoes_iniciadas": 1,
       "inscricoes_concluidas": 0,
       "matriculas_confirmadas": 0,
       "vol_pre_live": 54,
-      "vol_durante_live": 55
+      "vol_durante_live": 57
     },
     {
       "curso_norm": "mba em recursos humanos",
@@ -4511,13 +4521,13 @@
     },
     {
       "curso_norm": "administracao financeira",
-      "usuarios_curso": 33,
-      "procuras_simulacoes": 50,
+      "usuarios_curso": 34,
+      "procuras_simulacoes": 51,
       "inscricoes_iniciadas": 1,
       "inscricoes_concluidas": 0,
       "matriculas_confirmadas": 0,
       "vol_pre_live": 23,
-      "vol_durante_live": 28
+      "vol_durante_live": 29
     },
     {
       "curso_norm": "educacao fisica escolar",
@@ -4580,16 +4590,6 @@
       "vol_durante_live": 9
     },
     {
-      "curso_norm": "coordenacao pedagogica com enfase em gestao de pessoas",
-      "usuarios_curso": 22,
-      "procuras_simulacoes": 29,
-      "inscricoes_iniciadas": 1,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 21,
-      "vol_durante_live": 9
-    },
-    {
       "curso_norm": "secretariado executivo",
       "usuarios_curso": 18,
       "procuras_simulacoes": 29,
@@ -4598,6 +4598,16 @@
       "matriculas_confirmadas": 0,
       "vol_pre_live": 15,
       "vol_durante_live": 15
+    },
+    {
+      "curso_norm": "coordenacao pedagogica com enfase em gestao de pessoas",
+      "usuarios_curso": 22,
+      "procuras_simulacoes": 29,
+      "inscricoes_iniciadas": 1,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 21,
+      "vol_durante_live": 9
     },
     {
       "curso_norm": "cyber threat intelligence (cti) e inteligencia artificial na ciberseguranca",
@@ -4710,26 +4720,6 @@
       "vol_durante_live": 8
     },
     {
-      "curso_norm": "ingles basico i",
-      "usuarios_curso": 14,
-      "procuras_simulacoes": 16,
-      "inscricoes_iniciadas": 1,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 6,
-      "vol_durante_live": 11
-    },
-    {
-      "curso_norm": "metodologia do ensino de quimica",
-      "usuarios_curso": 11,
-      "procuras_simulacoes": 16,
-      "inscricoes_iniciadas": 1,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 8,
-      "vol_durante_live": 9
-    },
-    {
       "curso_norm": "docencia na educacao infantil",
       "usuarios_curso": 11,
       "procuras_simulacoes": 16,
@@ -4748,6 +4738,26 @@
       "matriculas_confirmadas": 0,
       "vol_pre_live": 11,
       "vol_durante_live": 6
+    },
+    {
+      "curso_norm": "metodologia do ensino de quimica",
+      "usuarios_curso": 11,
+      "procuras_simulacoes": 16,
+      "inscricoes_iniciadas": 1,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 8,
+      "vol_durante_live": 9
+    },
+    {
+      "curso_norm": "ingles basico i",
+      "usuarios_curso": 14,
+      "procuras_simulacoes": 16,
+      "inscricoes_iniciadas": 1,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 6,
+      "vol_durante_live": 11
     },
     {
       "curso_norm": "contabilidade e gestao de pessoas",
@@ -4790,14 +4800,14 @@
       "vol_durante_live": 5
     },
     {
-      "curso_norm": "informatica basica",
-      "usuarios_curso": 10,
+      "curso_norm": "direitos humanos.",
+      "usuarios_curso": 12,
       "procuras_simulacoes": 12,
       "inscricoes_iniciadas": 1,
       "inscricoes_concluidas": 0,
       "matriculas_confirmadas": 0,
-      "vol_pre_live": 5,
-      "vol_durante_live": 8
+      "vol_pre_live": 7,
+      "vol_durante_live": 6
     },
     {
       "curso_norm": "gestao de pessoas e o direito administrativo no setor publico",
@@ -4810,14 +4820,24 @@
       "vol_durante_live": 2
     },
     {
-      "curso_norm": "direitos humanos.",
-      "usuarios_curso": 12,
+      "curso_norm": "informatica basica",
+      "usuarios_curso": 10,
       "procuras_simulacoes": 12,
       "inscricoes_iniciadas": 1,
       "inscricoes_concluidas": 0,
       "matriculas_confirmadas": 0,
-      "vol_pre_live": 7,
-      "vol_durante_live": 6
+      "vol_pre_live": 5,
+      "vol_durante_live": 8
+    },
+    {
+      "curso_norm": "big data e gestao estrategica da informacao",
+      "usuarios_curso": 8,
+      "procuras_simulacoes": 11,
+      "inscricoes_iniciadas": 1,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 8,
+      "vol_durante_live": 4
     },
     {
       "curso_norm": "arquitetura de ciberseguranca e engenharia de plataforma",
@@ -4840,18 +4860,8 @@
       "vol_durante_live": 5
     },
     {
-      "curso_norm": "big data e gestao estrategica da informacao",
+      "curso_norm": "higiene e inspecao de alimentos",
       "usuarios_curso": 8,
-      "procuras_simulacoes": 11,
-      "inscricoes_iniciadas": 1,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 8,
-      "vol_durante_live": 4
-    },
-    {
-      "curso_norm": "administracao imobiliaria",
-      "usuarios_curso": 10,
       "procuras_simulacoes": 10,
       "inscricoes_iniciadas": 1,
       "inscricoes_concluidas": 0,
@@ -4860,8 +4870,8 @@
       "vol_durante_live": 5
     },
     {
-      "curso_norm": "higiene e inspecao de alimentos",
-      "usuarios_curso": 8,
+      "curso_norm": "administracao imobiliaria",
+      "usuarios_curso": 10,
       "procuras_simulacoes": 10,
       "inscricoes_iniciadas": 1,
       "inscricoes_concluidas": 0,
@@ -4880,8 +4890,8 @@
       "vol_durante_live": 7
     },
     {
-      "curso_norm": "atendimento ao cliente",
-      "usuarios_curso": 9,
+      "curso_norm": "educacao financeira",
+      "usuarios_curso": 10,
       "procuras_simulacoes": 9,
       "inscricoes_iniciadas": 1,
       "inscricoes_concluidas": 0,
@@ -4890,8 +4900,8 @@
       "vol_durante_live": 5
     },
     {
-      "curso_norm": "educacao financeira",
-      "usuarios_curso": 10,
+      "curso_norm": "atendimento ao cliente",
+      "usuarios_curso": 9,
       "procuras_simulacoes": 9,
       "inscricoes_iniciadas": 1,
       "inscricoes_concluidas": 0,
@@ -4990,16 +5000,6 @@
       "vol_durante_live": 3
     },
     {
-      "curso_norm": "contribuicao indigena e africana na formacao do povo brasileiro",
-      "usuarios_curso": 3,
-      "procuras_simulacoes": 4,
-      "inscricoes_iniciadas": 1,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 1,
-      "vol_durante_live": 4
-    },
-    {
       "curso_norm": "interpretacao de texto",
       "usuarios_curso": 4,
       "procuras_simulacoes": 4,
@@ -5008,6 +5008,16 @@
       "matriculas_confirmadas": 0,
       "vol_pre_live": 2,
       "vol_durante_live": 3
+    },
+    {
+      "curso_norm": "contribuicao indigena e africana na formacao do povo brasileiro",
+      "usuarios_curso": 3,
+      "procuras_simulacoes": 4,
+      "inscricoes_iniciadas": 1,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 1,
+      "vol_durante_live": 4
     },
     {
       "curso_norm": "psicanalise e a clinica da angustia e do trauma",
@@ -5020,8 +5030,8 @@
       "vol_durante_live": 1
     },
     {
-      "curso_norm": "mba em comportamento organizacional, clima e engajamento de pessoas",
-      "usuarios_curso": 7,
+      "curso_norm": "educacao financeira no ensino escolar",
+      "usuarios_curso": 2,
       "procuras_simulacoes": 3,
       "inscricoes_iniciadas": 1,
       "inscricoes_concluidas": 0,
@@ -5040,8 +5050,8 @@
       "vol_durante_live": 4
     },
     {
-      "curso_norm": "educacao financeira no ensino escolar",
-      "usuarios_curso": 2,
+      "curso_norm": "mba em comportamento organizacional, clima e engajamento de pessoas",
+      "usuarios_curso": 7,
       "procuras_simulacoes": 3,
       "inscricoes_iniciadas": 1,
       "inscricoes_concluidas": 0,
@@ -5070,64 +5080,14 @@
       "vol_durante_live": 1
     },
     {
-      "curso_norm": "gestao social: politicas publicas, redes e defesa de direitos",
-      "usuarios_curso": 1,
-      "procuras_simulacoes": 0,
-      "inscricoes_iniciadas": 1,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 1,
-      "vol_durante_live": 0
-    },
-    {
-      "curso_norm": "mba em lideranca comportamental, psicologia social e estrategias de influencia politica",
-      "usuarios_curso": 1,
-      "procuras_simulacoes": 0,
-      "inscricoes_iniciadas": 1,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 1,
-      "vol_durante_live": 0
-    },
-    {
-      "curso_norm": "tecnologia em gestão de eventos",
-      "usuarios_curso": 9,
-      "procuras_simulacoes": 0,
-      "inscricoes_iniciadas": 1,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 1,
-      "vol_durante_live": 0
-    },
-    {
-      "curso_norm": "formação pedagógica em artes visuais",
-      "usuarios_curso": 19,
-      "procuras_simulacoes": 0,
-      "inscricoes_iniciadas": 1,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 1,
-      "vol_durante_live": 0
-    },
-    {
-      "curso_norm": "direitos humanos e enfrentamento a violencia: perspectivas de genero e inclusao",
-      "usuarios_curso": 1,
+      "curso_norm": "enfermagem: geriatria e gerontologia",
+      "usuarios_curso": 3,
       "procuras_simulacoes": 0,
       "inscricoes_iniciadas": 1,
       "inscricoes_concluidas": 0,
       "matriculas_confirmadas": 0,
       "vol_pre_live": 0,
       "vol_durante_live": 1
-    },
-    {
-      "curso_norm": "educacao, cultura e diversidade",
-      "usuarios_curso": 1,
-      "procuras_simulacoes": 0,
-      "inscricoes_iniciadas": 1,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 1,
-      "vol_durante_live": 0
     },
     {
       "curso_norm": "neurociencias aplicadas a saude e bem estar",
@@ -5140,47 +5100,7 @@
       "vol_durante_live": 1
     },
     {
-      "curso_norm": "direito notarial, registral e pratica extrajudicial",
-      "usuarios_curso": 1,
-      "procuras_simulacoes": 0,
-      "inscricoes_iniciadas": 1,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 1,
-      "vol_durante_live": 0
-    },
-    {
       "curso_norm": "mba em storytelling estrategico, narrativas de marca e content marketing",
-      "usuarios_curso": 1,
-      "procuras_simulacoes": 0,
-      "inscricoes_iniciadas": 1,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 0,
-      "vol_durante_live": 1
-    },
-    {
-      "curso_norm": "segurança da informação",
-      "usuarios_curso": 25,
-      "procuras_simulacoes": 0,
-      "inscricoes_iniciadas": 1,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 1,
-      "vol_durante_live": 0
-    },
-    {
-      "curso_norm": "nutrição",
-      "usuarios_curso": 389,
-      "procuras_simulacoes": 0,
-      "inscricoes_iniciadas": 1,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 1,
-      "vol_pre_live": 1,
-      "vol_durante_live": 0
-    },
-    {
-      "curso_norm": "enfermagem em assistencia materno infantil",
       "usuarios_curso": 1,
       "procuras_simulacoes": 0,
       "inscricoes_iniciadas": 1,
@@ -5200,47 +5120,7 @@
       "vol_durante_live": 0
     },
     {
-      "curso_norm": "gestão de cooperativas (tecnologia em gestão de cooperativas)",
-      "usuarios_curso": 21,
-      "procuras_simulacoes": 0,
-      "inscricoes_iniciadas": 1,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 0,
-      "vol_durante_live": 1
-    },
-    {
-      "curso_norm": "mba em produtos bancarios, credito e analise de risco de credito",
-      "usuarios_curso": 1,
-      "procuras_simulacoes": 0,
-      "inscricoes_iniciadas": 1,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 0,
-      "vol_durante_live": 1
-    },
-    {
-      "curso_norm": "formação pedagógica em geografia",
-      "usuarios_curso": 10,
-      "procuras_simulacoes": 0,
-      "inscricoes_iniciadas": 1,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 1,
-      "vol_durante_live": 0
-    },
-    {
       "curso_norm": "gestao de e commerce",
-      "usuarios_curso": 1,
-      "procuras_simulacoes": 0,
-      "inscricoes_iniciadas": 1,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 0,
-      "vol_durante_live": 1
-    },
-    {
-      "curso_norm": "compliance, governanca e gestao de riscos corporativos",
       "usuarios_curso": 1,
       "procuras_simulacoes": 0,
       "inscricoes_iniciadas": 1,
@@ -5260,7 +5140,17 @@
       "vol_durante_live": 0
     },
     {
-      "curso_norm": "segurança do trabalho",
+      "curso_norm": "formação pedagógica em geografia",
+      "usuarios_curso": 10,
+      "procuras_simulacoes": 0,
+      "inscricoes_iniciadas": 1,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 1,
+      "vol_durante_live": 0
+    },
+    {
+      "curso_norm": "educacao, cultura e diversidade",
       "usuarios_curso": 1,
       "procuras_simulacoes": 0,
       "inscricoes_iniciadas": 1,
@@ -5270,8 +5160,48 @@
       "vol_durante_live": 0
     },
     {
-      "curso_norm": "engenharia elétrica",
-      "usuarios_curso": 93,
+      "curso_norm": "operacoes de drones e vants: legislacao e aplicacoes setoriais",
+      "usuarios_curso": 1,
+      "procuras_simulacoes": 0,
+      "inscricoes_iniciadas": 1,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 1,
+      "vol_durante_live": 0
+    },
+    {
+      "curso_norm": "medicina veterinária",
+      "usuarios_curso": 34,
+      "procuras_simulacoes": 0,
+      "inscricoes_iniciadas": 1,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 1,
+      "vol_durante_live": 0
+    },
+    {
+      "curso_norm": "enfermagem em assistencia materno infantil",
+      "usuarios_curso": 1,
+      "procuras_simulacoes": 0,
+      "inscricoes_iniciadas": 1,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 0,
+      "vol_durante_live": 1
+    },
+    {
+      "curso_norm": "segurança da informação",
+      "usuarios_curso": 25,
+      "procuras_simulacoes": 0,
+      "inscricoes_iniciadas": 1,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 1,
+      "vol_durante_live": 0
+    },
+    {
+      "curso_norm": "gestao social: politicas publicas, redes e defesa de direitos",
+      "usuarios_curso": 1,
       "procuras_simulacoes": 0,
       "inscricoes_iniciadas": 1,
       "inscricoes_concluidas": 0,
@@ -5290,7 +5220,17 @@
       "vol_durante_live": 1
     },
     {
-      "curso_norm": "operacoes de drones e vants: legislacao e aplicacoes setoriais",
+      "curso_norm": "compliance, governanca e gestao de riscos corporativos",
+      "usuarios_curso": 1,
+      "procuras_simulacoes": 0,
+      "inscricoes_iniciadas": 1,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 0,
+      "vol_durante_live": 1
+    },
+    {
+      "curso_norm": "mba em lideranca comportamental, psicologia social e estrategias de influencia politica",
       "usuarios_curso": 1,
       "procuras_simulacoes": 0,
       "inscricoes_iniciadas": 1,
@@ -5298,6 +5238,16 @@
       "matriculas_confirmadas": 0,
       "vol_pre_live": 1,
       "vol_durante_live": 0
+    },
+    {
+      "curso_norm": "gestão de cooperativas (tecnologia em gestão de cooperativas)",
+      "usuarios_curso": 21,
+      "procuras_simulacoes": 0,
+      "inscricoes_iniciadas": 1,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 0,
+      "vol_durante_live": 1
     },
     {
       "curso_norm": "tradução",
@@ -5310,8 +5260,38 @@
       "vol_durante_live": 1
     },
     {
-      "curso_norm": "enfermagem: geriatria e gerontologia",
-      "usuarios_curso": 3,
+      "curso_norm": "segurança do trabalho",
+      "usuarios_curso": 1,
+      "procuras_simulacoes": 0,
+      "inscricoes_iniciadas": 1,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 1,
+      "vol_durante_live": 0
+    },
+    {
+      "curso_norm": "formação pedagógica em artes visuais",
+      "usuarios_curso": 19,
+      "procuras_simulacoes": 0,
+      "inscricoes_iniciadas": 1,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 1,
+      "vol_durante_live": 0
+    },
+    {
+      "curso_norm": "tecnologia em gestão de eventos",
+      "usuarios_curso": 9,
+      "procuras_simulacoes": 0,
+      "inscricoes_iniciadas": 1,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 1,
+      "vol_durante_live": 0
+    },
+    {
+      "curso_norm": "mba em produtos bancarios, credito e analise de risco de credito",
+      "usuarios_curso": 1,
       "procuras_simulacoes": 0,
       "inscricoes_iniciadas": 1,
       "inscricoes_concluidas": 0,
@@ -5320,8 +5300,28 @@
       "vol_durante_live": 1
     },
     {
-      "curso_norm": "medicina veterinária",
-      "usuarios_curso": 34,
+      "curso_norm": "nutrição",
+      "usuarios_curso": 390,
+      "procuras_simulacoes": 0,
+      "inscricoes_iniciadas": 1,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 1,
+      "vol_pre_live": 1,
+      "vol_durante_live": 0
+    },
+    {
+      "curso_norm": "direito notarial, registral e pratica extrajudicial",
+      "usuarios_curso": 1,
+      "procuras_simulacoes": 0,
+      "inscricoes_iniciadas": 1,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 1,
+      "vol_durante_live": 0
+    },
+    {
+      "curso_norm": "engenharia elétrica",
+      "usuarios_curso": 94,
       "procuras_simulacoes": 0,
       "inscricoes_iniciadas": 1,
       "inscricoes_concluidas": 0,
@@ -5460,16 +5460,6 @@
       "vol_durante_live": 21
     },
     {
-      "curso_norm": "contabilidade",
-      "usuarios_curso": 31,
-      "procuras_simulacoes": 52,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 24,
-      "vol_durante_live": 28
-    },
-    {
       "curso_norm": "cuidados paliativos e atencao domiciliar",
       "usuarios_curso": 24,
       "procuras_simulacoes": 52,
@@ -5478,6 +5468,16 @@
       "matriculas_confirmadas": 0,
       "vol_pre_live": 29,
       "vol_durante_live": 23
+    },
+    {
+      "curso_norm": "contabilidade",
+      "usuarios_curso": 31,
+      "procuras_simulacoes": 52,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 24,
+      "vol_durante_live": 28
     },
     {
       "curso_norm": "engenharia de prompt llmops e rag para modelos de linguagem",
@@ -5560,16 +5560,6 @@
       "vol_durante_live": 18
     },
     {
-      "curso_norm": "mba em gestao de processos",
-      "usuarios_curso": 26,
-      "procuras_simulacoes": 38,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 15,
-      "vol_durante_live": 23
-    },
-    {
       "curso_norm": "gestao e fiscalizacao de contratos e licitacoes publicas",
       "usuarios_curso": 28,
       "procuras_simulacoes": 38,
@@ -5578,6 +5568,16 @@
       "matriculas_confirmadas": 0,
       "vol_pre_live": 22,
       "vol_durante_live": 16
+    },
+    {
+      "curso_norm": "mba em gestao de processos",
+      "usuarios_curso": 26,
+      "procuras_simulacoes": 38,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 15,
+      "vol_durante_live": 23
     },
     {
       "curso_norm": "assistencia social e saude publica",
@@ -5600,6 +5600,16 @@
       "vol_durante_live": 15
     },
     {
+      "curso_norm": "fisioterapia traumatoortopedica funcional",
+      "usuarios_curso": 22,
+      "procuras_simulacoes": 37,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 19,
+      "vol_durante_live": 18
+    },
+    {
       "curso_norm": "abaanalise do comportamento aplicada a educacao inclusiva",
       "usuarios_curso": 23,
       "procuras_simulacoes": 36,
@@ -5608,16 +5618,6 @@
       "matriculas_confirmadas": 0,
       "vol_pre_live": 21,
       "vol_durante_live": 15
-    },
-    {
-      "curso_norm": "fisioterapia traumatoortopedica funcional",
-      "usuarios_curso": 22,
-      "procuras_simulacoes": 36,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 19,
-      "vol_durante_live": 17
     },
     {
       "curso_norm": "estrutura organizacional avaliacao controle e regulacao do sus",
@@ -5640,16 +5640,6 @@
       "vol_durante_live": 12
     },
     {
-      "curso_norm": "design de animacao",
-      "usuarios_curso": 14,
-      "procuras_simulacoes": 34,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 17,
-      "vol_durante_live": 17
-    },
-    {
       "curso_norm": "arte cultura e educacao",
       "usuarios_curso": 24,
       "procuras_simulacoes": 34,
@@ -5661,23 +5651,23 @@
     },
     {
       "curso_norm": "neurociencias aplicada a educacao e aprendizagem",
-      "usuarios_curso": 23,
-      "procuras_simulacoes": 33,
+      "usuarios_curso": 24,
+      "procuras_simulacoes": 34,
       "inscricoes_iniciadas": 0,
       "inscricoes_concluidas": 0,
       "matriculas_confirmadas": 0,
       "vol_pre_live": 22,
-      "vol_durante_live": 11
+      "vol_durante_live": 12
     },
     {
-      "curso_norm": "pericia judicial e extrajudicial producao de laudos e atuacao tecnica no judiciario",
-      "usuarios_curso": 20,
-      "procuras_simulacoes": 33,
+      "curso_norm": "design de animacao",
+      "usuarios_curso": 14,
+      "procuras_simulacoes": 34,
       "inscricoes_iniciadas": 0,
       "inscricoes_concluidas": 0,
       "matriculas_confirmadas": 0,
-      "vol_pre_live": 11,
-      "vol_durante_live": 22
+      "vol_pre_live": 17,
+      "vol_durante_live": 17
     },
     {
       "curso_norm": "administracao escolar supervisao e orientacao",
@@ -5690,6 +5680,16 @@
       "vol_durante_live": 15
     },
     {
+      "curso_norm": "pericia judicial e extrajudicial producao de laudos e atuacao tecnica no judiciario",
+      "usuarios_curso": 20,
+      "procuras_simulacoes": 33,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 11,
+      "vol_durante_live": 22
+    },
+    {
       "curso_norm": "mba em gestao de transportes fretes e movimentacao de cargas",
       "usuarios_curso": 20,
       "procuras_simulacoes": 32,
@@ -5700,16 +5700,6 @@
       "vol_durante_live": 12
     },
     {
-      "curso_norm": "gestao publica governanca e auditoria governamental",
-      "usuarios_curso": 18,
-      "procuras_simulacoes": 32,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 13,
-      "vol_durante_live": 19
-    },
-    {
       "curso_norm": "auditoria",
       "usuarios_curso": 17,
       "procuras_simulacoes": 32,
@@ -5718,6 +5708,16 @@
       "matriculas_confirmadas": 0,
       "vol_pre_live": 19,
       "vol_durante_live": 13
+    },
+    {
+      "curso_norm": "gestao publica governanca e auditoria governamental",
+      "usuarios_curso": 18,
+      "procuras_simulacoes": 32,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 13,
+      "vol_durante_live": 19
     },
     {
       "curso_norm": "neurociencias aplicadas a saude e bemestar",
@@ -5740,16 +5740,6 @@
       "vol_durante_live": 8
     },
     {
-      "curso_norm": "operacoes de drones e vants legislacao e aplicacoes setoriais",
-      "usuarios_curso": 18,
-      "procuras_simulacoes": 29,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 12,
-      "vol_durante_live": 17
-    },
-    {
       "curso_norm": "contabilidade financas e tributos",
       "usuarios_curso": 17,
       "procuras_simulacoes": 29,
@@ -5758,6 +5748,16 @@
       "matriculas_confirmadas": 0,
       "vol_pre_live": 14,
       "vol_durante_live": 15
+    },
+    {
+      "curso_norm": "operacoes de drones e vants legislacao e aplicacoes setoriais",
+      "usuarios_curso": 18,
+      "procuras_simulacoes": 29,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 12,
+      "vol_durante_live": 17
     },
     {
       "curso_norm": "contabilidade rural e agronegocio",
@@ -5780,16 +5780,6 @@
       "vol_durante_live": 16
     },
     {
-      "curso_norm": "mba em supply chain management gerenciamento da cadeia de suprimentos",
-      "usuarios_curso": 16,
-      "procuras_simulacoes": 26,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 7,
-      "vol_durante_live": 19
-    },
-    {
       "curso_norm": "governanca e sustentabilidade",
       "usuarios_curso": 14,
       "procuras_simulacoes": 26,
@@ -5800,14 +5790,14 @@
       "vol_durante_live": 8
     },
     {
-      "curso_norm": "enfermagem dermatologica com enfase em feridas",
-      "usuarios_curso": 13,
-      "procuras_simulacoes": 25,
+      "curso_norm": "mba em supply chain management gerenciamento da cadeia de suprimentos",
+      "usuarios_curso": 16,
+      "procuras_simulacoes": 26,
       "inscricoes_iniciadas": 0,
       "inscricoes_concluidas": 0,
       "matriculas_confirmadas": 0,
-      "vol_pre_live": 19,
-      "vol_durante_live": 6
+      "vol_pre_live": 7,
+      "vol_durante_live": 19
     },
     {
       "curso_norm": "arte e educacao",
@@ -5820,44 +5810,14 @@
       "vol_durante_live": 14
     },
     {
-      "curso_norm": "auditoria contabil e controladoria",
-      "usuarios_curso": 14,
-      "procuras_simulacoes": 24,
+      "curso_norm": "enfermagem dermatologica com enfase em feridas",
+      "usuarios_curso": 13,
+      "procuras_simulacoes": 25,
       "inscricoes_iniciadas": 0,
       "inscricoes_concluidas": 0,
       "matriculas_confirmadas": 0,
-      "vol_pre_live": 17,
-      "vol_durante_live": 7
-    },
-    {
-      "curso_norm": "mba em melhoria continua lean manufacturing e seis sigma",
-      "usuarios_curso": 15,
-      "procuras_simulacoes": 24,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 16,
-      "vol_durante_live": 8
-    },
-    {
-      "curso_norm": "mba em gestao de projetos pmo estrategico e metodologias ageis (scrum/lean)",
-      "usuarios_curso": 10,
-      "procuras_simulacoes": 24,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 18,
+      "vol_pre_live": 19,
       "vol_durante_live": 6
-    },
-    {
-      "curso_norm": "educacao matematica",
-      "usuarios_curso": 16,
-      "procuras_simulacoes": 24,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 16,
-      "vol_durante_live": 8
     },
     {
       "curso_norm": "direito notarial registral e pratica extrajudicial",
@@ -5880,6 +5840,26 @@
       "vol_durante_live": 9
     },
     {
+      "curso_norm": "mba em gestao de projetos pmo estrategico e metodologias ageis (scrum/lean)",
+      "usuarios_curso": 10,
+      "procuras_simulacoes": 24,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 18,
+      "vol_durante_live": 6
+    },
+    {
+      "curso_norm": "mba em melhoria continua lean manufacturing e seis sigma",
+      "usuarios_curso": 15,
+      "procuras_simulacoes": 24,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 16,
+      "vol_durante_live": 8
+    },
+    {
       "curso_norm": "engenharia de dados data warehousing e big data",
       "usuarios_curso": 20,
       "procuras_simulacoes": 24,
@@ -5890,14 +5870,14 @@
       "vol_durante_live": 2
     },
     {
-      "curso_norm": "diagnostico e interpretacao em imagenologia",
+      "curso_norm": "compliance governanca corporativa e auditoria",
       "usuarios_curso": 15,
       "procuras_simulacoes": 24,
       "inscricoes_iniciadas": 0,
       "inscricoes_concluidas": 0,
       "matriculas_confirmadas": 0,
-      "vol_pre_live": 13,
-      "vol_durante_live": 11
+      "vol_pre_live": 10,
+      "vol_durante_live": 14
     },
     {
       "curso_norm": "gestao de operacoes e logistica",
@@ -5910,14 +5890,34 @@
       "vol_durante_live": 15
     },
     {
-      "curso_norm": "compliance governanca corporativa e auditoria",
+      "curso_norm": "diagnostico e interpretacao em imagenologia",
       "usuarios_curso": 15,
       "procuras_simulacoes": 24,
       "inscricoes_iniciadas": 0,
       "inscricoes_concluidas": 0,
       "matriculas_confirmadas": 0,
-      "vol_pre_live": 10,
-      "vol_durante_live": 14
+      "vol_pre_live": 13,
+      "vol_durante_live": 11
+    },
+    {
+      "curso_norm": "educacao matematica",
+      "usuarios_curso": 16,
+      "procuras_simulacoes": 24,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 16,
+      "vol_durante_live": 8
+    },
+    {
+      "curso_norm": "auditoria contabil e controladoria",
+      "usuarios_curso": 14,
+      "procuras_simulacoes": 24,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 17,
+      "vol_durante_live": 7
     },
     {
       "curso_norm": "fisioterapia em reabilitacao neurologica",
@@ -5980,14 +5980,24 @@
       "vol_durante_live": 10
     },
     {
-      "curso_norm": "medicina tropical",
-      "usuarios_curso": 16,
+      "curso_norm": "metodologia do ensino religioso",
+      "usuarios_curso": 13,
       "procuras_simulacoes": 21,
       "inscricoes_iniciadas": 0,
       "inscricoes_concluidas": 0,
       "matriculas_confirmadas": 0,
-      "vol_pre_live": 10,
-      "vol_durante_live": 11
+      "vol_pre_live": 8,
+      "vol_durante_live": 13
+    },
+    {
+      "curso_norm": "enfermagem em saude da mulher",
+      "usuarios_curso": 12,
+      "procuras_simulacoes": 21,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 15,
+      "vol_durante_live": 6
     },
     {
       "curso_norm": "educacao cultura e diversidade",
@@ -6010,24 +6020,14 @@
       "vol_durante_live": 11
     },
     {
-      "curso_norm": "metodologia do ensino religioso",
-      "usuarios_curso": 13,
+      "curso_norm": "medicina tropical",
+      "usuarios_curso": 16,
       "procuras_simulacoes": 21,
       "inscricoes_iniciadas": 0,
       "inscricoes_concluidas": 0,
       "matriculas_confirmadas": 0,
-      "vol_pre_live": 8,
-      "vol_durante_live": 13
-    },
-    {
-      "curso_norm": "enfermagem em saude da mulher",
-      "usuarios_curso": 12,
-      "procuras_simulacoes": 21,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 15,
-      "vol_durante_live": 6
+      "vol_pre_live": 10,
+      "vol_durante_live": 11
     },
     {
       "curso_norm": "psicomotricidade e o processo de ensino aprendizagem",
@@ -6048,6 +6048,16 @@
       "matriculas_confirmadas": 0,
       "vol_pre_live": 14,
       "vol_durante_live": 6
+    },
+    {
+      "curso_norm": "ciberseguranca avancada defesa threat intelligence e resposta a incidentes",
+      "usuarios_curso": 15,
+      "procuras_simulacoes": 20,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 13,
+      "vol_durante_live": 7
     },
     {
       "curso_norm": "supervisao educacional",
@@ -6080,14 +6090,34 @@
       "vol_durante_live": 8
     },
     {
-      "curso_norm": "ciberseguranca avancada defesa threat intelligence e resposta a incidentes",
-      "usuarios_curso": 15,
-      "procuras_simulacoes": 20,
+      "curso_norm": "agronegocio 4.0 dados e tecnologia",
+      "usuarios_curso": 16,
+      "procuras_simulacoes": 19,
       "inscricoes_iniciadas": 0,
       "inscricoes_concluidas": 0,
       "matriculas_confirmadas": 0,
       "vol_pre_live": 13,
-      "vol_durante_live": 7
+      "vol_durante_live": 6
+    },
+    {
+      "curso_norm": "processos gerenciais presencial",
+      "usuarios_curso": 11,
+      "procuras_simulacoes": 19,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 13,
+      "vol_durante_live": 6
+    },
+    {
+      "curso_norm": "ludopedagogia",
+      "usuarios_curso": 13,
+      "procuras_simulacoes": 19,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 8,
+      "vol_durante_live": 11
     },
     {
       "curso_norm": "mba em recrutamento selecao e estrategia de aquisicao de talentos",
@@ -6098,6 +6128,16 @@
       "matriculas_confirmadas": 0,
       "vol_pre_live": 9,
       "vol_durante_live": 10
+    },
+    {
+      "curso_norm": "gestao ambiental na industria",
+      "usuarios_curso": 14,
+      "procuras_simulacoes": 19,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 12,
+      "vol_durante_live": 7
     },
     {
       "curso_norm": "gestao de projetos socioambientais (terceiro setor e esg)",
@@ -6120,48 +6160,78 @@
       "vol_durante_live": 7
     },
     {
-      "curso_norm": "processos gerenciais presencial",
-      "usuarios_curso": 11,
-      "procuras_simulacoes": 19,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 13,
-      "vol_durante_live": 6
-    },
-    {
-      "curso_norm": "gestao ambiental na industria",
+      "curso_norm": "mba em comercio exterior logistica internacional e negocios globais",
       "usuarios_curso": 14,
-      "procuras_simulacoes": 19,
+      "procuras_simulacoes": 18,
       "inscricoes_iniciadas": 0,
       "inscricoes_concluidas": 0,
       "matriculas_confirmadas": 0,
-      "vol_pre_live": 12,
-      "vol_durante_live": 7
+      "vol_pre_live": 9,
+      "vol_durante_live": 9
     },
     {
-      "curso_norm": "ludopedagogia",
-      "usuarios_curso": 13,
-      "procuras_simulacoes": 19,
+      "curso_norm": "enfermagem clinica",
+      "usuarios_curso": 9,
+      "procuras_simulacoes": 18,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 15,
+      "vol_durante_live": 3
+    },
+    {
+      "curso_norm": "mba em gestao da qualidade excelencia em processos e certificacoes (iso)",
+      "usuarios_curso": 10,
+      "procuras_simulacoes": 18,
       "inscricoes_iniciadas": 0,
       "inscricoes_concluidas": 0,
       "matriculas_confirmadas": 0,
       "vol_pre_live": 8,
-      "vol_durante_live": 11
+      "vol_durante_live": 10
     },
     {
-      "curso_norm": "agronegocio 4.0 dados e tecnologia",
-      "usuarios_curso": 16,
-      "procuras_simulacoes": 19,
+      "curso_norm": "gestao social politicas publicas redes e defesa de direitos",
+      "usuarios_curso": 12,
+      "procuras_simulacoes": 18,
       "inscricoes_iniciadas": 0,
       "inscricoes_concluidas": 0,
       "matriculas_confirmadas": 0,
-      "vol_pre_live": 13,
-      "vol_durante_live": 6
+      "vol_pre_live": 11,
+      "vol_durante_live": 7
     },
     {
       "curso_norm": "historia e cultura afrobrasileira",
       "usuarios_curso": 11,
+      "procuras_simulacoes": 18,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 15,
+      "vol_durante_live": 3
+    },
+    {
+      "curso_norm": "gestao administrativa e marketing",
+      "usuarios_curso": 13,
+      "procuras_simulacoes": 18,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 11,
+      "vol_durante_live": 7
+    },
+    {
+      "curso_norm": "metodologia de ensino de ciencias biologicas",
+      "usuarios_curso": 11,
+      "procuras_simulacoes": 18,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 11,
+      "vol_durante_live": 7
+    },
+    {
+      "curso_norm": "secretaria escolar",
+      "usuarios_curso": 13,
       "procuras_simulacoes": 18,
       "inscricoes_iniciadas": 0,
       "inscricoes_concluidas": 0,
@@ -6180,104 +6250,14 @@
       "vol_durante_live": 9
     },
     {
-      "curso_norm": "metodologia de ensino de ciencias biologicas",
-      "usuarios_curso": 11,
-      "procuras_simulacoes": 18,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 11,
-      "vol_durante_live": 7
-    },
-    {
-      "curso_norm": "gestao administrativa e marketing",
-      "usuarios_curso": 13,
-      "procuras_simulacoes": 18,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 11,
-      "vol_durante_live": 7
-    },
-    {
-      "curso_norm": "mba em gestao da qualidade excelencia em processos e certificacoes (iso)",
-      "usuarios_curso": 10,
-      "procuras_simulacoes": 18,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 8,
-      "vol_durante_live": 10
-    },
-    {
-      "curso_norm": "mba em comercio exterior logistica internacional e negocios globais",
-      "usuarios_curso": 14,
-      "procuras_simulacoes": 18,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 9,
-      "vol_durante_live": 9
-    },
-    {
-      "curso_norm": "gestao social politicas publicas redes e defesa de direitos",
+      "curso_norm": "educacao de jovens e adultos",
       "usuarios_curso": 12,
-      "procuras_simulacoes": 18,
+      "procuras_simulacoes": 17,
       "inscricoes_iniciadas": 0,
       "inscricoes_concluidas": 0,
       "matriculas_confirmadas": 0,
       "vol_pre_live": 11,
-      "vol_durante_live": 7
-    },
-    {
-      "curso_norm": "enfermagem clinica",
-      "usuarios_curso": 9,
-      "procuras_simulacoes": 18,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 15,
-      "vol_durante_live": 3
-    },
-    {
-      "curso_norm": "secretaria escolar",
-      "usuarios_curso": 13,
-      "procuras_simulacoes": 18,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 15,
-      "vol_durante_live": 3
-    },
-    {
-      "curso_norm": "fisiologia do exercicio",
-      "usuarios_curso": 13,
-      "procuras_simulacoes": 17,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 5,
-      "vol_durante_live": 12
-    },
-    {
-      "curso_norm": "metodologia de ensino de historia",
-      "usuarios_curso": 10,
-      "procuras_simulacoes": 17,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 10,
-      "vol_durante_live": 7
-    },
-    {
-      "curso_norm": "licenciamento ambiental e compliance",
-      "usuarios_curso": 10,
-      "procuras_simulacoes": 17,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 13,
-      "vol_durante_live": 4
+      "vol_durante_live": 6
     },
     {
       "curso_norm": "mba em marketing criatividade e inovacao",
@@ -6290,24 +6270,14 @@
       "vol_durante_live": 10
     },
     {
-      "curso_norm": "educacao de jovens e adultos",
-      "usuarios_curso": 12,
+      "curso_norm": "licenciamento ambiental e compliance",
+      "usuarios_curso": 10,
       "procuras_simulacoes": 17,
       "inscricoes_iniciadas": 0,
       "inscricoes_concluidas": 0,
       "matriculas_confirmadas": 0,
-      "vol_pre_live": 11,
-      "vol_durante_live": 6
-    },
-    {
-      "curso_norm": "terapia cognitiva e comportamental",
-      "usuarios_curso": 14,
-      "procuras_simulacoes": 17,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 8,
-      "vol_durante_live": 9
+      "vol_pre_live": 13,
+      "vol_durante_live": 4
     },
     {
       "curso_norm": "data analytics e estrategias datadriven",
@@ -6320,6 +6290,56 @@
       "vol_durante_live": 0
     },
     {
+      "curso_norm": "ia aplicada a negocios e tomada de decisao",
+      "usuarios_curso": 9,
+      "procuras_simulacoes": 17,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 12,
+      "vol_durante_live": 5
+    },
+    {
+      "curso_norm": "terapia cognitiva e comportamental",
+      "usuarios_curso": 14,
+      "procuras_simulacoes": 17,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 8,
+      "vol_durante_live": 9
+    },
+    {
+      "curso_norm": "metodologia de ensino de historia",
+      "usuarios_curso": 10,
+      "procuras_simulacoes": 17,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 10,
+      "vol_durante_live": 7
+    },
+    {
+      "curso_norm": "licitacoes contratos administrativos e consorcios publicos",
+      "usuarios_curso": 9,
+      "procuras_simulacoes": 17,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 4,
+      "vol_durante_live": 13
+    },
+    {
+      "curso_norm": "fisiologia do exercicio",
+      "usuarios_curso": 13,
+      "procuras_simulacoes": 17,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 5,
+      "vol_durante_live": 12
+    },
+    {
       "curso_norm": "pratica trabalhista avancada",
       "usuarios_curso": 14,
       "procuras_simulacoes": 17,
@@ -6330,24 +6350,24 @@
       "vol_durante_live": 10
     },
     {
-      "curso_norm": "etica cidadania e direitos humanos",
+      "curso_norm": "design de experiencia e ui/ux para aplicacoes digitais",
+      "usuarios_curso": 7,
+      "procuras_simulacoes": 16,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 14,
+      "vol_durante_live": 2
+    },
+    {
+      "curso_norm": "mba em coaching",
       "usuarios_curso": 9,
       "procuras_simulacoes": 16,
       "inscricoes_iniciadas": 0,
       "inscricoes_concluidas": 0,
       "matriculas_confirmadas": 0,
-      "vol_pre_live": 11,
-      "vol_durante_live": 5
-    },
-    {
-      "curso_norm": "ia aplicada a negocios e tomada de decisao",
-      "usuarios_curso": 8,
-      "procuras_simulacoes": 16,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 12,
-      "vol_durante_live": 4
+      "vol_pre_live": 9,
+      "vol_durante_live": 7
     },
     {
       "curso_norm": "mba em business intelligence",
@@ -6380,34 +6400,14 @@
       "vol_durante_live": 10
     },
     {
-      "curso_norm": "historia da arte",
-      "usuarios_curso": 8,
-      "procuras_simulacoes": 16,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 9,
-      "vol_durante_live": 7
-    },
-    {
-      "curso_norm": "mba em coaching",
+      "curso_norm": "etica cidadania e direitos humanos",
       "usuarios_curso": 9,
       "procuras_simulacoes": 16,
       "inscricoes_iniciadas": 0,
       "inscricoes_concluidas": 0,
       "matriculas_confirmadas": 0,
-      "vol_pre_live": 9,
-      "vol_durante_live": 7
-    },
-    {
-      "curso_norm": "design de experiencia e ui/ux para aplicacoes digitais",
-      "usuarios_curso": 7,
-      "procuras_simulacoes": 16,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 14,
-      "vol_durante_live": 2
+      "vol_pre_live": 11,
+      "vol_durante_live": 5
     },
     {
       "curso_norm": "gestao de data center e infraestrutura onpremise e hibrida",
@@ -6420,44 +6420,14 @@
       "vol_durante_live": 2
     },
     {
-      "curso_norm": "licitacoes contratos administrativos e consorcios publicos",
+      "curso_norm": "historia da arte",
       "usuarios_curso": 8,
       "procuras_simulacoes": 16,
       "inscricoes_iniciadas": 0,
       "inscricoes_concluidas": 0,
       "matriculas_confirmadas": 0,
-      "vol_pre_live": 4,
-      "vol_durante_live": 12
-    },
-    {
-      "curso_norm": "programacao orientada a objetos com java e spring boot",
-      "usuarios_curso": 10,
-      "procuras_simulacoes": 15,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 8,
+      "vol_pre_live": 9,
       "vol_durante_live": 7
-    },
-    {
-      "curso_norm": "psicologia positiva e coaching",
-      "usuarios_curso": 14,
-      "procuras_simulacoes": 15,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 11,
-      "vol_durante_live": 4
-    },
-    {
-      "curso_norm": "compliance governanca e gestao de riscos corporativos",
-      "usuarios_curso": 7,
-      "procuras_simulacoes": 15,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 7,
-      "vol_durante_live": 8
     },
     {
       "curso_norm": "mba em produtos bancarios credito e analise de risco de credito",
@@ -6470,17 +6440,17 @@
       "vol_durante_live": 8
     },
     {
-      "curso_norm": "enfermagem em urgencia e emergencia",
-      "usuarios_curso": 8,
+      "curso_norm": "psicologia positiva e coaching",
+      "usuarios_curso": 14,
       "procuras_simulacoes": 15,
       "inscricoes_iniciadas": 0,
       "inscricoes_concluidas": 0,
       "matriculas_confirmadas": 0,
-      "vol_pre_live": 4,
-      "vol_durante_live": 11
+      "vol_pre_live": 11,
+      "vol_durante_live": 4
     },
     {
-      "curso_norm": "mba em gestao de processos de negocio e tecnologia",
+      "curso_norm": "programacao orientada a objetos com java e spring boot",
       "usuarios_curso": 10,
       "procuras_simulacoes": 15,
       "inscricoes_iniciadas": 0,
@@ -6490,7 +6460,7 @@
       "vol_durante_live": 7
     },
     {
-      "curso_norm": "estatistica aplicada para data science (do basico ao experimental design)",
+      "curso_norm": "mba em gestao de processos de negocio e tecnologia",
       "usuarios_curso": 10,
       "procuras_simulacoes": 15,
       "inscricoes_iniciadas": 0,
@@ -6510,6 +6480,56 @@
       "vol_durante_live": 4
     },
     {
+      "curso_norm": "compliance governanca e gestao de riscos corporativos",
+      "usuarios_curso": 7,
+      "procuras_simulacoes": 15,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 7,
+      "vol_durante_live": 8
+    },
+    {
+      "curso_norm": "estatistica aplicada para data science (do basico ao experimental design)",
+      "usuarios_curso": 10,
+      "procuras_simulacoes": 15,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 8,
+      "vol_durante_live": 7
+    },
+    {
+      "curso_norm": "enfermagem em urgencia e emergencia",
+      "usuarios_curso": 8,
+      "procuras_simulacoes": 15,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 4,
+      "vol_durante_live": 11
+    },
+    {
+      "curso_norm": "administracao politicas publicas e cidadania",
+      "usuarios_curso": 9,
+      "procuras_simulacoes": 14,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 12,
+      "vol_durante_live": 2
+    },
+    {
+      "curso_norm": "arteterapia na educacao",
+      "usuarios_curso": 12,
+      "procuras_simulacoes": 14,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 6,
+      "vol_durante_live": 8
+    },
+    {
       "curso_norm": "gestao da industria 4.0",
       "usuarios_curso": 9,
       "procuras_simulacoes": 14,
@@ -6520,7 +6540,27 @@
       "vol_durante_live": 5
     },
     {
-      "curso_norm": "saude mental na infancia e adolescencia",
+      "curso_norm": "mba em engenharia e arquitetura de dados analytics big data e ia",
+      "usuarios_curso": 12,
+      "procuras_simulacoes": 14,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 5,
+      "vol_durante_live": 9
+    },
+    {
+      "curso_norm": "gestao da vigilancia em saude",
+      "usuarios_curso": 7,
+      "procuras_simulacoes": 14,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 7,
+      "vol_durante_live": 7
+    },
+    {
+      "curso_norm": "enfermagem ginecologica",
       "usuarios_curso": 10,
       "procuras_simulacoes": 14,
       "inscricoes_iniciadas": 0,
@@ -6530,8 +6570,48 @@
       "vol_durante_live": 7
     },
     {
-      "curso_norm": "gestao da vigilancia em saude",
-      "usuarios_curso": 7,
+      "curso_norm": "certificacoes ambientais e agro (organicos car/cra fsc/pefc)",
+      "usuarios_curso": 8,
+      "procuras_simulacoes": 14,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 11,
+      "vol_durante_live": 3
+    },
+    {
+      "curso_norm": "mba em design thinking",
+      "usuarios_curso": 11,
+      "procuras_simulacoes": 14,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 6,
+      "vol_durante_live": 8
+    },
+    {
+      "curso_norm": "gestao de ecommerce",
+      "usuarios_curso": 8,
+      "procuras_simulacoes": 14,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 5,
+      "vol_durante_live": 9
+    },
+    {
+      "curso_norm": "contabilidade publica",
+      "usuarios_curso": 8,
+      "procuras_simulacoes": 14,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 10,
+      "vol_durante_live": 4
+    },
+    {
+      "curso_norm": "saude mental na infancia e adolescencia",
+      "usuarios_curso": 10,
       "procuras_simulacoes": 14,
       "inscricoes_iniciadas": 0,
       "inscricoes_concluidas": 0,
@@ -6550,84 +6630,44 @@
       "vol_durante_live": 7
     },
     {
-      "curso_norm": "administracao politicas publicas e cidadania",
-      "usuarios_curso": 9,
-      "procuras_simulacoes": 14,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 12,
-      "vol_durante_live": 2
-    },
-    {
-      "curso_norm": "certificacoes ambientais e agro (organicos car/cra fsc/pefc)",
+      "curso_norm": "mba em financas corporativas controladoria e analise de performance",
       "usuarios_curso": 8,
-      "procuras_simulacoes": 14,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 11,
-      "vol_durante_live": 3
-    },
-    {
-      "curso_norm": "gestao de ecommerce",
-      "usuarios_curso": 8,
-      "procuras_simulacoes": 14,
+      "procuras_simulacoes": 13,
       "inscricoes_iniciadas": 0,
       "inscricoes_concluidas": 0,
       "matriculas_confirmadas": 0,
       "vol_pre_live": 5,
-      "vol_durante_live": 9
+      "vol_durante_live": 8
     },
     {
-      "curso_norm": "enfermagem ginecologica",
+      "curso_norm": "microbiologia clinica ambiental e alimentos",
       "usuarios_curso": 10,
-      "procuras_simulacoes": 14,
+      "procuras_simulacoes": 13,
       "inscricoes_iniciadas": 0,
       "inscricoes_concluidas": 0,
       "matriculas_confirmadas": 0,
-      "vol_pre_live": 7,
+      "vol_pre_live": 6,
       "vol_durante_live": 7
     },
     {
-      "curso_norm": "mba em engenharia e arquitetura de dados analytics big data e ia",
-      "usuarios_curso": 12,
-      "procuras_simulacoes": 14,
+      "curso_norm": "mba em data product manager produtos de dados bi e estrategia analitica",
+      "usuarios_curso": 5,
+      "procuras_simulacoes": 13,
       "inscricoes_iniciadas": 0,
       "inscricoes_concluidas": 0,
       "matriculas_confirmadas": 0,
-      "vol_pre_live": 5,
-      "vol_durante_live": 9
+      "vol_pre_live": 3,
+      "vol_durante_live": 10
     },
     {
-      "curso_norm": "mba em design thinking",
-      "usuarios_curso": 11,
-      "procuras_simulacoes": 14,
+      "curso_norm": "autismo e tecnologia desafios e possibilidades de aprendizagem e inclusao",
+      "usuarios_curso": 10,
+      "procuras_simulacoes": 13,
       "inscricoes_iniciadas": 0,
       "inscricoes_concluidas": 0,
       "matriculas_confirmadas": 0,
       "vol_pre_live": 6,
-      "vol_durante_live": 8
-    },
-    {
-      "curso_norm": "arteterapia na educacao",
-      "usuarios_curso": 12,
-      "procuras_simulacoes": 14,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 6,
-      "vol_durante_live": 8
-    },
-    {
-      "curso_norm": "contabilidade publica",
-      "usuarios_curso": 8,
-      "procuras_simulacoes": 14,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 10,
-      "vol_durante_live": 4
+      "vol_durante_live": 7
     },
     {
       "curso_norm": "mba em controladoria planejamento financeiro e orcamento empresarial",
@@ -6640,16 +6680,6 @@
       "vol_durante_live": 2
     },
     {
-      "curso_norm": "mba em financas corporativas controladoria e analise de performance",
-      "usuarios_curso": 8,
-      "procuras_simulacoes": 13,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 5,
-      "vol_durante_live": 8
-    },
-    {
       "curso_norm": "enfermagem geriatria e gerontologia",
       "usuarios_curso": 8,
       "procuras_simulacoes": 13,
@@ -6658,16 +6688,6 @@
       "matriculas_confirmadas": 0,
       "vol_pre_live": 5,
       "vol_durante_live": 8
-    },
-    {
-      "curso_norm": "autismo e tecnologia desafios e possibilidades de aprendizagem e inclusao",
-      "usuarios_curso": 10,
-      "procuras_simulacoes": 13,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 6,
-      "vol_durante_live": 7
     },
     {
       "curso_norm": "gestao de negocios e marketing",
@@ -6700,16 +6720,6 @@
       "vol_durante_live": 4
     },
     {
-      "curso_norm": "microbiologia clinica ambiental e alimentos",
-      "usuarios_curso": 10,
-      "procuras_simulacoes": 13,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 6,
-      "vol_durante_live": 7
-    },
-    {
       "curso_norm": "formacao pedagogica em letras espanhol",
       "usuarios_curso": 6,
       "procuras_simulacoes": 13,
@@ -6720,48 +6730,18 @@
       "vol_durante_live": 3
     },
     {
-      "curso_norm": "mba em data product manager produtos de dados bi e estrategia analitica",
-      "usuarios_curso": 5,
-      "procuras_simulacoes": 13,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 3,
-      "vol_durante_live": 10
-    },
-    {
-      "curso_norm": "gestao estrategica da cadeia logistica",
-      "usuarios_curso": 5,
-      "procuras_simulacoes": 12,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 9,
-      "vol_durante_live": 3
-    },
-    {
-      "curso_norm": "mba em logistica reversa sustentabilidade e gestao de residuos",
-      "usuarios_curso": 10,
-      "procuras_simulacoes": 12,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 10,
-      "vol_durante_live": 2
-    },
-    {
-      "curso_norm": "educacao fisica escolar e inclusao",
+      "curso_norm": "defesa cibernetica soc e resposta a incidentes",
       "usuarios_curso": 11,
       "procuras_simulacoes": 12,
       "inscricoes_iniciadas": 0,
       "inscricoes_concluidas": 0,
       "matriculas_confirmadas": 0,
-      "vol_pre_live": 11,
-      "vol_durante_live": 1
+      "vol_pre_live": 6,
+      "vol_durante_live": 6
     },
     {
-      "curso_norm": "gestao de pessoas e psicologia organizacional",
-      "usuarios_curso": 9,
+      "curso_norm": "mba em lideranca e estrategias de vendas negociacao e gestao de clientes (crm)",
+      "usuarios_curso": 7,
       "procuras_simulacoes": 12,
       "inscricoes_iniciadas": 0,
       "inscricoes_concluidas": 0,
@@ -6780,6 +6760,106 @@
       "vol_durante_live": 6
     },
     {
+      "curso_norm": "gestao de pessoas e psicologia organizacional",
+      "usuarios_curso": 9,
+      "procuras_simulacoes": 12,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 6,
+      "vol_durante_live": 6
+    },
+    {
+      "curso_norm": "mba em gestao de riscos financeiros credito e garantias",
+      "usuarios_curso": 8,
+      "procuras_simulacoes": 12,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 7,
+      "vol_durante_live": 5
+    },
+    {
+      "curso_norm": "educacao fisica escolar e inclusao",
+      "usuarios_curso": 11,
+      "procuras_simulacoes": 12,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 11,
+      "vol_durante_live": 1
+    },
+    {
+      "curso_norm": "gestao estrategica da cadeia logistica",
+      "usuarios_curso": 5,
+      "procuras_simulacoes": 12,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 9,
+      "vol_durante_live": 3
+    },
+    {
+      "curso_norm": "fisioterapia em gerontologia e reabilitacao do idoso",
+      "usuarios_curso": 7,
+      "procuras_simulacoes": 12,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 7,
+      "vol_durante_live": 5
+    },
+    {
+      "curso_norm": "orientacao educacional teoria e pratica",
+      "usuarios_curso": 8,
+      "procuras_simulacoes": 12,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 6,
+      "vol_durante_live": 6
+    },
+    {
+      "curso_norm": "administracao de pessoas",
+      "usuarios_curso": 12,
+      "procuras_simulacoes": 12,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 9,
+      "vol_durante_live": 3
+    },
+    {
+      "curso_norm": "educacao a distancia gestao e tutoria",
+      "usuarios_curso": 8,
+      "procuras_simulacoes": 12,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 8,
+      "vol_durante_live": 4
+    },
+    {
+      "curso_norm": "mba em logistica reversa sustentabilidade e gestao de residuos",
+      "usuarios_curso": 10,
+      "procuras_simulacoes": 12,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 10,
+      "vol_durante_live": 2
+    },
+    {
+      "curso_norm": "docencia e mediacao",
+      "usuarios_curso": 7,
+      "procuras_simulacoes": 12,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 10,
+      "vol_durante_live": 2
+    },
+    {
       "curso_norm": "direito civil e processual civil teoria e pratica da advocacia contenciosa",
       "usuarios_curso": 8,
       "procuras_simulacoes": 12,
@@ -6788,16 +6868,6 @@
       "matriculas_confirmadas": 0,
       "vol_pre_live": 4,
       "vol_durante_live": 8
-    },
-    {
-      "curso_norm": "defesa cibernetica soc e resposta a incidentes",
-      "usuarios_curso": 11,
-      "procuras_simulacoes": 12,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 6,
-      "vol_durante_live": 6
     },
     {
       "curso_norm": "saneamento basico saude e meio ambiente",
@@ -6820,66 +6890,6 @@
       "vol_durante_live": 4
     },
     {
-      "curso_norm": "mba em gestao de riscos financeiros credito e garantias",
-      "usuarios_curso": 8,
-      "procuras_simulacoes": 12,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 7,
-      "vol_durante_live": 5
-    },
-    {
-      "curso_norm": "educacao a distancia gestao e tutoria",
-      "usuarios_curso": 8,
-      "procuras_simulacoes": 12,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 8,
-      "vol_durante_live": 4
-    },
-    {
-      "curso_norm": "mba em lideranca e estrategias de vendas negociacao e gestao de clientes (crm)",
-      "usuarios_curso": 7,
-      "procuras_simulacoes": 12,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 6,
-      "vol_durante_live": 6
-    },
-    {
-      "curso_norm": "docencia e mediacao",
-      "usuarios_curso": 7,
-      "procuras_simulacoes": 12,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 10,
-      "vol_durante_live": 2
-    },
-    {
-      "curso_norm": "administracao de pessoas",
-      "usuarios_curso": 12,
-      "procuras_simulacoes": 12,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 9,
-      "vol_durante_live": 3
-    },
-    {
-      "curso_norm": "orientacao educacional teoria e pratica",
-      "usuarios_curso": 8,
-      "procuras_simulacoes": 12,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 6,
-      "vol_durante_live": 6
-    },
-    {
       "curso_norm": "mba em contabilidade empresarial",
       "usuarios_curso": 7,
       "procuras_simulacoes": 12,
@@ -6888,66 +6898,6 @@
       "matriculas_confirmadas": 0,
       "vol_pre_live": 6,
       "vol_durante_live": 6
-    },
-    {
-      "curso_norm": "fisioterapia em gerontologia e reabilitacao do idoso",
-      "usuarios_curso": 7,
-      "procuras_simulacoes": 12,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 7,
-      "vol_durante_live": 5
-    },
-    {
-      "curso_norm": "psicanalise e a clinica dos casos dificeis transtornos de personalidade",
-      "usuarios_curso": 7,
-      "procuras_simulacoes": 11,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 6,
-      "vol_durante_live": 5
-    },
-    {
-      "curso_norm": "mba em legal tech inteligencia artificial e transformacao digital no direito",
-      "usuarios_curso": 8,
-      "procuras_simulacoes": 11,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 7,
-      "vol_durante_live": 4
-    },
-    {
-      "curso_norm": "mba em fintechs meios de pagamento e inovacao no setor financeiro",
-      "usuarios_curso": 7,
-      "procuras_simulacoes": 11,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 11,
-      "vol_durante_live": 0
-    },
-    {
-      "curso_norm": "projetos e praticas sustentaveis em educacao ambiental",
-      "usuarios_curso": 9,
-      "procuras_simulacoes": 11,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 9,
-      "vol_durante_live": 2
-    },
-    {
-      "curso_norm": "edicao e posproducao de video",
-      "usuarios_curso": 8,
-      "procuras_simulacoes": 11,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 7,
-      "vol_durante_live": 4
     },
     {
       "curso_norm": "enfermagem em saude mental e psiquiatrica",
@@ -6960,14 +6910,14 @@
       "vol_durante_live": 2
     },
     {
-      "curso_norm": "sistema financeiro e mercado de capitais",
-      "usuarios_curso": 6,
+      "curso_norm": "direitos humanos e movimentos sociais",
+      "usuarios_curso": 8,
       "procuras_simulacoes": 11,
       "inscricoes_iniciadas": 0,
       "inscricoes_concluidas": 0,
       "matriculas_confirmadas": 0,
-      "vol_pre_live": 3,
-      "vol_durante_live": 8
+      "vol_pre_live": 9,
+      "vol_durante_live": 2
     },
     {
       "curso_norm": "psicologia aplicada ao trabalho",
@@ -6980,8 +6930,8 @@
       "vol_durante_live": 5
     },
     {
-      "curso_norm": "mba em marketing e vendas digitais funil de vendas e inbound marketing",
-      "usuarios_curso": 6,
+      "curso_norm": "edicao e posproducao de video",
+      "usuarios_curso": 8,
       "procuras_simulacoes": 11,
       "inscricoes_iniciadas": 0,
       "inscricoes_concluidas": 0,
@@ -6990,8 +6940,28 @@
       "vol_durante_live": 4
     },
     {
-      "curso_norm": "direitos humanos e movimentos sociais",
+      "curso_norm": "mba em legal tech inteligencia artificial e transformacao digital no direito",
       "usuarios_curso": 8,
+      "procuras_simulacoes": 11,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 7,
+      "vol_durante_live": 4
+    },
+    {
+      "curso_norm": "planejamento pedagogico",
+      "usuarios_curso": 8,
+      "procuras_simulacoes": 11,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 8,
+      "vol_durante_live": 3
+    },
+    {
+      "curso_norm": "projetos e praticas sustentaveis em educacao ambiental",
+      "usuarios_curso": 9,
       "procuras_simulacoes": 11,
       "inscricoes_iniciadas": 0,
       "inscricoes_concluidas": 0,
@@ -7010,14 +6980,94 @@
       "vol_durante_live": 8
     },
     {
-      "curso_norm": "planejamento pedagogico",
-      "usuarios_curso": 8,
+      "curso_norm": "mba em marketing e vendas digitais funil de vendas e inbound marketing",
+      "usuarios_curso": 6,
       "procuras_simulacoes": 11,
       "inscricoes_iniciadas": 0,
       "inscricoes_concluidas": 0,
       "matriculas_confirmadas": 0,
-      "vol_pre_live": 8,
+      "vol_pre_live": 7,
+      "vol_durante_live": 4
+    },
+    {
+      "curso_norm": "sistema financeiro e mercado de capitais",
+      "usuarios_curso": 6,
+      "procuras_simulacoes": 11,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 3,
+      "vol_durante_live": 8
+    },
+    {
+      "curso_norm": "mba em fintechs meios de pagamento e inovacao no setor financeiro",
+      "usuarios_curso": 7,
+      "procuras_simulacoes": 11,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 11,
+      "vol_durante_live": 0
+    },
+    {
+      "curso_norm": "psicanalise e a clinica dos casos dificeis transtornos de personalidade",
+      "usuarios_curso": 7,
+      "procuras_simulacoes": 11,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 6,
+      "vol_durante_live": 5
+    },
+    {
+      "curso_norm": "nutricao qualidade de vida e empreendedorismo",
+      "usuarios_curso": 9,
+      "procuras_simulacoes": 10,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 7,
       "vol_durante_live": 3
+    },
+    {
+      "curso_norm": "metodologia de ensino de matematica",
+      "usuarios_curso": 9,
+      "procuras_simulacoes": 10,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 7,
+      "vol_durante_live": 3
+    },
+    {
+      "curso_norm": "analises clinicas e toxicologicas",
+      "usuarios_curso": 6,
+      "procuras_simulacoes": 10,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 7,
+      "vol_durante_live": 3
+    },
+    {
+      "curso_norm": "enfermagem em assistencia maternoinfantil",
+      "usuarios_curso": 7,
+      "procuras_simulacoes": 10,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 2,
+      "vol_durante_live": 8
+    },
+    {
+      "curso_norm": "energias renovaveis no campo (bioenergia solar e eolica)",
+      "usuarios_curso": 7,
+      "procuras_simulacoes": 10,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 6,
+      "vol_durante_live": 4
     },
     {
       "curso_norm": "compliance governanca (esg) e direito empresarial estrategico",
@@ -7028,6 +7078,66 @@
       "matriculas_confirmadas": 0,
       "vol_pre_live": 6,
       "vol_durante_live": 4
+    },
+    {
+      "curso_norm": "contabilidade previdenciaria pericia e calculos judiciais",
+      "usuarios_curso": 7,
+      "procuras_simulacoes": 10,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 6,
+      "vol_durante_live": 4
+    },
+    {
+      "curso_norm": "comunicacao e oratoria",
+      "usuarios_curso": 9,
+      "procuras_simulacoes": 10,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 4,
+      "vol_durante_live": 6
+    },
+    {
+      "curso_norm": "inteligencia artificial inovacao e saude digital",
+      "usuarios_curso": 7,
+      "procuras_simulacoes": 10,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 5,
+      "vol_durante_live": 5
+    },
+    {
+      "curso_norm": "mba em mercado financeiro banking e investimentos digitais",
+      "usuarios_curso": 5,
+      "procuras_simulacoes": 10,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 7,
+      "vol_durante_live": 3
+    },
+    {
+      "curso_norm": "primeiros socorros",
+      "usuarios_curso": 8,
+      "procuras_simulacoes": 10,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 6,
+      "vol_durante_live": 4
+    },
+    {
+      "curso_norm": "pericia digital e data forensics cibercrimes e evidencias juridicas",
+      "usuarios_curso": 8,
+      "procuras_simulacoes": 10,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 3,
+      "vol_durante_live": 7
     },
     {
       "curso_norm": "nutricao em pediatria",
@@ -7050,6 +7160,46 @@
       "vol_durante_live": 5
     },
     {
+      "curso_norm": "controladoria",
+      "usuarios_curso": 5,
+      "procuras_simulacoes": 10,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 7,
+      "vol_durante_live": 3
+    },
+    {
+      "curso_norm": "geografia populacional",
+      "usuarios_curso": 7,
+      "procuras_simulacoes": 10,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 7,
+      "vol_durante_live": 3
+    },
+    {
+      "curso_norm": "agroecologia",
+      "usuarios_curso": 8,
+      "procuras_simulacoes": 10,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 1,
+      "vol_durante_live": 9
+    },
+    {
+      "curso_norm": "saude mental e atencao psicossocial",
+      "usuarios_curso": 8,
+      "procuras_simulacoes": 10,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 6,
+      "vol_durante_live": 4
+    },
+    {
       "curso_norm": "educacao matematica na educacao basica",
       "usuarios_curso": 7,
       "procuras_simulacoes": 10,
@@ -7060,38 +7210,8 @@
       "vol_durante_live": 5
     },
     {
-      "curso_norm": "mba em mercado financeiro banking e investimentos digitais",
-      "usuarios_curso": 5,
-      "procuras_simulacoes": 10,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 7,
-      "vol_durante_live": 3
-    },
-    {
-      "curso_norm": "nutricao qualidade de vida e empreendedorismo",
-      "usuarios_curso": 9,
-      "procuras_simulacoes": 10,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 7,
-      "vol_durante_live": 3
-    },
-    {
       "curso_norm": "marketing estrategico e de varejo",
       "usuarios_curso": 10,
-      "procuras_simulacoes": 10,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 6,
-      "vol_durante_live": 4
-    },
-    {
-      "curso_norm": "saude mental e atencao psicossocial",
-      "usuarios_curso": 8,
       "procuras_simulacoes": 10,
       "inscricoes_iniciadas": 0,
       "inscricoes_concluidas": 0,
@@ -7110,118 +7230,28 @@
       "vol_durante_live": 7
     },
     {
-      "curso_norm": "metodologia de ensino de matematica",
-      "usuarios_curso": 9,
-      "procuras_simulacoes": 10,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 7,
-      "vol_durante_live": 3
-    },
-    {
-      "curso_norm": "primeiros socorros",
-      "usuarios_curso": 8,
-      "procuras_simulacoes": 10,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 6,
-      "vol_durante_live": 4
-    },
-    {
-      "curso_norm": "enfermagem em assistencia maternoinfantil",
+      "curso_norm": "engenharia de software agil ddd clean architecture e tdd",
       "usuarios_curso": 7,
-      "procuras_simulacoes": 10,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 2,
-      "vol_durante_live": 8
-    },
-    {
-      "curso_norm": "analises clinicas e toxicologicas",
-      "usuarios_curso": 6,
-      "procuras_simulacoes": 10,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 7,
-      "vol_durante_live": 3
-    },
-    {
-      "curso_norm": "pericia digital e data forensics cibercrimes e evidencias juridicas",
-      "usuarios_curso": 8,
-      "procuras_simulacoes": 10,
+      "procuras_simulacoes": 9,
       "inscricoes_iniciadas": 0,
       "inscricoes_concluidas": 0,
       "matriculas_confirmadas": 0,
       "vol_pre_live": 3,
-      "vol_durante_live": 7
-    },
-    {
-      "curso_norm": "agroecologia",
-      "usuarios_curso": 8,
-      "procuras_simulacoes": 10,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 1,
-      "vol_durante_live": 9
-    },
-    {
-      "curso_norm": "comunicacao e oratoria",
-      "usuarios_curso": 9,
-      "procuras_simulacoes": 10,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 4,
       "vol_durante_live": 6
     },
     {
-      "curso_norm": "energias renovaveis no campo (bioenergia solar e eolica)",
-      "usuarios_curso": 7,
-      "procuras_simulacoes": 10,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 6,
-      "vol_durante_live": 4
-    },
-    {
-      "curso_norm": "inteligencia artificial inovacao e saude digital",
-      "usuarios_curso": 7,
-      "procuras_simulacoes": 10,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 5,
-      "vol_durante_live": 5
-    },
-    {
-      "curso_norm": "geografia populacional",
-      "usuarios_curso": 7,
-      "procuras_simulacoes": 10,
+      "curso_norm": "analise de negocios e gestao de tecnologia",
+      "usuarios_curso": 5,
+      "procuras_simulacoes": 9,
       "inscricoes_iniciadas": 0,
       "inscricoes_concluidas": 0,
       "matriculas_confirmadas": 0,
       "vol_pre_live": 7,
-      "vol_durante_live": 3
+      "vol_durante_live": 2
     },
     {
-      "curso_norm": "controladoria",
-      "usuarios_curso": 5,
-      "procuras_simulacoes": 10,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 7,
-      "vol_durante_live": 3
-    },
-    {
-      "curso_norm": "resiliencia cibernetica continuidade de negocios e disaster recovery",
-      "usuarios_curso": 5,
+      "curso_norm": "direito de familia e sucessoes aplicado contencioso e extrajudicial",
+      "usuarios_curso": 8,
       "procuras_simulacoes": 9,
       "inscricoes_iniciadas": 0,
       "inscricoes_concluidas": 0,
@@ -7238,66 +7268,6 @@
       "matriculas_confirmadas": 0,
       "vol_pre_live": 5,
       "vol_durante_live": 4
-    },
-    {
-      "curso_norm": "lingua portuguesa e literatura no contexto educacional",
-      "usuarios_curso": 8,
-      "procuras_simulacoes": 9,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 6,
-      "vol_durante_live": 3
-    },
-    {
-      "curso_norm": "testes ageis e automacao de qualidade de software (qa)",
-      "usuarios_curso": 5,
-      "procuras_simulacoes": 9,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 8,
-      "vol_durante_live": 1
-    },
-    {
-      "curso_norm": "mba em estrategia empresarial e inteligencia competitiva",
-      "usuarios_curso": 5,
-      "procuras_simulacoes": 9,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 3,
-      "vol_durante_live": 6
-    },
-    {
-      "curso_norm": "devsecops automacao e infraestrutura como codigo (iac)",
-      "usuarios_curso": 6,
-      "procuras_simulacoes": 9,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 3,
-      "vol_durante_live": 6
-    },
-    {
-      "curso_norm": "governanca e protecao de dados",
-      "usuarios_curso": 7,
-      "procuras_simulacoes": 9,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 3,
-      "vol_durante_live": 6
-    },
-    {
-      "curso_norm": "contabilidade previdenciaria pericia e calculos judiciais",
-      "usuarios_curso": 6,
-      "procuras_simulacoes": 9,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 6,
-      "vol_durante_live": 3
     },
     {
       "curso_norm": "neuroaprendizagem",
@@ -7320,16 +7290,6 @@
       "vol_durante_live": 5
     },
     {
-      "curso_norm": "analise de negocios e gestao de tecnologia",
-      "usuarios_curso": 5,
-      "procuras_simulacoes": 9,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 7,
-      "vol_durante_live": 2
-    },
-    {
       "curso_norm": "mba em comportamento organizacional clima e engajamento de pessoas",
       "usuarios_curso": 7,
       "procuras_simulacoes": 9,
@@ -7338,6 +7298,26 @@
       "matriculas_confirmadas": 0,
       "vol_pre_live": 4,
       "vol_durante_live": 5
+    },
+    {
+      "curso_norm": "administracao em ambientes dinamicos",
+      "usuarios_curso": 8,
+      "procuras_simulacoes": 9,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 4,
+      "vol_durante_live": 5
+    },
+    {
+      "curso_norm": "gestao em enfermagem",
+      "usuarios_curso": 7,
+      "procuras_simulacoes": 9,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 5,
+      "vol_durante_live": 4
     },
     {
       "curso_norm": "engenharia de prompt e processamento de linguagem natural",
@@ -7350,8 +7330,8 @@
       "vol_durante_live": 4
     },
     {
-      "curso_norm": "engenharia de software agil ddd clean architecture e tdd",
-      "usuarios_curso": 7,
+      "curso_norm": "mba em estrategia empresarial e inteligencia competitiva",
+      "usuarios_curso": 5,
       "procuras_simulacoes": 9,
       "inscricoes_iniciadas": 0,
       "inscricoes_concluidas": 0,
@@ -7360,8 +7340,8 @@
       "vol_durante_live": 6
     },
     {
-      "curso_norm": "administracao em ambientes dinamicos",
-      "usuarios_curso": 8,
+      "curso_norm": "mba em inteligencia artificial e people analytics para rh estrategico",
+      "usuarios_curso": 6,
       "procuras_simulacoes": 9,
       "inscricoes_iniciadas": 0,
       "inscricoes_concluidas": 0,
@@ -7380,48 +7360,18 @@
       "vol_durante_live": 4
     },
     {
-      "curso_norm": "direito de familia e sucessoes aplicado contencioso e extrajudicial",
+      "curso_norm": "lingua portuguesa e literatura no contexto educacional",
       "usuarios_curso": 8,
       "procuras_simulacoes": 9,
       "inscricoes_iniciadas": 0,
       "inscricoes_concluidas": 0,
       "matriculas_confirmadas": 0,
-      "vol_pre_live": 7,
-      "vol_durante_live": 2
+      "vol_pre_live": 6,
+      "vol_durante_live": 3
     },
     {
-      "curso_norm": "auditoria em saude",
+      "curso_norm": "governanca e protecao de dados",
       "usuarios_curso": 7,
-      "procuras_simulacoes": 9,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 8,
-      "vol_durante_live": 1
-    },
-    {
-      "curso_norm": "economia criativa cultura e inovacao",
-      "usuarios_curso": 6,
-      "procuras_simulacoes": 9,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 2,
-      "vol_durante_live": 7
-    },
-    {
-      "curso_norm": "mba em inteligencia artificial e people analytics para rh estrategico",
-      "usuarios_curso": 6,
-      "procuras_simulacoes": 9,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 4,
-      "vol_durante_live": 5
-    },
-    {
-      "curso_norm": "excel basico",
-      "usuarios_curso": 9,
       "procuras_simulacoes": 9,
       "inscricoes_iniciadas": 0,
       "inscricoes_concluidas": 0,
@@ -7440,16 +7390,6 @@
       "vol_durante_live": 3
     },
     {
-      "curso_norm": "gestao em enfermagem",
-      "usuarios_curso": 7,
-      "procuras_simulacoes": 9,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 5,
-      "vol_durante_live": 4
-    },
-    {
       "curso_norm": "mba em financas estrategicas controladoria e inteligencia artificial",
       "usuarios_curso": 6,
       "procuras_simulacoes": 9,
@@ -7460,34 +7400,74 @@
       "vol_durante_live": 2
     },
     {
-      "curso_norm": "controle interno transparencia e combate a corrupcao",
-      "usuarios_curso": 4,
-      "procuras_simulacoes": 8,
+      "curso_norm": "resiliencia cibernetica continuidade de negocios e disaster recovery",
+      "usuarios_curso": 5,
+      "procuras_simulacoes": 9,
       "inscricoes_iniciadas": 0,
       "inscricoes_concluidas": 0,
       "matriculas_confirmadas": 0,
-      "vol_pre_live": 1,
-      "vol_durante_live": 7
-    },
-    {
-      "curso_norm": "inteligencia artificial automacao e legal analytics no direito",
-      "usuarios_curso": 6,
-      "procuras_simulacoes": 8,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 6,
+      "vol_pre_live": 7,
       "vol_durante_live": 2
     },
     {
-      "curso_norm": "diagnostico e interpretacao de exames oculares",
+      "curso_norm": "devsecops automacao e infraestrutura como codigo (iac)",
+      "usuarios_curso": 6,
+      "procuras_simulacoes": 9,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 3,
+      "vol_durante_live": 6
+    },
+    {
+      "curso_norm": "testes ageis e automacao de qualidade de software (qa)",
+      "usuarios_curso": 5,
+      "procuras_simulacoes": 9,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 8,
+      "vol_durante_live": 1
+    },
+    {
+      "curso_norm": "economia criativa cultura e inovacao",
+      "usuarios_curso": 6,
+      "procuras_simulacoes": 9,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 2,
+      "vol_durante_live": 7
+    },
+    {
+      "curso_norm": "auditoria em saude",
+      "usuarios_curso": 7,
+      "procuras_simulacoes": 9,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 8,
+      "vol_durante_live": 1
+    },
+    {
+      "curso_norm": "excel basico",
+      "usuarios_curso": 9,
+      "procuras_simulacoes": 9,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 3,
+      "vol_durante_live": 6
+    },
+    {
+      "curso_norm": "fonoaudiologia hospitalar e reabilitacao",
       "usuarios_curso": 5,
       "procuras_simulacoes": 8,
       "inscricoes_iniciadas": 0,
       "inscricoes_concluidas": 0,
       "matriculas_confirmadas": 0,
-      "vol_pre_live": 5,
-      "vol_durante_live": 3
+      "vol_pre_live": 4,
+      "vol_durante_live": 4
     },
     {
       "curso_norm": "bancos de dados e tecnologias emergentes",
@@ -7510,18 +7490,18 @@
       "vol_durante_live": 2
     },
     {
-      "curso_norm": "historia e ensino da lingua inglesa",
-      "usuarios_curso": 7,
+      "curso_norm": "mba em sustentabilidade e esg (environmental social and governance)",
+      "usuarios_curso": 6,
       "procuras_simulacoes": 8,
       "inscricoes_iniciadas": 0,
       "inscricoes_concluidas": 0,
       "matriculas_confirmadas": 0,
-      "vol_pre_live": 5,
-      "vol_durante_live": 3
+      "vol_pre_live": 3,
+      "vol_durante_live": 5
     },
     {
-      "curso_norm": "psicologia do desenvolvimento e aprendizagem",
-      "usuarios_curso": 7,
+      "curso_norm": "mba em gestao de estoques armazenagem e centros de distribuicao",
+      "usuarios_curso": 6,
       "procuras_simulacoes": 8,
       "inscricoes_iniciadas": 0,
       "inscricoes_concluidas": 0,
@@ -7540,116 +7520,6 @@
       "vol_durante_live": 4
     },
     {
-      "curso_norm": "direito constitucional e politicas publicas",
-      "usuarios_curso": 6,
-      "procuras_simulacoes": 8,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 5,
-      "vol_durante_live": 3
-    },
-    {
-      "curso_norm": "neuropsicologia e intervencoes no trauma crise e luto",
-      "usuarios_curso": 4,
-      "procuras_simulacoes": 8,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 6,
-      "vol_durante_live": 2
-    },
-    {
-      "curso_norm": "direitos humanos e enfrentamento a violencia perspectivas de genero e inclusao",
-      "usuarios_curso": 5,
-      "procuras_simulacoes": 8,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 6,
-      "vol_durante_live": 2
-    },
-    {
-      "curso_norm": "desenvolvimento de sistemas com python",
-      "usuarios_curso": 7,
-      "procuras_simulacoes": 8,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 2,
-      "vol_durante_live": 6
-    },
-    {
-      "curso_norm": "praticas inovadoras em educacao",
-      "usuarios_curso": 7,
-      "procuras_simulacoes": 8,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 5,
-      "vol_durante_live": 3
-    },
-    {
-      "curso_norm": "a praxis profissional do assistente social",
-      "usuarios_curso": 8,
-      "procuras_simulacoes": 8,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 6,
-      "vol_durante_live": 2
-    },
-    {
-      "curso_norm": "arquitetura e engenharia de cloud computing (multicloud)",
-      "usuarios_curso": 5,
-      "procuras_simulacoes": 8,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 5,
-      "vol_durante_live": 3
-    },
-    {
-      "curso_norm": "direito ambiental esg e economia circular",
-      "usuarios_curso": 7,
-      "procuras_simulacoes": 8,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 2,
-      "vol_durante_live": 6
-    },
-    {
-      "curso_norm": "fonoaudiologia hospitalar e reabilitacao",
-      "usuarios_curso": 5,
-      "procuras_simulacoes": 8,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 4,
-      "vol_durante_live": 4
-    },
-    {
-      "curso_norm": "gestao de identidade e acesso (iam) e governanca de cloud",
-      "usuarios_curso": 5,
-      "procuras_simulacoes": 8,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 5,
-      "vol_durante_live": 3
-    },
-    {
-      "curso_norm": "governanca sustentabilidade e projetos esg 5.0",
-      "usuarios_curso": 7,
-      "procuras_simulacoes": 8,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 5,
-      "vol_durante_live": 3
-    },
-    {
       "curso_norm": "mba em gestao de produtos digitais lideranca e estrategias de inovacao",
       "usuarios_curso": 4,
       "procuras_simulacoes": 8,
@@ -7660,48 +7530,18 @@
       "vol_durante_live": 3
     },
     {
-      "curso_norm": "gestao e tecnicas de vendas no comercio digital",
-      "usuarios_curso": 7,
-      "procuras_simulacoes": 8,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 3,
-      "vol_durante_live": 5
-    },
-    {
-      "curso_norm": "mba em sustentabilidade e esg (environmental social and governance)",
-      "usuarios_curso": 6,
-      "procuras_simulacoes": 8,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 3,
-      "vol_durante_live": 5
-    },
-    {
-      "curso_norm": "educacao financeira e ensino de matematica",
+      "curso_norm": "controle interno transparencia e combate a corrupcao",
       "usuarios_curso": 4,
       "procuras_simulacoes": 8,
       "inscricoes_iniciadas": 0,
       "inscricoes_concluidas": 0,
       "matriculas_confirmadas": 0,
-      "vol_pre_live": 7,
-      "vol_durante_live": 1
+      "vol_pre_live": 1,
+      "vol_durante_live": 7
     },
     {
-      "curso_norm": "mba em gestao de estoques armazenagem e centros de distribuicao",
+      "curso_norm": "direito constitucional e politicas publicas",
       "usuarios_curso": 6,
-      "procuras_simulacoes": 8,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 6,
-      "vol_durante_live": 2
-    },
-    {
-      "curso_norm": "gestao da cadeia do agronegocio",
-      "usuarios_curso": 3,
       "procuras_simulacoes": 8,
       "inscricoes_iniciadas": 0,
       "inscricoes_concluidas": 0,
@@ -7720,6 +7560,126 @@
       "vol_durante_live": 6
     },
     {
+      "curso_norm": "gestao da cadeia do agronegocio",
+      "usuarios_curso": 3,
+      "procuras_simulacoes": 8,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 5,
+      "vol_durante_live": 3
+    },
+    {
+      "curso_norm": "praticas inovadoras em educacao",
+      "usuarios_curso": 7,
+      "procuras_simulacoes": 8,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 5,
+      "vol_durante_live": 3
+    },
+    {
+      "curso_norm": "direito ambiental esg e economia circular",
+      "usuarios_curso": 7,
+      "procuras_simulacoes": 8,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 2,
+      "vol_durante_live": 6
+    },
+    {
+      "curso_norm": "neuropsicologia e intervencoes no trauma crise e luto",
+      "usuarios_curso": 4,
+      "procuras_simulacoes": 8,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 6,
+      "vol_durante_live": 2
+    },
+    {
+      "curso_norm": "inteligencia artificial automacao e legal analytics no direito",
+      "usuarios_curso": 6,
+      "procuras_simulacoes": 8,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 6,
+      "vol_durante_live": 2
+    },
+    {
+      "curso_norm": "gestao de identidade e acesso (iam) e governanca de cloud",
+      "usuarios_curso": 5,
+      "procuras_simulacoes": 8,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 5,
+      "vol_durante_live": 3
+    },
+    {
+      "curso_norm": "psicologia do desenvolvimento e aprendizagem",
+      "usuarios_curso": 7,
+      "procuras_simulacoes": 8,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 6,
+      "vol_durante_live": 2
+    },
+    {
+      "curso_norm": "a praxis profissional do assistente social",
+      "usuarios_curso": 8,
+      "procuras_simulacoes": 8,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 6,
+      "vol_durante_live": 2
+    },
+    {
+      "curso_norm": "gestao e tecnicas de vendas no comercio digital",
+      "usuarios_curso": 7,
+      "procuras_simulacoes": 8,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 3,
+      "vol_durante_live": 5
+    },
+    {
+      "curso_norm": "governanca sustentabilidade e projetos esg 5.0",
+      "usuarios_curso": 7,
+      "procuras_simulacoes": 8,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 5,
+      "vol_durante_live": 3
+    },
+    {
+      "curso_norm": "educacao financeira e ensino de matematica",
+      "usuarios_curso": 4,
+      "procuras_simulacoes": 8,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 7,
+      "vol_durante_live": 1
+    },
+    {
+      "curso_norm": "diagnostico e interpretacao de exames oculares",
+      "usuarios_curso": 5,
+      "procuras_simulacoes": 8,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 5,
+      "vol_durante_live": 3
+    },
+    {
       "curso_norm": "microbiologia e parasitologia clinica",
       "usuarios_curso": 8,
       "procuras_simulacoes": 8,
@@ -7727,6 +7687,206 @@
       "inscricoes_concluidas": 0,
       "matriculas_confirmadas": 0,
       "vol_pre_live": 3,
+      "vol_durante_live": 5
+    },
+    {
+      "curso_norm": "desenvolvimento de sistemas com python",
+      "usuarios_curso": 7,
+      "procuras_simulacoes": 8,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 2,
+      "vol_durante_live": 6
+    },
+    {
+      "curso_norm": "direitos humanos e enfrentamento a violencia perspectivas de genero e inclusao",
+      "usuarios_curso": 5,
+      "procuras_simulacoes": 8,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 6,
+      "vol_durante_live": 2
+    },
+    {
+      "curso_norm": "arquitetura e engenharia de cloud computing (multicloud)",
+      "usuarios_curso": 5,
+      "procuras_simulacoes": 8,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 5,
+      "vol_durante_live": 3
+    },
+    {
+      "curso_norm": "historia e ensino da lingua inglesa",
+      "usuarios_curso": 7,
+      "procuras_simulacoes": 8,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 5,
+      "vol_durante_live": 3
+    },
+    {
+      "curso_norm": "psicogerontologia",
+      "usuarios_curso": 5,
+      "procuras_simulacoes": 7,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 4,
+      "vol_durante_live": 3
+    },
+    {
+      "curso_norm": "libras desvendando a lingua brasileira de sinais",
+      "usuarios_curso": 5,
+      "procuras_simulacoes": 7,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 5,
+      "vol_durante_live": 2
+    },
+    {
+      "curso_norm": "gestao e consultoria obstetrica",
+      "usuarios_curso": 6,
+      "procuras_simulacoes": 7,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 5,
+      "vol_durante_live": 2
+    },
+    {
+      "curso_norm": "gestao de pequenas empresas",
+      "usuarios_curso": 5,
+      "procuras_simulacoes": 7,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 5,
+      "vol_durante_live": 2
+    },
+    {
+      "curso_norm": "mba em financas empresariais e mercado de capitais",
+      "usuarios_curso": 4,
+      "procuras_simulacoes": 7,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 0,
+      "vol_durante_live": 7
+    },
+    {
+      "curso_norm": "desenvolvimento profissional",
+      "usuarios_curso": 5,
+      "procuras_simulacoes": 7,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 7,
+      "vol_durante_live": 0
+    },
+    {
+      "curso_norm": "gestao de unidade basica de saude",
+      "usuarios_curso": 5,
+      "procuras_simulacoes": 7,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 4,
+      "vol_durante_live": 3
+    },
+    {
+      "curso_norm": "direito civil sucessoes holding familiar e planejamento patrimonial",
+      "usuarios_curso": 6,
+      "procuras_simulacoes": 7,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 4,
+      "vol_durante_live": 3
+    },
+    {
+      "curso_norm": "gestao de midias sociais para jornalistas",
+      "usuarios_curso": 5,
+      "procuras_simulacoes": 7,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 4,
+      "vol_durante_live": 3
+    },
+    {
+      "curso_norm": "ensino de artes na educacao infantil",
+      "usuarios_curso": 5,
+      "procuras_simulacoes": 7,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 4,
+      "vol_durante_live": 3
+    },
+    {
+      "curso_norm": "cuidados paliativos e tanatologia",
+      "usuarios_curso": 9,
+      "procuras_simulacoes": 7,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 5,
+      "vol_durante_live": 2
+    },
+    {
+      "curso_norm": "gestao ambiental",
+      "usuarios_curso": 6,
+      "procuras_simulacoes": 7,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 4,
+      "vol_durante_live": 3
+    },
+    {
+      "curso_norm": "mba em storytelling estrategico narrativas de marca e content marketing",
+      "usuarios_curso": 4,
+      "procuras_simulacoes": 7,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 1,
+      "vol_durante_live": 6
+    },
+    {
+      "curso_norm": "gestao financeira em gestao escolar",
+      "usuarios_curso": 5,
+      "procuras_simulacoes": 7,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 6,
+      "vol_durante_live": 1
+    },
+    {
+      "curso_norm": "accountability governabilidade e governanca publica",
+      "usuarios_curso": 6,
+      "procuras_simulacoes": 7,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 3,
+      "vol_durante_live": 4
+    },
+    {
+      "curso_norm": "direito civil e responsabilidade civil dano moral e o ambiente digital",
+      "usuarios_curso": 5,
+      "procuras_simulacoes": 7,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 2,
       "vol_durante_live": 5
     },
     {
@@ -7740,8 +7900,8 @@
       "vol_durante_live": 2
     },
     {
-      "curso_norm": "direito civil sucessoes holding familiar e planejamento patrimonial",
-      "usuarios_curso": 6,
+      "curso_norm": "gestao da qualidade e seguranca do paciente",
+      "usuarios_curso": 7,
       "procuras_simulacoes": 7,
       "inscricoes_iniciadas": 0,
       "inscricoes_concluidas": 0,
@@ -7750,14 +7910,34 @@
       "vol_durante_live": 3
     },
     {
-      "curso_norm": "bolsa de valores",
-      "usuarios_curso": 6,
+      "curso_norm": "estrategia e inovacao",
+      "usuarios_curso": 5,
       "procuras_simulacoes": 7,
       "inscricoes_iniciadas": 0,
       "inscricoes_concluidas": 0,
       "matriculas_confirmadas": 0,
       "vol_pre_live": 5,
       "vol_durante_live": 2
+    },
+    {
+      "curso_norm": "educacao fisica escolar por competencias e projetos",
+      "usuarios_curso": 5,
+      "procuras_simulacoes": 7,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 6,
+      "vol_durante_live": 1
+    },
+    {
+      "curso_norm": "mba em gestao e estrategia de sistemas gerenciais",
+      "usuarios_curso": 7,
+      "procuras_simulacoes": 7,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 4,
+      "vol_durante_live": 3
     },
     {
       "curso_norm": "terapia interpessoal (tip) individual e de grupos",
@@ -7780,148 +7960,8 @@
       "vol_durante_live": 6
     },
     {
-      "curso_norm": "mba em gestao e estrategia de sistemas gerenciais",
-      "usuarios_curso": 7,
-      "procuras_simulacoes": 7,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 4,
-      "vol_durante_live": 3
-    },
-    {
-      "curso_norm": "gestao financeira em gestao escolar",
+      "curso_norm": "contabilidade forense e investigacao de fraudes juridicofinanceiras",
       "usuarios_curso": 5,
-      "procuras_simulacoes": 7,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 6,
-      "vol_durante_live": 1
-    },
-    {
-      "curso_norm": "neurociencia musica e educacao",
-      "usuarios_curso": 4,
-      "procuras_simulacoes": 7,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 5,
-      "vol_durante_live": 2
-    },
-    {
-      "curso_norm": "educacao fisica escolar por competencias e projetos",
-      "usuarios_curso": 5,
-      "procuras_simulacoes": 7,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 6,
-      "vol_durante_live": 1
-    },
-    {
-      "curso_norm": "desenvolvimento profissional",
-      "usuarios_curso": 5,
-      "procuras_simulacoes": 7,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 7,
-      "vol_durante_live": 0
-    },
-    {
-      "curso_norm": "gestao ambiental",
-      "usuarios_curso": 6,
-      "procuras_simulacoes": 7,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 4,
-      "vol_durante_live": 3
-    },
-    {
-      "curso_norm": "direito societario m&ampa e venture capital",
-      "usuarios_curso": 7,
-      "procuras_simulacoes": 7,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 5,
-      "vol_durante_live": 2
-    },
-    {
-      "curso_norm": "gestao e consultoria obstetrica",
-      "usuarios_curso": 6,
-      "procuras_simulacoes": 7,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 5,
-      "vol_durante_live": 2
-    },
-    {
-      "curso_norm": "psicogerontologia",
-      "usuarios_curso": 5,
-      "procuras_simulacoes": 7,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 4,
-      "vol_durante_live": 3
-    },
-    {
-      "curso_norm": "estrategia e inovacao",
-      "usuarios_curso": 5,
-      "procuras_simulacoes": 7,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 5,
-      "vol_durante_live": 2
-    },
-    {
-      "curso_norm": "accountability governabilidade e governanca publica",
-      "usuarios_curso": 6,
-      "procuras_simulacoes": 7,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 3,
-      "vol_durante_live": 4
-    },
-    {
-      "curso_norm": "gestao de midias sociais para jornalistas",
-      "usuarios_curso": 5,
-      "procuras_simulacoes": 7,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 4,
-      "vol_durante_live": 3
-    },
-    {
-      "curso_norm": "mba em storytelling estrategico narrativas de marca e content marketing",
-      "usuarios_curso": 4,
-      "procuras_simulacoes": 7,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 1,
-      "vol_durante_live": 6
-    },
-    {
-      "curso_norm": "libras desvendando a lingua brasileira de sinais",
-      "usuarios_curso": 5,
-      "procuras_simulacoes": 7,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 5,
-      "vol_durante_live": 2
-    },
-    {
-      "curso_norm": "metodologia do ensino de lingua espanhola",
-      "usuarios_curso": 3,
       "procuras_simulacoes": 7,
       "inscricoes_iniciadas": 0,
       "inscricoes_concluidas": 0,
@@ -7930,28 +7970,8 @@
       "vol_durante_live": 5
     },
     {
-      "curso_norm": "gestao da qualidade e seguranca do paciente",
-      "usuarios_curso": 7,
-      "procuras_simulacoes": 7,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 4,
-      "vol_durante_live": 3
-    },
-    {
-      "curso_norm": "ensino de artes na educacao infantil",
+      "curso_norm": "canvas",
       "usuarios_curso": 5,
-      "procuras_simulacoes": 7,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 4,
-      "vol_durante_live": 3
-    },
-    {
-      "curso_norm": "desenvolvimento de jogos digitais com unity e unreal engine",
-      "usuarios_curso": 6,
       "procuras_simulacoes": 7,
       "inscricoes_iniciadas": 0,
       "inscricoes_concluidas": 0,
@@ -7970,24 +7990,24 @@
       "vol_durante_live": 5
     },
     {
-      "curso_norm": "direito civil e responsabilidade civil dano moral e o ambiente digital",
-      "usuarios_curso": 5,
+      "curso_norm": "neurociencia musica e educacao",
+      "usuarios_curso": 4,
       "procuras_simulacoes": 7,
       "inscricoes_iniciadas": 0,
       "inscricoes_concluidas": 0,
       "matriculas_confirmadas": 0,
-      "vol_pre_live": 2,
-      "vol_durante_live": 5
+      "vol_pre_live": 5,
+      "vol_durante_live": 2
     },
     {
-      "curso_norm": "contabilidade forense e investigacao de fraudes juridicofinanceiras",
-      "usuarios_curso": 5,
+      "curso_norm": "desenvolvimento de jogos digitais com unity e unreal engine",
+      "usuarios_curso": 6,
       "procuras_simulacoes": 7,
       "inscricoes_iniciadas": 0,
       "inscricoes_concluidas": 0,
       "matriculas_confirmadas": 0,
-      "vol_pre_live": 2,
-      "vol_durante_live": 5
+      "vol_pre_live": 3,
+      "vol_durante_live": 4
     },
     {
       "curso_norm": "direito contratual negociacao redacao e gestao de contratos civeis",
@@ -8000,34 +8020,14 @@
       "vol_durante_live": 3
     },
     {
-      "curso_norm": "mba em financas empresariais e mercado de capitais",
-      "usuarios_curso": 4,
+      "curso_norm": "metodologia do ensino de lingua espanhola",
+      "usuarios_curso": 3,
       "procuras_simulacoes": 7,
       "inscricoes_iniciadas": 0,
       "inscricoes_concluidas": 0,
       "matriculas_confirmadas": 0,
-      "vol_pre_live": 0,
-      "vol_durante_live": 7
-    },
-    {
-      "curso_norm": "cuidados paliativos e tanatologia",
-      "usuarios_curso": 9,
-      "procuras_simulacoes": 7,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 5,
-      "vol_durante_live": 2
-    },
-    {
-      "curso_norm": "canvas",
-      "usuarios_curso": 5,
-      "procuras_simulacoes": 7,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 3,
-      "vol_durante_live": 4
+      "vol_pre_live": 2,
+      "vol_durante_live": 5
     },
     {
       "curso_norm": "gestao de negociacao e relacionamento",
@@ -8040,18 +8040,138 @@
       "vol_durante_live": 0
     },
     {
-      "curso_norm": "gestao de unidade basica de saude",
-      "usuarios_curso": 5,
+      "curso_norm": "bolsa de valores",
+      "usuarios_curso": 6,
       "procuras_simulacoes": 7,
       "inscricoes_iniciadas": 0,
       "inscricoes_concluidas": 0,
       "matriculas_confirmadas": 0,
-      "vol_pre_live": 4,
+      "vol_pre_live": 5,
+      "vol_durante_live": 2
+    },
+    {
+      "curso_norm": "direito societario m&ampa e venture capital",
+      "usuarios_curso": 7,
+      "procuras_simulacoes": 7,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 5,
+      "vol_durante_live": 2
+    },
+    {
+      "curso_norm": "tech leadership &amp gestao de times ageis",
+      "usuarios_curso": 6,
+      "procuras_simulacoes": 6,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 3,
       "vol_durante_live": 3
+    },
+    {
+      "curso_norm": "tecnologia em energias renovaveis",
+      "usuarios_curso": 102,
+      "procuras_simulacoes": 6,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 6,
+      "vol_durante_live": 0
+    },
+    {
+      "curso_norm": "gestao de comunidades &amp social crm",
+      "usuarios_curso": 5,
+      "procuras_simulacoes": 6,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 2,
+      "vol_durante_live": 4
+    },
+    {
+      "curso_norm": "engenharia de confiabilidade e observabilidade (sre)",
+      "usuarios_curso": 4,
+      "procuras_simulacoes": 6,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 3,
+      "vol_durante_live": 3
+    },
+    {
+      "curso_norm": "coaching educacional",
+      "usuarios_curso": 3,
+      "procuras_simulacoes": 6,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 6,
+      "vol_durante_live": 0
+    },
+    {
+      "curso_norm": "mba em inovacao disruptiva design thinking e modelagem de novos negocios",
+      "usuarios_curso": 6,
+      "procuras_simulacoes": 6,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 4,
+      "vol_durante_live": 2
+    },
+    {
+      "curso_norm": "neurociencia e aprendizagem",
+      "usuarios_curso": 5,
+      "procuras_simulacoes": 6,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 3,
+      "vol_durante_live": 3
+    },
+    {
+      "curso_norm": "mba em coaching com enfase em mentoring em gestao de pessoas",
+      "usuarios_curso": 4,
+      "procuras_simulacoes": 6,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 2,
+      "vol_durante_live": 4
+    },
+    {
+      "curso_norm": "seguranca de infraestruturas criticas e redes industriais",
+      "usuarios_curso": 5,
+      "procuras_simulacoes": 6,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 3,
+      "vol_durante_live": 3
+    },
+    {
+      "curso_norm": "administracao mercadologica",
+      "usuarios_curso": 5,
+      "procuras_simulacoes": 6,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 4,
+      "vol_durante_live": 2
     },
     {
       "curso_norm": "mba em lideranca agil e gestao de times de alto desempenho",
       "usuarios_curso": 4,
+      "procuras_simulacoes": 6,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 3,
+      "vol_durante_live": 3
+    },
+    {
+      "curso_norm": "mba em financas e politica fiscal",
+      "usuarios_curso": 5,
       "procuras_simulacoes": 6,
       "inscricoes_iniciadas": 0,
       "inscricoes_concluidas": 0,
@@ -8070,8 +8190,28 @@
       "vol_durante_live": 5
     },
     {
-      "curso_norm": "administracao mercadologica",
+      "curso_norm": "enfermagem em cuidados intensivos neonatais e pediatricos",
       "usuarios_curso": 5,
+      "procuras_simulacoes": 6,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 1,
+      "vol_durante_live": 5
+    },
+    {
+      "curso_norm": "metodologia do ensino em educacao especial",
+      "usuarios_curso": 4,
+      "procuras_simulacoes": 6,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 3,
+      "vol_durante_live": 3
+    },
+    {
+      "curso_norm": "mba em cambio importacao exportacao e analise de mercados internacionais",
+      "usuarios_curso": 4,
       "procuras_simulacoes": 6,
       "inscricoes_iniciadas": 0,
       "inscricoes_concluidas": 0,
@@ -8080,7 +8220,67 @@
       "vol_durante_live": 2
     },
     {
-      "curso_norm": "mba em financas e politica fiscal",
+      "curso_norm": "mba em gestao de processos e excelencia operacional",
+      "usuarios_curso": 4,
+      "procuras_simulacoes": 6,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 4,
+      "vol_durante_live": 2
+    },
+    {
+      "curso_norm": "bemestar animal e producao sustentavel",
+      "usuarios_curso": 2,
+      "procuras_simulacoes": 6,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 6,
+      "vol_durante_live": 0
+    },
+    {
+      "curso_norm": "gestao da inovacao e tecnologias disruptivas",
+      "usuarios_curso": 4,
+      "procuras_simulacoes": 6,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 2,
+      "vol_durante_live": 4
+    },
+    {
+      "curso_norm": "psicomotricidade escolar e inclusao",
+      "usuarios_curso": 5,
+      "procuras_simulacoes": 6,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 3,
+      "vol_durante_live": 3
+    },
+    {
+      "curso_norm": "nanotecnologia e inovacao aplicada",
+      "usuarios_curso": 4,
+      "procuras_simulacoes": 6,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 5,
+      "vol_durante_live": 1
+    },
+    {
+      "curso_norm": "desenvolvimento no code e low code",
+      "usuarios_curso": 4,
+      "procuras_simulacoes": 6,
+      "inscricoes_iniciadas": 0,
+      "inscricoes_concluidas": 0,
+      "matriculas_confirmadas": 0,
+      "vol_pre_live": 4,
+      "vol_durante_live": 2
+    },
+    {
+      "curso_norm": "negociacao",
       "usuarios_curso": 5,
       "procuras_simulacoes": 6,
       "inscricoes_iniciadas": 0,
@@ -8100,106 +8300,6 @@
       "vol_durante_live": 2
     },
     {
-      "curso_norm": "seguranca de infraestruturas criticas e redes industriais",
-      "usuarios_curso": 5,
-      "procuras_simulacoes": 6,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 3,
-      "vol_durante_live": 3
-    },
-    {
-      "curso_norm": "gestao da inovacao e tecnologias disruptivas",
-      "usuarios_curso": 4,
-      "procuras_simulacoes": 6,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 2,
-      "vol_durante_live": 4
-    },
-    {
-      "curso_norm": "mba em gestao de processos e excelencia operacional",
-      "usuarios_curso": 4,
-      "procuras_simulacoes": 6,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 4,
-      "vol_durante_live": 2
-    },
-    {
-      "curso_norm": "gestao de pequenas empresas",
-      "usuarios_curso": 5,
-      "procuras_simulacoes": 6,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 5,
-      "vol_durante_live": 1
-    },
-    {
-      "curso_norm": "metodologia do ensino em educacao especial",
-      "usuarios_curso": 4,
-      "procuras_simulacoes": 6,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 3,
-      "vol_durante_live": 3
-    },
-    {
-      "curso_norm": "negociacao",
-      "usuarios_curso": 5,
-      "procuras_simulacoes": 6,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 3,
-      "vol_durante_live": 3
-    },
-    {
-      "curso_norm": "neurociencia e aprendizagem",
-      "usuarios_curso": 5,
-      "procuras_simulacoes": 6,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 3,
-      "vol_durante_live": 3
-    },
-    {
-      "curso_norm": "psicomotricidade escolar e inclusao",
-      "usuarios_curso": 5,
-      "procuras_simulacoes": 6,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 3,
-      "vol_durante_live": 3
-    },
-    {
-      "curso_norm": "tecnologia em energias renovaveis",
-      "usuarios_curso": 102,
-      "procuras_simulacoes": 6,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 6,
-      "vol_durante_live": 0
-    },
-    {
-      "curso_norm": "fitossanidade e manejo integrado de pragas (mip)",
-      "usuarios_curso": 3,
-      "procuras_simulacoes": 6,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 3,
-      "vol_durante_live": 3
-    },
-    {
       "curso_norm": "word basico",
       "usuarios_curso": 5,
       "procuras_simulacoes": 6,
@@ -8210,37 +8310,7 @@
       "vol_durante_live": 2
     },
     {
-      "curso_norm": "nanotecnologia e inovacao aplicada",
-      "usuarios_curso": 4,
-      "procuras_simulacoes": 6,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 5,
-      "vol_durante_live": 1
-    },
-    {
-      "curso_norm": "engenharia de confiabilidade e observabilidade (sre)",
-      "usuarios_curso": 4,
-      "procuras_simulacoes": 6,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 3,
-      "vol_durante_live": 3
-    },
-    {
-      "curso_norm": "bemestar animal e producao sustentavel",
-      "usuarios_curso": 2,
-      "procuras_simulacoes": 6,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 6,
-      "vol_durante_live": 0
-    },
-    {
-      "curso_norm": "metodologias de ensino na educacao basica",
+      "curso_norm": "gestao estrategica de cooperativas",
       "usuarios_curso": 4,
       "procuras_simulacoes": 6,
       "inscricoes_iniciadas": 0,
@@ -8248,76 +8318,6 @@
       "matriculas_confirmadas": 0,
       "vol_pre_live": 2,
       "vol_durante_live": 4
-    },
-    {
-      "curso_norm": "mba em coaching com enfase em mentoring em gestao de pessoas",
-      "usuarios_curso": 4,
-      "procuras_simulacoes": 6,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 2,
-      "vol_durante_live": 4
-    },
-    {
-      "curso_norm": "terapia familiar",
-      "usuarios_curso": 5,
-      "procuras_simulacoes": 6,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 3,
-      "vol_durante_live": 3
-    },
-    {
-      "curso_norm": "mba em cambio importacao exportacao e analise de mercados internacionais",
-      "usuarios_curso": 4,
-      "procuras_simulacoes": 6,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 4,
-      "vol_durante_live": 2
-    },
-    {
-      "curso_norm": "desenvolvimento no code e low code",
-      "usuarios_curso": 4,
-      "procuras_simulacoes": 6,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 4,
-      "vol_durante_live": 2
-    },
-    {
-      "curso_norm": "gerontologia social",
-      "usuarios_curso": 6,
-      "procuras_simulacoes": 6,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 2,
-      "vol_durante_live": 4
-    },
-    {
-      "curso_norm": "coaching educacional",
-      "usuarios_curso": 3,
-      "procuras_simulacoes": 6,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 6,
-      "vol_durante_live": 0
-    },
-    {
-      "curso_norm": "enfermagem em cuidados intensivos neonatais e pediatricos",
-      "usuarios_curso": 5,
-      "procuras_simulacoes": 6,
-      "inscricoes_iniciadas": 0,
-      "inscricoes_concluidas": 0,
-      "matriculas_confirmadas": 0,
-      "vol_pre_live": 1,
-      "vol_durante_live": 5
     }
   ]
 }
